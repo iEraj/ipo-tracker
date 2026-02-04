@@ -2,7 +2,7 @@
 
 A real-time IPO performance tracking dashboard built with Streamlit that monitors and visualizes the performance of Initial Public Offerings from 2023 to present.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ipo-tracker-jfxqqmpj8dqjftgd5n5an5.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ieraj-ipo-tracker.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -10,7 +10,7 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 
 ## Live Demo
 
-**[View Live App](https://ipo-tracker-jfxqqmpj8dqjftgd5n5an5.streamlit.app/)**
+**[View Live App](https://ieraj-ipo-tracker.streamlit.app/)**
 
 ## Important Note on Data Coverage
 
