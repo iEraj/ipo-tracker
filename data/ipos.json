@@ -1,0 +1,126 @@
+{
+  "last_updated": "2025-02-04",
+  "source": "Financial Modeling Prep / Manual",
+  "ipos": [
+    {
+      "ticker": "ARM",
+      "name": "ARM Holdings plc",
+      "ipo_date": "2023-09-14",
+      "ipo_price": 51.00,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "KVUE",
+      "name": "Kenvue Inc",
+      "ipo_date": "2023-05-04",
+      "ipo_price": 22.00,
+      "exchange": "NYSE",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "BIRK",
+      "name": "Birkenstock Holding plc",
+      "ipo_date": "2023-10-11",
+      "ipo_price": 46.00,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "CART",
+      "name": "Maplebear Inc (Instacart)",
+      "ipo_date": "2023-09-19",
+      "ipo_price": 30.00,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "KOKC",
+      "name": "Kodiak Gas Services Inc",
+      "ipo_date": "2023-06-29",
+      "ipo_price": 16.00,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "CAVA",
+      "name": "CAVA Group Inc",
+      "ipo_date": "2023-06-15",
+      "ipo_price": 22.00,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit Inc",
+      "ipo_date": "2024-03-21",
+      "ipo_price": 34.00,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ASPR",
+      "name": "Aspen Aerogels Inc",
+      "ipo_date": "2023-01-01",
+      "ipo_price": 8.50,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ Inc",
+      "ipo_date": "2023-01-01",
+      "ipo_price": 10.00,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "VIK",
+      "name": "Viking Holdings Ltd",
+      "ipo_date": "2024-05-01",
+      "ipo_price": 24.00,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "LOAR",
+      "name": "Loar Holdings Inc",
+      "ipo_date": "2024-04-25",
+      "ipo_price": 28.00,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "RBCP",
+      "name": "RB Global Inc",
+      "ipo_date": "2024-02-15",
+      "ipo_price": 52.00,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "HNST",
+      "name": "The Honest Company Inc",
+      "ipo_date": "2023-01-15",
+      "ipo_price": 16.00,
+      "exchange": "NASDAQ",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "TOST",
+      "name": "Toast Inc",
+      "ipo_date": "2023-01-01",
+      "ipo_price": 40.00,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers Group",
+      "ipo_date": "2023-01-01",
+      "ipo_price": 82.00,
+      "exchange": "NASDAQ",
+      "sector": "Financial Services"
+    }
+  ]
+}
