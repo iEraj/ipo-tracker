@@ -155,6 +155,91 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# ==============================================
+# THEME TOGGLE
+# ==============================================
+
+# Initialize theme in session state
+if "dark_mode" not in st.session_state:
+    st.session_state.dark_mode = False
+
+# Theme toggle in top right
+col_title, col_theme = st.columns([6, 1])
+
+with col_theme:
+    if st.button("🌙" if not st.session_state.dark_mode else "☀️", help="Toggle dark/light mode"):
+        st.session_state.dark_mode = not st.session_state.dark_mode
+        st.rerun()
+
+# Apply custom CSS based on theme
+if st.session_state.dark_mode:
+    st.markdown("""
+        <style>
+        .stApp {
+            background-color: #1a1a2e;
+            color: #eaeaea;
+        }
+        .stMarkdown, .stText, p, span, label {
+            color: #eaeaea !important;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff !important;
+        }
+        .stDataFrame {
+            background-color: #16213e;
+        }
+        div[data-testid="stMetricValue"] {
+            color: #ffffff !important;
+        }
+        div[data-testid="stMetricLabel"] {
+            color: #b0b0b0 !important;
+        }
+        .stSelectbox label, .stMultiSelect label {
+            color: #eaeaea !important;
+        }
+        section[data-testid="stSidebar"] {
+            background-color: #16213e;
+        }
+        section[data-testid="stSidebar"] .stMarkdown {
+            color: #eaeaea !important;
+        }
+        .stButton > button {
+            background-color: #0f3460;
+            color: white;
+            border: 1px solid #e94560;
+        }
+        .stButton > button:hover {
+            background-color: #e94560;
+            border: 1px solid #e94560;
+        }
+        div[data-testid="stExpander"] {
+            background-color: #16213e;
+            border: 1px solid #0f3460;
+        }
+        .stTabs [data-baseweb="tab-list"] {
+            background-color: #16213e;
+        }
+        .stTabs [data-baseweb="tab"] {
+            color: #eaeaea;
+        }
+        .stCaption {
+            color: #888888 !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+else:
+    st.markdown("""
+        <style>
+        .stButton > button {
+            border: 1px solid #ddd;
+        }
+        .stButton > button:hover {
+            border: 1px solid #ff6b6b;
+            color: #ff6b6b;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
 # Load data
 ipo_data = load_ipo_data()
 all_ipos = ipo_data.get("ipos", [])
