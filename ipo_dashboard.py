@@ -410,8 +410,53 @@ else:
 # ==============================================
 
 st.divider()
-st.caption(
-    "Data source: Financial Modeling Prep API | "
-    "Prices powered by Yahoo Finance | "
-    f"Last updated: {last_updated}"
+
+# Developer credit and disclaimer
+footer_col1, footer_col2 = st.columns([2, 1])
+
+with footer_col1:
+    st.markdown(
+        """
+        <div style="font-size: 0.85em; color: #666;">
+        <strong>Developed by <a href="https://github.com/iEraj" target="_blank">Eraj Ismatulloev</a></strong>
+        using <a href="https://claude.ai/code" target="_blank">Claude Code</a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with footer_col2:
+    st.markdown(
+        f"""
+        <div style="font-size: 0.75em; color: #888; text-align: right;">
+        Last updated: {last_updated}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.markdown("---")
+
+st.markdown(
+    """
+    <div style="font-size: 0.75em; color: #888; line-height: 1.6;">
+    <strong>Disclaimer:</strong> This application is for informational and educational purposes only.
+    The developer does not own any of the data presented and relies on publicly available information
+    from sources including Yahoo Finance and other financial data providers.
+    <br><br>
+    <strong>Not Financial Advice:</strong> Nothing on this application constitutes investment advice,
+    financial advice, trading advice, or any other sort of advice. You should not treat any of the
+    content as such. The developer does not recommend that any securities should be bought, sold, or
+    held by you. Do your own due diligence and consult your financial advisor before making any
+    investment decisions.
+    <br><br>
+    <strong>Data Accuracy:</strong> While we strive to provide accurate information, we make no
+    representations or warranties of any kind, express or implied, about the completeness, accuracy,
+    reliability, or availability of the data. Any reliance you place on such information is strictly
+    at your own risk.
+    </div>
+    """,
+    unsafe_allow_html=True
 )
+
+st.caption("© 2024-2026 Eraj Ismatulloev. All rights reserved.")

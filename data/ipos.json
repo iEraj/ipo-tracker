@@ -1,78 +1,126 @@
 {
-  "last_updated": "2025-02-04",
-  "source": "Financial Modeling Prep / Manual",
+  "last_updated": "2026-02-04",
+  "source": "Stock Analysis / Yahoo Finance / Public Records",
   "ipos": [
     {
-      "ticker": "ARM",
-      "name": "ARM Holdings plc",
-      "ipo_date": "2023-09-14",
-      "ipo_price": 51.00,
+      "ticker": "MDLN",
+      "name": "Medline Industries Inc",
+      "ipo_date": "2025-12-17",
+      "ipo_price": 29.00,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BLLN",
+      "name": "BillionToOne Inc",
+      "ipo_date": "2025-11-06",
+      "ipo_price": 60.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "NAVN",
+      "name": "Navan Inc",
+      "ipo_date": "2025-10-30",
+      "ipo_price": 25.00,
       "exchange": "NASDAQ",
       "sector": "Technology"
     },
     {
-      "ticker": "KVUE",
-      "name": "Kenvue Inc",
-      "ipo_date": "2023-05-04",
-      "ipo_price": 22.00,
+      "ticker": "STUB",
+      "name": "StubHub Holdings Inc",
+      "ipo_date": "2025-09-17",
+      "ipo_price": 23.50,
       "exchange": "NYSE",
-      "sector": "Consumer Defensive"
+      "sector": "Technology"
     },
     {
-      "ticker": "BIRK",
-      "name": "Birkenstock Holding plc",
-      "ipo_date": "2023-10-11",
-      "ipo_price": 46.00,
+      "ticker": "FIGR",
+      "name": "Figure Technology Solutions",
+      "ipo_date": "2025-09-11",
+      "ipo_price": 25.00,
       "exchange": "NYSE",
-      "sector": "Consumer Cyclical"
+      "sector": "Financial Services"
     },
     {
-      "ticker": "CART",
-      "name": "Maplebear Inc (Instacart)",
-      "ipo_date": "2023-09-19",
-      "ipo_price": 30.00,
+      "ticker": "KLAR",
+      "name": "Klarna Group plc",
+      "ipo_date": "2025-09-10",
+      "ipo_price": 40.00,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MIAX",
+      "name": "Miami International Holdings",
+      "ipo_date": "2025-08-14",
+      "ipo_price": 23.00,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FLY",
+      "name": "Firefly Aerospace Inc",
+      "ipo_date": "2025-08-07",
+      "ipo_price": 45.00,
+      "exchange": "NASDAQ",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CRWV",
+      "name": "CoreWeave Inc",
+      "ipo_date": "2025-03-28",
+      "ipo_price": 40.00,
       "exchange": "NASDAQ",
       "sector": "Technology"
     },
     {
-      "ticker": "KOKC",
-      "name": "Kodiak Gas Services Inc",
-      "ipo_date": "2023-06-29",
-      "ipo_price": 16.00,
+      "ticker": "VG",
+      "name": "Venture Global Inc",
+      "ipo_date": "2025-01-24",
+      "ipo_price": 25.00,
       "exchange": "NYSE",
       "sector": "Energy"
     },
     {
-      "ticker": "CAVA",
-      "name": "CAVA Group Inc",
-      "ipo_date": "2023-06-15",
+      "ticker": "TTAN",
+      "name": "ServiceTitan Inc",
+      "ipo_date": "2024-12-12",
+      "ipo_price": 71.00,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "SEPN",
+      "name": "Septerna Inc",
+      "ipo_date": "2024-10-25",
+      "ipo_price": 18.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "WRD",
+      "name": "WeRide Inc",
+      "ipo_date": "2024-10-25",
+      "ipo_price": 15.50,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "INGM",
+      "name": "Ingram Micro Holding Corp",
+      "ipo_date": "2024-10-24",
       "ipo_price": 22.00,
       "exchange": "NYSE",
-      "sector": "Consumer Cyclical"
-    },
-    {
-      "ticker": "RDDT",
-      "name": "Reddit Inc",
-      "ipo_date": "2024-03-21",
-      "ipo_price": 34.00,
-      "exchange": "NYSE",
       "sector": "Technology"
     },
     {
-      "ticker": "ASPR",
-      "name": "Aspen Aerogels Inc",
-      "ipo_date": "2023-01-01",
-      "ipo_price": 8.50,
-      "exchange": "NYSE",
-      "sector": "Industrials"
-    },
-    {
-      "ticker": "IONQ",
-      "name": "IonQ Inc",
-      "ipo_date": "2023-01-01",
-      "ipo_price": 10.00,
-      "exchange": "NYSE",
-      "sector": "Technology"
+      "ticker": "LINE",
+      "name": "Lineage Inc",
+      "ipo_date": "2024-07-25",
+      "ipo_price": 78.00,
+      "exchange": "NASDAQ",
+      "sector": "Real Estate"
     },
     {
       "ticker": "VIK",
@@ -91,36 +139,268 @@
       "sector": "Industrials"
     },
     {
-      "ticker": "RBCP",
-      "name": "RB Global Inc",
-      "ipo_date": "2024-02-15",
-      "ipo_price": 52.00,
-      "exchange": "NYSE",
-      "sector": "Industrials"
-    },
-    {
-      "ticker": "HNST",
-      "name": "The Honest Company Inc",
-      "ipo_date": "2023-01-15",
-      "ipo_price": 16.00,
+      "ticker": "MRX",
+      "name": "Marex Group plc",
+      "ipo_date": "2024-04-25",
+      "ipo_price": 19.00,
       "exchange": "NASDAQ",
-      "sector": "Consumer Defensive"
+      "sector": "Financial Services"
     },
     {
-      "ticker": "TOST",
-      "name": "Toast Inc",
-      "ipo_date": "2023-01-01",
-      "ipo_price": 40.00,
+      "ticker": "RBRK",
+      "name": "Rubrik Inc",
+      "ipo_date": "2024-04-25",
+      "ipo_price": 32.00,
       "exchange": "NYSE",
       "sector": "Technology"
     },
     {
-      "ticker": "IBKR",
-      "name": "Interactive Brokers Group",
-      "ipo_date": "2023-01-01",
-      "ipo_price": 82.00,
+      "ticker": "ULS",
+      "name": "UL Solutions Inc",
+      "ipo_date": "2024-04-12",
+      "ipo_price": 28.00,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit Inc",
+      "ipo_date": "2024-03-21",
+      "ipo_price": 34.00,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ALAB",
+      "name": "Astera Labs Inc",
+      "ipo_date": "2024-03-20",
+      "ipo_price": 36.00,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "AS",
+      "name": "Amer Sports Inc",
+      "ipo_date": "2024-02-01",
+      "ipo_price": 13.00,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "BIRK",
+      "name": "Birkenstock Holding plc",
+      "ipo_date": "2023-10-11",
+      "ipo_price": 46.00,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "CART",
+      "name": "Maplebear Inc (Instacart)",
+      "ipo_date": "2023-09-19",
+      "ipo_price": 30.00,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ARM",
+      "name": "ARM Holdings plc",
+      "ipo_date": "2023-09-14",
+      "ipo_price": 51.00,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "KGS",
+      "name": "Kodiak Gas Services Inc",
+      "ipo_date": "2023-06-29",
+      "ipo_price": 16.00,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "CAVA",
+      "name": "CAVA Group Inc",
+      "ipo_date": "2023-06-15",
+      "ipo_price": 22.00,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ATMU",
+      "name": "Atmus Filtration Technologies Inc",
+      "ipo_date": "2023-05-26",
+      "ipo_price": 19.50,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "KVUE",
+      "name": "Kenvue Inc",
+      "ipo_date": "2023-05-04",
+      "ipo_price": 22.00,
+      "exchange": "NYSE",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "GPCR",
+      "name": "Structure Therapeutics Inc",
+      "ipo_date": "2023-02-03",
+      "ipo_price": 15.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "SKWD",
+      "name": "Skyward Specialty Insurance Group",
+      "ipo_date": "2023-01-13",
+      "ipo_price": 15.00,
       "exchange": "NASDAQ",
       "sector": "Financial Services"
+    },
+    {
+      "ticker": "ONEW",
+      "name": "OneWater Marine Inc",
+      "ipo_date": "2023-02-09",
+      "ipo_price": 24.00,
+      "exchange": "NASDAQ",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "TNYA",
+      "name": "Tenaya Therapeutics Inc",
+      "ipo_date": "2023-07-30",
+      "ipo_price": 17.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "KNTE",
+      "name": "Kinnate Biopharma Inc",
+      "ipo_date": "2023-12-04",
+      "ipo_price": 20.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PSTX",
+      "name": "Poseida Therapeutics Inc",
+      "ipo_date": "2023-07-15",
+      "ipo_price": 16.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "VERA",
+      "name": "Vera Therapeutics Inc",
+      "ipo_date": "2023-02-10",
+      "ipo_price": 12.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "JANX",
+      "name": "Janux Therapeutics Inc",
+      "ipo_date": "2023-06-10",
+      "ipo_price": 17.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "IRTC",
+      "name": "iRhythm Technologies Inc",
+      "ipo_date": "2023-10-19",
+      "ipo_price": 17.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PRCT",
+      "name": "PROCEPT BioRobotics Corp",
+      "ipo_date": "2023-09-15",
+      "ipo_price": 25.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "NUVL",
+      "name": "Nuvalent Inc",
+      "ipo_date": "2023-07-24",
+      "ipo_price": 17.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "WAY",
+      "name": "Waystar Holding Corp",
+      "ipo_date": "2024-06-07",
+      "ipo_price": 21.50,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BSPR",
+      "name": "Brightspring Health Services Inc",
+      "ipo_date": "2024-01-26",
+      "ipo_price": 13.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "MNDY",
+      "name": "Monday.com Ltd",
+      "ipo_date": "2023-06-10",
+      "ipo_price": 155.00,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "DOCS",
+      "name": "Doximity Inc",
+      "ipo_date": "2023-06-24",
+      "ipo_price": 26.00,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "FLYW",
+      "name": "Flywire Corp",
+      "ipo_date": "2023-05-26",
+      "ipo_price": 24.00,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings Inc",
+      "ipo_date": "2023-04-26",
+      "ipo_price": 75.00,
+      "exchange": "NASDAQ",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings Inc",
+      "ipo_date": "2023-04-24",
+      "ipo_price": 19.00,
+      "exchange": "NASDAQ",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "SOUN",
+      "name": "SoundHound AI Inc",
+      "ipo_date": "2024-04-02",
+      "ipo_price": 8.50,
+      "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "SMMT",
+      "name": "Summit Therapeutics Inc",
+      "ipo_date": "2023-03-16",
+      "ipo_price": 3.00,
+      "exchange": "NASDAQ",
+      "sector": "Healthcare"
     }
   ]
 }
