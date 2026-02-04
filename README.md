@@ -5,8 +5,8 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ieraj-ipo-tracker.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-![IPO Tracker Screenshot](https://via.placeholder.com/800x400?text=IPO+Tracker+Dashboard)
+[![GitHub last commit](https://img.shields.io/github/last-commit/iEraj/ipo-tracker)](https://github.com/iEraj/ipo-tracker/commits/main)
+[![Made with Claude Code](https://img.shields.io/badge/Made%20with-Claude%20Code-blueviolet)](https://claude.ai/code)
 
 ## Live Demo
 
