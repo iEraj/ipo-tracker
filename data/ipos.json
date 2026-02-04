@@ -1,6 +1,7 @@
 {
   "last_updated": "2026-02-04",
-  "source": "Stock Analysis / Yahoo Finance / SEC Filings",
+  "source": "Stock Analysis / Yahoo Finance / SEC Filings (Sample dataset - not comprehensive)",
+  "note": "This is a curated sample of notable IPOs sourced from free, publicly available APIs. It does not represent all IPOs from this period.",
   "ipos": [
     {
       "ticker": "MDLN",

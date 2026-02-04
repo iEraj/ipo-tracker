@@ -12,10 +12,18 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 
 **[View Live App](https://ipo-tracker-jfxqqmpj8dqjftgd5n5an5.streamlit.app/)**
 
+## Important Note on Data Coverage
+
+> **⚠️ This dashboard contains a curated sample of IPOs, not a comprehensive list.**
+>
+> The IPO data is sourced from free and publicly available APIs and resources. While I strive to include relevant and notable IPOs from 2023-present, this dataset does not represent all IPOs that occurred during this period. According to market data, there were 154+ IPOs in 2023 and 225+ in 2024—this tracker includes a representative sample of major offerings.
+>
+> **Contributions welcome!** If you'd like to add missing IPOs, please submit a pull request or open an issue.
+
 ## Features
 
 - **Real-Time Price Tracking**: Fetches current stock prices via Yahoo Finance API
-- **Comprehensive IPO Database**: 50+ major IPOs from 2023-2025
+- **Curated IPO Database**: Notable IPOs from 2023-2025 (sample dataset)
 - **Interactive Filtering**: Filter by year, month, and sector
 - **Performance Metrics**:
   - Total IPOs tracked
@@ -108,13 +116,21 @@ The app can also be deployed on:
 - [Render](https://render.com)
 - [Hugging Face Spaces](https://huggingface.co/spaces)
 
-## Data Sources
+## Data Sources & Limitations
 
 | Source | Data Provided |
 |--------|---------------|
 | Yahoo Finance | Real-time stock prices |
 | Stock Analysis | Historical IPO data |
 | Public SEC Filings | IPO dates and initial prices |
+
+### Why isn't this list comprehensive?
+
+- **Free API limitations**: Most comprehensive IPO databases (NASDAQ, NYSE, Bloomberg) require paid subscriptions
+- **Manual curation**: The current dataset was compiled from free, publicly available sources
+- **Ongoing effort**: This is a best-effort project using open-source tools and free APIs
+
+If you have access to additional IPO data or want to contribute, please see the [Contributing](#contributing) section below.
 
 ## Updating IPO Data
 
@@ -159,7 +175,9 @@ Contributions are welcome! Here's how you can help:
 
 ## Disclaimer
 
-This application is for **informational and educational purposes only**. The developer does not own any of the data presented and relies on publicly available information.
+This application is for **informational and educational purposes only**. The developer does not own any of the data presented and relies on publicly available information from free and open-source APIs.
+
+**Data Completeness**: This tracker contains a **sample of IPOs**, not a comprehensive database. The data is curated from free, publicly available sources and may not include all IPOs from the covered time period. No guarantee is made regarding the completeness or accuracy of the data.
 
 **Not Financial Advice**: Nothing on this application constitutes investment advice, financial advice, trading advice, or any other sort of advice. Do your own due diligence and consult your financial advisor before making any investment decisions.
 

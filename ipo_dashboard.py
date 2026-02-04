@@ -529,6 +529,11 @@ st.markdown(
     The developer does not own any of the data presented and relies on publicly available information
     from sources including Yahoo Finance and other financial data providers.
     <br><br>
+    <strong>Data Coverage:</strong> This dashboard contains a <strong>curated sample</strong> of notable IPOs,
+    not a comprehensive list. The data is sourced from free and publicly available APIs. While we strive to
+    include relevant IPOs, we cannot guarantee completeness. Contributions to expand the dataset are welcome
+    via our <a href="https://github.com/iEraj/ipo-tracker" target="_blank">GitHub repository</a>.
+    <br><br>
     <strong>Not Financial Advice:</strong> Nothing on this application constitutes investment advice,
     financial advice, trading advice, or any other sort of advice. You should not treat any of the
     content as such. The developer does not recommend that any securities should be bought, sold, or
