@@ -24,3 +24,7 @@ Thumbs.db
 # Local dev
 *.log
 .cache/
+
+# Data pipeline working files
+data/ipos_backup.json
+data/pending_ipos.json
