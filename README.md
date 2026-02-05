@@ -12,28 +12,74 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 
 **[View Live App](https://ieraj-ipo-tracker.streamlit.app/)**
 
-## Important Note on Data Coverage
+## Data Coverage
 
-> **⚠️ This dashboard contains a curated sample of IPOs, not a comprehensive list.**
+> **Database: 738 IPOs tracked (2023-2026)**
 >
-> The IPO data is sourced from free and publicly available APIs and resources. While I strive to include relevant and notable IPOs from 2023-present, this dataset does not represent all IPOs that occurred during this period. According to market data, there were 154+ IPOs in 2023 and 225+ in 2024—this tracker includes a representative sample of major offerings.
+> | Year | IPOs Tracked |
+> |------|--------------|
+> | 2023 | 123 |
+> | 2024 | 216 |
+> | 2025 | 348 |
+> | 2026 | 44 |
 >
-> **Contributions welcome!** If you'd like to add missing IPOs, please submit a pull request or open an issue.
+> This database covers the **majority of US IPOs** from 2023 to present. While we strive for comprehensive coverage, some IPOs may be missing due to data availability limitations. The database is periodically updated using the Finnhub IPO Calendar API.
+
+### Data Sources
+
+| Source | Data Provided |
+|--------|---------------|
+| [Finnhub](https://finnhub.io/) | IPO calendar data (dates, symbols, exchanges) |
+| [Yahoo Finance](https://finance.yahoo.com/) | Real-time & historical stock prices |
+| Public SEC Filings | IPO dates and initial offering prices |
+
+### What's Included
+
+- IPOs that have successfully completed and started trading
+- Priced and filed IPOs from major US exchanges (NYSE, NASDAQ)
+- Historical price data validated through Yahoo Finance
+
+### What's Not Included
+
+- SPACs that haven't completed their business combination
+- IPOs that were withdrawn or postponed
+- Some international IPOs trading on US exchanges (ADRs)
+- Very recent IPOs that haven't started trading yet
+
+**Contributions welcome!** If you notice missing IPOs, please submit a pull request or open an issue.
 
 ## Features
 
 - **Real-Time Price Tracking**: Fetches current stock prices via Yahoo Finance API
-- **Curated IPO Database**: Notable IPOs from 2023-2025 (sample dataset)
+- **Comprehensive IPO Database**: 738 IPOs from 2023-2026
+- **Delisted Stock Detection**: Automatically identifies and marks delisted/merged companies
 - **Interactive Filtering**: Filter by year, month, and sector
 - **Performance Metrics**:
   - Total IPOs tracked
   - Average return percentage
   - Top performer identification
+  - Delisted/Merged count
 - **Data Visualization**:
   - IPO Price vs Current Price comparison (horizontal bar chart)
   - Sector breakdown (donut chart)
 - **Responsive Design**: Works on desktop and mobile devices
 - **Auto-Refresh**: Prices cached for 5 minutes with manual refresh option
+
+## Recent Updates (February 2026)
+
+### Database Expansion
+- Expanded from 45 to **738 IPOs** using Finnhub IPO Calendar API
+- Added comprehensive coverage for 2023-2026
+
+### Delisted Stock Handling
+- Stocks that have been delisted now display **"Delisted"** instead of errors
+- Merged/acquired companies show **"Merged"** status
+- New metric card shows count of inactive stocks
+- Delisted stocks are excluded from price comparison charts
+
+### New Data Pipeline Scripts
+- `find_missing_ipos.py` - Fetches IPO data from Finnhub API
+- `process_pending_ipos.py` - Validates prices via yfinance and updates database
 
 ## Tech Stack
 
@@ -41,6 +87,7 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 |------------|---------|
 | [Streamlit](https://streamlit.io/) | Web application framework |
 | [yfinance](https://github.com/ranaroussi/yfinance) | Real-time stock price data |
+| [Finnhub](https://finnhub.io/) | IPO calendar data |
 | [Pandas](https://pandas.pydata.org/) | Data manipulation |
 | [Plotly](https://plotly.com/) | Interactive charts |
 | [Python 3.9+](https://python.org) | Programming language |
@@ -51,13 +98,16 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 ipo-tracker/
 ├── .github/
 │   └── workflows/
-│       └── update_ipos.yml      # GitHub Actions for auto-updating IPO data
+│       └── update_ipos.yml      # GitHub Actions (future: auto-updates)
 ├── .streamlit/
 │   └── config.toml              # Streamlit configuration & theming
 ├── data/
-│   └── ipos.json                # IPO database (50+ entries)
+│   ├── ipos.json                # Main IPO database (738 entries)
+│   └── failed_ipos.json         # IPOs that couldn't be validated
 ├── scripts/
-│   └── fetch_ipos.py            # Script to fetch new IPO data from API
+│   ├── fetch_ipos.py            # Legacy FMP API script
+│   ├── find_missing_ipos.py     # Finnhub IPO fetcher
+│   └── process_pending_ipos.py  # yfinance price validator
 ├── ipo_dashboard.py             # Main Streamlit application
 ├── requirements.txt             # Python dependencies
 ├── .gitignore
@@ -116,22 +166,6 @@ The app can also be deployed on:
 - [Render](https://render.com)
 - [Hugging Face Spaces](https://huggingface.co/spaces)
 
-## Data Sources & Limitations
-
-| Source | Data Provided |
-|--------|---------------|
-| Yahoo Finance | Real-time stock prices |
-| Stock Analysis | Historical IPO data |
-| Public SEC Filings | IPO dates and initial prices |
-
-### Why isn't this list comprehensive?
-
-- **Free API limitations**: Most comprehensive IPO databases (NASDAQ, NYSE, Bloomberg) require paid subscriptions
-- **Manual curation**: The current dataset was compiled from free, publicly available sources
-- **Ongoing effort**: This is a best-effort project using open-source tools and free APIs
-
-If you have access to additional IPO data or want to contribute, please see the [Contributing](#contributing) section below.
-
 ## Updating IPO Data
 
 ### Manual Update
@@ -149,11 +183,30 @@ Edit `data/ipos.json` and add new entries:
 }
 ```
 
-### Automated Updates (Optional)
+### Using the Data Pipeline Scripts
 
-1. Get a free API key from [Financial Modeling Prep](https://financialmodelingprep.com)
-2. Add `FMP_API_KEY` to your GitHub repository secrets
-3. The GitHub Action will automatically update IPO data weekly
+1. **Get a free Finnhub API key** from [finnhub.io](https://finnhub.io/)
+
+2. **Set your API key**
+   ```bash
+   # Windows
+   set FINNHUB_API_KEY=your_api_key_here
+
+   # Linux/Mac
+   export FINNHUB_API_KEY=your_api_key_here
+   ```
+
+3. **Find missing IPOs**
+   ```bash
+   python scripts/find_missing_ipos.py
+   ```
+   This fetches IPO data from Finnhub and saves missing entries to `data/pending_ipos.json`
+
+4. **Process and validate**
+   ```bash
+   python scripts/process_pending_ipos.py
+   ```
+   This validates each IPO via yfinance and adds valid entries to the main database
 
 ## Contributing
 
@@ -167,17 +220,22 @@ Contributions are welcome! Here's how you can help:
 
 ### Ideas for Contribution
 
-- [ ] Add more IPOs to the database
+- [ ] Add GitHub Actions for automated weekly updates
 - [ ] Implement additional chart types
 - [ ] Add export functionality (CSV/Excel)
 - [ ] Create comparison tool for multiple IPOs
 - [ ] Add historical performance timeline
+- [ ] Improve sector classification accuracy
 
 ## Disclaimer
 
 This application is for **informational and educational purposes only**. The developer does not own any of the data presented and relies on publicly available information from free and open-source APIs.
 
-**Data Completeness**: This tracker contains a **sample of IPOs**, not a comprehensive database. The data is curated from free, publicly available sources and may not include all IPOs from the covered time period. No guarantee is made regarding the completeness or accuracy of the data.
+**Data Coverage**: This tracker contains **738 IPOs** sourced from Finnhub and validated via Yahoo Finance. While this covers the majority of US IPOs from 2023-2026, it may not include every IPO due to:
+- Data availability from free API tiers
+- Delisted or merged companies
+- Very recent IPOs not yet in the data feeds
+- International companies (ADRs)
 
 **Not Financial Advice**: Nothing on this application constitutes investment advice, financial advice, trading advice, or any other sort of advice. Do your own due diligence and consult your financial advisor before making any investment decisions.
 
