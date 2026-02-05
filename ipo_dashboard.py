@@ -22,17 +22,105 @@ def load_ipo_data() -> dict:
     return {"last_updated": "N/A", "source": "N/A", "ipos": []}
 
 
+# Special constants for stock status
+DELISTED = "DELISTED"
+MERGED = "MERGED"
+
+
 @st.cache_data(ttl=300)  # Cache for 5 minutes
-def get_current_price(ticker: str) -> float | None:
-    """Fetch current price for a ticker with caching."""
+def check_stock_status(ticker: str) -> dict:
+    """
+    Check if a stock is active, delisted, or merged.
+
+    Returns:
+        dict with keys:
+        - status: 'active', 'delisted', or 'merged'
+        - current_price: float or None
+        - new_ticker: str or None (if merged/renamed)
+        - message: str describing the status
+    """
     try:
         stock = yf.Ticker(ticker)
-        for period in ["1d", "5d", "1mo"]:
-            data = stock.history(period=period)
-            if not data.empty:
-                return round(data['Close'].iloc[-1], 2)
-    except Exception:
-        pass
+        info = stock.info
+
+        # Check if we can get recent price data
+        for period in ["1d", "5d", "1mo", "3mo"]:
+            hist = stock.history(period=period)
+            if not hist.empty:
+                current_price = round(hist['Close'].iloc[-1], 2)
+                return {
+                    "status": "active",
+                    "current_price": current_price,
+                    "new_ticker": None,
+                    "message": None
+                }
+
+        # No recent data - check if stock info suggests delisting/merger
+        # yfinance sometimes returns minimal info for delisted stocks
+
+        # Check for common delisting indicators in stock info
+        quote_type = info.get("quoteType", "")
+
+        # If we have historical data but no recent data, likely delisted
+        hist_max = stock.history(period="max")
+        if not hist_max.empty:
+            last_trade_date = hist_max.index[-1].strftime("%Y-%m-%d")
+            last_price = round(hist_max['Close'].iloc[-1], 2)
+
+            # Check if the last trade was more than 30 days ago
+            from datetime import datetime
+            last_dt = datetime.strptime(last_trade_date, "%Y-%m-%d")
+            days_since_trade = (datetime.now() - last_dt).days
+
+            if days_since_trade > 30:
+                return {
+                    "status": "delisted",
+                    "current_price": None,
+                    "last_price": last_price,
+                    "last_trade_date": last_trade_date,
+                    "new_ticker": None,
+                    "message": f"Last traded on {last_trade_date} at ${last_price:.2f}"
+                }
+
+        # No data at all - completely delisted or invalid ticker
+        return {
+            "status": "delisted",
+            "current_price": None,
+            "last_price": None,
+            "last_trade_date": None,
+            "new_ticker": None,
+            "message": "No trading data available"
+        }
+
+    except Exception as e:
+        return {
+            "status": "unknown",
+            "current_price": None,
+            "new_ticker": None,
+            "message": f"Error: {str(e)}"
+        }
+
+
+@st.cache_data(ttl=300)  # Cache for 5 minutes
+def get_current_price(ticker: str) -> float | str | None:
+    """
+    Fetch current price for a ticker with caching.
+
+    Returns:
+        float: Current price if active
+        'DELISTED': If stock is delisted
+        'MERGED': If stock was merged/acquired
+        None: If unable to determine
+    """
+    status_info = check_stock_status(ticker)
+
+    if status_info["status"] == "active":
+        return status_info["current_price"]
+    elif status_info["status"] == "delisted":
+        return DELISTED
+    elif status_info["status"] == "merged":
+        return MERGED
+
     return None
 
 
@@ -63,8 +151,32 @@ def get_ipo_performance(ticker: str, ipo_date: str, ipo_price: float) -> dict:
         else:
             ipo_open_price = ipo_price
 
-        # Get current price
+        # Get current price (may return DELISTED or MERGED)
         current_price = get_current_price(ticker)
+
+        # Handle delisted stocks
+        if current_price == DELISTED:
+            return {
+                "ticker": ticker,
+                "ipo_date": ipo_date,
+                "ipo_open_price": ipo_open_price,
+                "current_price": DELISTED,
+                "price_change": None,
+                "percent_change": None,
+                "status": "delisted"
+            }
+
+        # Handle merged stocks
+        if current_price == MERGED:
+            return {
+                "ticker": ticker,
+                "ipo_date": ipo_date,
+                "ipo_open_price": ipo_open_price,
+                "current_price": MERGED,
+                "price_change": None,
+                "percent_change": None,
+                "status": "merged"
+            }
 
         if current_price is None:
             return {
@@ -77,7 +189,7 @@ def get_ipo_performance(ticker: str, ipo_date: str, ipo_price: float) -> dict:
                 "error": "Could not fetch current price"
             }
 
-        # Calculate performance
+        # Calculate performance for active stocks
         price_change = current_price - ipo_open_price
         percent_change = (price_change / ipo_open_price) * 100
 
@@ -87,7 +199,8 @@ def get_ipo_performance(ticker: str, ipo_date: str, ipo_price: float) -> dict:
             "ipo_open_price": ipo_open_price,
             "current_price": current_price,
             "price_change": round(price_change, 2),
-            "percent_change": round(percent_change, 2)
+            "percent_change": round(percent_change, 2),
+            "status": "active"
         }
 
     except Exception as e:
@@ -334,12 +447,16 @@ else:
     df = pd.DataFrame(rows)
     valid_returns = df[df["Total Return %"].notna()]["Total Return %"]
 
+    # Count delisted and merged stocks
+    delisted_count = len(df[df["Current Price"] == DELISTED])
+    merged_count = len(df[df["Current Price"] == MERGED])
+
     # ==============================================
     # TOP METRIC CARDS
     # ==============================================
     period_label = f"{MONTHS[selected_month]} {selected_year}" if selected_month != 0 else str(selected_year)
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     with col1:
         st.metric(
@@ -371,6 +488,14 @@ else:
         else:
             st.metric(label="🏆 Top Performer", value="N/A")
 
+    with col4:
+        inactive_count = delisted_count + merged_count
+        st.metric(
+            label="📉 Delisted/Merged",
+            value=inactive_count,
+            help=f"{delisted_count} delisted, {merged_count} merged/acquired"
+        )
+
     st.divider()
 
     # ==============================================
@@ -382,24 +507,48 @@ else:
     # Prepare display dataframe
     display_df = df.copy()
     display_df["IPO Price"] = display_df["IPO Price"].apply(
-        lambda x: f"${x:.2f}" if pd.notna(x) else "N/A"
+        lambda x: f"${x:.2f}" if pd.notna(x) and not isinstance(x, str) else "N/A"
     )
-    display_df["Current Price"] = display_df["Current Price"].apply(
-        lambda x: f"${x:.2f}" if pd.notna(x) else "N/A"
-    )
-    display_df["Total Return %"] = display_df["Total Return %"].apply(
-        lambda x: format_return(x) if pd.notna(x) else "N/A"
-    )
+
+    def format_current_price(x):
+        """Format current price, handling delisted/merged stocks."""
+        if x == DELISTED:
+            return "Delisted"
+        if x == MERGED:
+            return "Merged"
+        if pd.notna(x) and not isinstance(x, str):
+            return f"${x:.2f}"
+        return "N/A"
+
+    display_df["Current Price"] = display_df["Current Price"].apply(format_current_price)
+
+    def format_total_return(x):
+        """Format return percentage, handling delisted stocks."""
+        if pd.notna(x) and not isinstance(x, str):
+            return format_return(x)
+        return "N/A"
+
+    display_df["Total Return %"] = display_df["Total Return %"].apply(format_total_return)
 
     # Color styling
     def color_returns(val):
         if val == "N/A":
             return "color: gray"
-        if "+" in val:
+        if "+" in str(val):
             return "color: green; font-weight: bold"
         return "color: red; font-weight: bold"
 
+    def color_current_price(val):
+        if val == "Delisted":
+            return "color: #ff6b6b; font-style: italic"
+        if val == "Merged":
+            return "color: #ffa500; font-style: italic"
+        if val == "N/A":
+            return "color: gray"
+        return ""
+
     styled_df = display_df.style.applymap(color_returns, subset=["Total Return %"])
+    styled_df = styled_df.applymap(color_current_price, subset=["Current Price"])
 
     st.dataframe(
         styled_df,
@@ -427,7 +576,12 @@ else:
     with chart_tab1:
         st.subheader("IPO Price vs Current Price")
 
-        chart_df = df[df["Current Price"].notna()].copy()
+        # Filter out delisted/merged stocks and keep only numeric prices
+        chart_df = df[
+            df["Current Price"].notna() &
+            ~df["Current Price"].isin([DELISTED, MERGED]) &
+            df["Current Price"].apply(lambda x: isinstance(x, (int, float)))
+        ].copy()
 
         if not chart_df.empty:
             chart_data = []

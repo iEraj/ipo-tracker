@@ -1,0 +1,2761 @@
+{
+  "generated_at": "2026-02-06 02:00:01",
+  "note": "These entries could not be fetched via yfinance. They may be delisted, have wrong tickers, or not yet trading.",
+  "failed_count": 459,
+  "failed_entries": [
+    {
+      "ticker": "SGP",
+      "name": "SpyGlass Pharma, Inc.",
+      "ipo_date": "2026-02-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AGMB",
+      "name": "Agomab Therapeutics NV",
+      "ipo_date": "2026-02-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LFTO",
+      "name": "Liftoff Mobile, Inc.",
+      "ipo_date": "2026-02-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OFRM",
+      "name": "Once Upon a Farm, PBC",
+      "ipo_date": "2026-02-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BRAI",
+      "name": "Braiin Ltd",
+      "ipo_date": "2026-02-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CLBRU",
+      "name": "Colombier Acquisition Corp. III",
+      "ipo_date": "2026-02-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IRABU",
+      "name": "Iris Acquisition Corp II",
+      "ipo_date": "2026-02-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "WPACU",
+      "name": "White Pearl Acquisition Corp.",
+      "ipo_date": "2026-02-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SYNO",
+      "name": "SYNO Capital Group, Inc.",
+      "ipo_date": "2026-02-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PONOU",
+      "name": "Pono Capital Four, Inc.",
+      "ipo_date": "2026-02-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SWMR",
+      "name": "Swarmer, Inc",
+      "ipo_date": "2026-02-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MZYXU",
+      "name": "MOZAYYX Acquisition Corp.",
+      "ipo_date": "2026-02-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MTALU",
+      "name": "Metals Acquisition Corp. II",
+      "ipo_date": "2026-02-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ACAAU",
+      "name": "Averin Capital Acquisition Corp.",
+      "ipo_date": "2026-01-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PALOU",
+      "name": "PALOMA ACQUISITION CORP I",
+      "ipo_date": "2026-01-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IDACU",
+      "name": "Iron Dome Acquisition I Corp.",
+      "ipo_date": "2026-01-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "UACU",
+      "name": "United Acquisition Corp. I",
+      "ipo_date": "2026-01-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SKAIU",
+      "name": "Sky Acquisition Group",
+      "ipo_date": "2026-01-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VCCG",
+      "name": "V Capital Consulting Group Ltd",
+      "ipo_date": "2026-01-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SWOL",
+      "name": "SWOL Holdings Inc.",
+      "ipo_date": "2026-01-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OPTN",
+      "name": "Option Therapeutics Inc.",
+      "ipo_date": "2026-01-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "XXC",
+      "name": "XINXU COPPER INDUSTRY TECHNOLOGY Ltd",
+      "ipo_date": "2026-01-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AIAI",
+      "name": "AIAI Holdings Corp",
+      "ipo_date": "2026-01-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CTAAU",
+      "name": "Clearthink 1 Acquisition Corp.",
+      "ipo_date": "2026-01-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LEGOU",
+      "name": "Legato Merger Corp. IV",
+      "ipo_date": "2026-01-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GLEDU",
+      "name": "GalaxyEdge Acquisition Corp",
+      "ipo_date": "2026-01-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GST",
+      "name": "Ga Sai Tong Enterprise Ltd",
+      "ipo_date": "2026-01-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MARH",
+      "name": "Starrygazey Inc.",
+      "ipo_date": "2026-01-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OTAIU",
+      "name": "Starlink AI Acquisition Corp",
+      "ipo_date": "2026-01-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "INHI",
+      "name": "Unitrend Entertainment Group Ltd",
+      "ipo_date": "2026-01-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SVIVU",
+      "name": "Spring Valley Acquisition Corp. IV",
+      "ipo_date": "2026-01-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RIKU",
+      "name": "RIKU DINING GROUP Ltd",
+      "ipo_date": "2026-01-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AIGO",
+      "name": "AIGO HOLDING Ltd",
+      "ipo_date": "2026-01-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CDN",
+      "name": "Cloud Data Holdings Corp",
+      "ipo_date": "2026-01-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CMIIU",
+      "name": "Columbus Circle Capital Corp II",
+      "ipo_date": "2026-01-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KWF",
+      "name": "KWF Group Holding Ltd",
+      "ipo_date": "2026-01-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MDKR",
+      "name": "Medikra Inc.",
+      "ipo_date": "2026-01-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CSIG",
+      "name": "Clear Street Group Inc.",
+      "ipo_date": "2026-01-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DTDT",
+      "name": "DT House Ltd",
+      "ipo_date": "2026-01-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SUMAU",
+      "name": "SUMA Acquisition Corp",
+      "ipo_date": "2026-01-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LTGRU",
+      "name": "Long Table Growth Corp.",
+      "ipo_date": "2026-01-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DMNT",
+      "name": "DMINT, Inc.",
+      "ipo_date": "2026-01-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EVON",
+      "name": "EvoNexus Group LTD",
+      "ipo_date": "2026-01-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YIFE",
+      "name": "Yi Feng Holdings Ltd.",
+      "ipo_date": "2026-01-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SIBO",
+      "name": "SIBO HOLDING Ltd",
+      "ipo_date": "2026-01-14",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LABT",
+      "name": "Lakewood-Amedex Biotherapeutics Inc.",
+      "ipo_date": "2026-01-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CEPS",
+      "name": "Cantor Equity Partners VI, Inc.",
+      "ipo_date": "2026-01-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "WLIIU",
+      "name": "Willow Lane Acquisition Corp. II",
+      "ipo_date": "2026-01-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BIIIU",
+      "name": "Black Spade Acquisition III Co",
+      "ipo_date": "2026-01-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BWGC",
+      "name": "BW Industrial Holdings Inc.",
+      "ipo_date": "2025-12-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LILW",
+      "name": "Little West Holdings Inc.",
+      "ipo_date": "2025-12-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QMLS",
+      "name": "QumulusAI, Inc.",
+      "ipo_date": "2025-12-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IBL",
+      "name": "I Bella Perfect Inc.",
+      "ipo_date": "2025-12-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DNJF",
+      "name": "Riverstone Ltd",
+      "ipo_date": "2025-12-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AACOU",
+      "name": "Abony Acquisition Corp. I",
+      "ipo_date": "2025-12-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MTVE",
+      "name": "Motive Technologies, Inc.",
+      "ipo_date": "2025-12-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OYES",
+      "name": "OCEANDRIVER INC.",
+      "ipo_date": "2025-12-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ALOGU",
+      "name": "ALBERT ORIGIN ACQUISITION Corp",
+      "ipo_date": "2025-12-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TMTSU",
+      "name": "Spartacus Acquisition Corp. II",
+      "ipo_date": "2025-12-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AOJE",
+      "name": "AOJE INC.",
+      "ipo_date": "2025-12-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IPFXU",
+      "name": "Inflection Point Acquisition Corp. VI",
+      "ipo_date": "2025-12-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BEBEU",
+      "name": "TGE Value Creative Solutions Corp",
+      "ipo_date": "2025-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BCACU",
+      "name": "Brookline Capital Acquisition Corp II",
+      "ipo_date": "2025-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PAXGU",
+      "name": "Pine Tree Acquisition Corp.",
+      "ipo_date": "2025-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GRVT",
+      "name": "GreenVector Holdings Ltd",
+      "ipo_date": "2025-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MYXXU",
+      "name": "Maywood Acquisition Corp. 2",
+      "ipo_date": "2025-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "NEOA",
+      "name": "Neo Aeronautics, Inc.",
+      "ipo_date": "2025-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EUPX",
+      "name": "EUPEC International Group Ltd",
+      "ipo_date": "2025-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MMED",
+      "name": "MiniMed Group, Inc.",
+      "ipo_date": "2025-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PAACU",
+      "name": "Proem Acquisition Corp. I",
+      "ipo_date": "2025-12-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HAMA",
+      "name": "HAMA Intelligence Ltd",
+      "ipo_date": "2025-12-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SPEXU",
+      "name": "Spectre Acquisition Corp",
+      "ipo_date": "2025-12-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ONEU",
+      "name": "One Universe Acquisition Corp",
+      "ipo_date": "2025-12-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "INAI",
+      "name": "Invea Therapeutics, Inc",
+      "ipo_date": "2025-12-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CAQU",
+      "name": "Cambridge Acquisition Corp.",
+      "ipo_date": "2025-12-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AIDX",
+      "name": "20/20 Biolabs, Inc.",
+      "ipo_date": "2025-12-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "STA",
+      "name": "Starton Holdings, Inc.",
+      "ipo_date": "2025-12-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EVVO",
+      "name": "Evvolutions LeadTech Inc",
+      "ipo_date": "2025-12-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TVIVU",
+      "name": "Texas Ventures Acquisition IV Corp",
+      "ipo_date": "2025-12-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ADBT",
+      "name": "Advasa Holdings, Inc.",
+      "ipo_date": "2025-12-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FMACU",
+      "name": "Future Money Acquisition Corp",
+      "ipo_date": "2025-12-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CYSC",
+      "name": "CyberScope Web3 Security Inc.",
+      "ipo_date": "2025-12-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AFNXU",
+      "name": "AfterNext Acquisition I Corp.",
+      "ipo_date": "2025-12-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JAGU",
+      "name": "Jaguar Uranium Corp.",
+      "ipo_date": "2025-12-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BWIVU",
+      "name": "Blue Water Acquisition Corp. IV",
+      "ipo_date": "2025-12-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SAC'U",
+      "name": "Safeguard Acquisition Corp.",
+      "ipo_date": "2025-12-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "NWAXU",
+      "name": "New America Acquisition I Corp.",
+      "ipo_date": "2025-12-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TRADU",
+      "name": "APEX Tech Acquisition Inc.",
+      "ipo_date": "2025-12-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SBXEU",
+      "name": "SilverBox Corp V",
+      "ipo_date": "2025-12-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MEON",
+      "name": "MEDIAON GROUP INC.",
+      "ipo_date": "2025-12-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ROC",
+      "name": "Rank One Computing Corp dba ROC",
+      "ipo_date": "2025-12-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HCICU",
+      "name": "Hennessy Capital Investment Corp. VIII",
+      "ipo_date": "2025-12-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EOHC",
+      "name": "Edison Oncology Holding Corp",
+      "ipo_date": "2025-11-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FFLY",
+      "name": "FireFly Automatix, Inc.",
+      "ipo_date": "2025-11-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PAPA",
+      "name": "Papa Medical Inc.",
+      "ipo_date": "2025-11-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SZTD",
+      "name": "Shangzhaitong Holding Co., Ltd",
+      "ipo_date": "2025-11-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TDHG",
+      "name": "Tongda International Group Co., Ltd",
+      "ipo_date": "2025-11-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MDHT",
+      "name": "Midnight Gaming Corp",
+      "ipo_date": "2025-11-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LBRJ",
+      "name": "Libera Gaming Operations, Inc",
+      "ipo_date": "2025-11-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "NYAE",
+      "name": "NYAE GROUP INC.",
+      "ipo_date": "2025-11-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DBCAU",
+      "name": "D. Boral Acquisition I Corp.",
+      "ipo_date": "2025-11-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HWEP",
+      "name": "HW Electro Co., Ltd.",
+      "ipo_date": "2025-11-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BREZU",
+      "name": "Breeze Acquisition Corp. II",
+      "ipo_date": "2025-11-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "APURU",
+      "name": "Aperture AC",
+      "ipo_date": "2025-11-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JSKJ",
+      "name": "Jiansu (Shanghai) Information Technology Co., Ltd",
+      "ipo_date": "2025-11-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "XYJG",
+      "name": "XYJ TECHNOLOGY Corp",
+      "ipo_date": "2025-11-14",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ALUBU",
+      "name": "Alussa Energy Acquisition Corp. II",
+      "ipo_date": "2025-11-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SBAQU",
+      "name": "Subversive Bitcoin Acquisition Corp.",
+      "ipo_date": "2025-11-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GRAY",
+      "name": "Grayscale Investments, Inc.",
+      "ipo_date": "2025-11-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TYHT",
+      "name": "THAI YEE HONG TECHNOLOGY HOLDINGS PTE LTD",
+      "ipo_date": "2025-11-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FTY",
+      "name": "Feitu Shanglian Cloud Information Technology Co., Ltd",
+      "ipo_date": "2025-11-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CYCE",
+      "name": "Terra H Inc",
+      "ipo_date": "2025-11-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KLK",
+      "name": "Klook Technology Ltd",
+      "ipo_date": "2025-11-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BIDWU",
+      "name": "TRIBECA STRATEGIC ACQUISITION CORP.",
+      "ipo_date": "2025-11-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HACQU",
+      "name": "HCM IV Acquisition Corp.",
+      "ipo_date": "2025-11-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LPSLU",
+      "name": "Launchpad Streetlight Acquisition Corp",
+      "ipo_date": "2025-11-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FJDIU",
+      "name": "ARC Group Securities Acquisition I",
+      "ipo_date": "2025-11-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SPED",
+      "name": "Speed Group Holdings Ltd",
+      "ipo_date": "2025-11-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FDARU",
+      "name": "ARC Group Securities Acquisition II",
+      "ipo_date": "2025-11-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VACIU",
+      "name": "Viking Acquisition Corp I",
+      "ipo_date": "2025-10-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RGGG",
+      "name": "Regenique Group Ltd",
+      "ipo_date": "2025-10-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JJHR",
+      "name": "JJH International Holdings Ltd",
+      "ipo_date": "2025-10-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DUKL",
+      "name": "Duke Holding Inc.",
+      "ipo_date": "2025-10-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GBH",
+      "name": "Gigabit Inc.",
+      "ipo_date": "2025-10-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BLEUU",
+      "name": "pan-Africa Corp",
+      "ipo_date": "2025-10-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BRVAU",
+      "name": "Brava Acquisition Corp",
+      "ipo_date": "2025-10-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CGL",
+      "name": "CGL Logistics Holdings Ltd",
+      "ipo_date": "2025-10-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ELCG",
+      "name": "ELC Group Holdings Ltd.",
+      "ipo_date": "2025-10-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OLIF",
+      "name": "Horizon Thread (PTY) Ltd",
+      "ipo_date": "2025-10-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IACOU",
+      "name": "Idea Acquisition Corp.",
+      "ipo_date": "2025-10-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AESPU",
+      "name": "Aeon Acquisition I Corp.",
+      "ipo_date": "2025-10-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RFAMU",
+      "name": "RF Acquisition Corp III",
+      "ipo_date": "2025-10-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BLTG",
+      "name": "BOUNDLESS GROUP",
+      "ipo_date": "2025-10-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SONC",
+      "name": "SONIC LIGHTING, INC.",
+      "ipo_date": "2025-10-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KCG",
+      "name": "Keystone Global Financial Group",
+      "ipo_date": "2025-10-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AXTN",
+      "name": "Akston Biosciences Corp",
+      "ipo_date": "2025-10-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "NEUT",
+      "name": "Neutrans Inc.",
+      "ipo_date": "2025-10-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PECEU",
+      "name": "Peace Acquisition Corp.",
+      "ipo_date": "2025-10-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LSBA",
+      "name": "Law's Business Group Holding Ltd",
+      "ipo_date": "2025-10-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "THEOU",
+      "name": "BOA Acquisition Corp. II",
+      "ipo_date": "2025-10-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AIIAU",
+      "name": "AI Infrastructure Acquisition Corp.",
+      "ipo_date": "2025-10-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PYST",
+      "name": "Pyrostone Holdings Ltd",
+      "ipo_date": "2025-10-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KRSPU",
+      "name": "Rice Acquisition Corp 3",
+      "ipo_date": "2025-10-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YCYU",
+      "name": "AA Mission Acquisition Corp. II",
+      "ipo_date": "2025-10-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BCSSU",
+      "name": "Bain Capital GSS Investment Corp.",
+      "ipo_date": "2025-09-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VECAU",
+      "name": "Vernal Capital Acquisition Corp.",
+      "ipo_date": "2025-09-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MDRN",
+      "name": "Modern Mining Technology Corp.",
+      "ipo_date": "2025-09-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KASH",
+      "name": "Cansince Innovations Inc.",
+      "ipo_date": "2025-09-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SUWA",
+      "name": "Sharewow Ltd",
+      "ipo_date": "2025-09-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "XFLHU",
+      "name": "XFLH Capital Corp",
+      "ipo_date": "2025-09-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FCRSU",
+      "name": "FutureCrest Acquisition Corp.",
+      "ipo_date": "2025-09-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RSHL",
+      "name": "Rise Smart Group Holdings Ltd",
+      "ipo_date": "2025-09-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EMISU",
+      "name": "Emmis Acquisition Corp.",
+      "ipo_date": "2025-09-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SEAH",
+      "name": "Seahawk Recycling Holdings, Inc.",
+      "ipo_date": "2025-09-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PLAI",
+      "name": "PressLogic Inc.",
+      "ipo_date": "2025-09-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CLSOU",
+      "name": "Climate Transition Special Opportunities SPAC I",
+      "ipo_date": "2025-09-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CSC",
+      "name": "CSC Collective Holdings Ltd",
+      "ipo_date": "2025-09-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CFACU",
+      "name": "Creative Future Acquisition Corp",
+      "ipo_date": "2025-09-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JOSS",
+      "name": "JOSS Realty REIT, Inc.",
+      "ipo_date": "2025-09-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SSACU",
+      "name": "SPACSphere Acquisition Corp.",
+      "ipo_date": "2025-09-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GDNT",
+      "name": "Guident Corp.",
+      "ipo_date": "2025-09-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YXCA",
+      "name": "Yuanxiang Acquisition Corp.",
+      "ipo_date": "2025-09-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GDEL",
+      "name": "Global Development Engineering Co Ltd",
+      "ipo_date": "2025-09-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AMTU",
+      "name": "AMATUHI HOLDINGS, INC.",
+      "ipo_date": "2025-09-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EMI",
+      "name": "Encore Medical, Inc.",
+      "ipo_date": "2025-09-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QREDU",
+      "name": "QuasarEdge Acquisition Corp",
+      "ipo_date": "2025-09-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LBZZ",
+      "name": "Lendbuzz Inc.",
+      "ipo_date": "2025-09-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AGIE",
+      "name": "ANGIE HOLDINGS Ltd",
+      "ipo_date": "2025-09-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BRKK",
+      "name": "Barentsz Capital Ltd",
+      "ipo_date": "2025-09-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "UTX",
+      "name": "Ultratrex Inc.",
+      "ipo_date": "2025-09-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LCDC",
+      "name": "LORENZO DEVELOPMENTS INC.",
+      "ipo_date": "2025-09-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OPTH",
+      "name": "Optimi Health Corp.",
+      "ipo_date": "2025-09-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JSTT",
+      "name": "Nihon Shintatsu Co., Ltd.",
+      "ipo_date": "2025-09-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FGO",
+      "name": "FG Holdings Ltd",
+      "ipo_date": "2025-09-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KPL",
+      "name": "Kepler Group Ltd",
+      "ipo_date": "2025-09-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TTEI",
+      "name": "TDE GROUP Ltd",
+      "ipo_date": "2025-08-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BGHL",
+      "name": "BILLION GROUP HOLDINGS Ltd",
+      "ipo_date": "2025-08-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZSSK",
+      "name": "ZHONGSHANG TECHNOLOGY INC",
+      "ipo_date": "2025-08-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AFA",
+      "name": "FARLONG HOLDING Corp",
+      "ipo_date": "2025-08-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DBIM",
+      "name": "Dbim Holdings Ltd",
+      "ipo_date": "2025-08-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MEDG",
+      "name": "MEDI Group Ltd",
+      "ipo_date": "2025-08-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "APEX",
+      "name": "APEX Global Solutions Ltd",
+      "ipo_date": "2025-08-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AMPM",
+      "name": "AM PM Group Ltd",
+      "ipo_date": "2025-08-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SSTR",
+      "name": "Solar Strategy Holdings Ltd",
+      "ipo_date": "2025-08-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MKTR",
+      "name": "Monkey Tree Investment Ltd",
+      "ipo_date": "2025-08-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ECST",
+      "name": "ECST Holdings Ltd",
+      "ipo_date": "2025-08-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FGXCU",
+      "name": "FG Merger III Corp.",
+      "ipo_date": "2025-08-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MFHK",
+      "name": "MIBEE AVIATION TECHNOLOGY HOLDING INC",
+      "ipo_date": "2025-08-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FIT",
+      "name": "Fitness Fanatics Ltd",
+      "ipo_date": "2025-08-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IDTL",
+      "name": "Idea Tech Holding Ltd",
+      "ipo_date": "2025-08-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LBKXU",
+      "name": "BoluoC Acquisition Corp",
+      "ipo_date": "2025-08-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BENN",
+      "name": "Bend NovaTech Group Ltd",
+      "ipo_date": "2025-08-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZY",
+      "name": "China Tobacco & Alcohol Group Ltd",
+      "ipo_date": "2025-08-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BLKS",
+      "name": "BLACK UNICORN FACTORY",
+      "ipo_date": "2025-08-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VXAI",
+      "name": "Voltage X Ltd",
+      "ipo_date": "2025-08-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DAVI",
+      "name": "DAVION HEALTHCARE PLC",
+      "ipo_date": "2025-08-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YMXK",
+      "name": "CHARMING WOW INC",
+      "ipo_date": "2025-07-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CAEAU",
+      "name": "Caedryn Acquisition Corp I",
+      "ipo_date": "2025-07-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AICN",
+      "name": "XINZI TECHNOLOGY INC",
+      "ipo_date": "2025-07-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "INNP",
+      "name": "INNOCAN PHARMA Corp",
+      "ipo_date": "2025-07-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HIFI",
+      "name": "Hillhouse Frontier Holdings Inc.",
+      "ipo_date": "2025-07-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CLBZ",
+      "name": "Collab Z Inc.",
+      "ipo_date": "2025-07-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PAIIU",
+      "name": "Pyrophyte Acquisition Corp. II",
+      "ipo_date": "2025-07-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CADV",
+      "name": "Club Versante Group Ltd",
+      "ipo_date": "2025-07-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KOKO",
+      "name": "KOKOBOTS GROUP",
+      "ipo_date": "2025-07-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KBAT",
+      "name": "KBAT Group Inc.",
+      "ipo_date": "2025-07-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HSFZ",
+      "name": "Global Thrive Fulfill Group Inc",
+      "ipo_date": "2025-07-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EVACU",
+      "name": "EQV Ventures Acquisition Corp. II",
+      "ipo_date": "2025-07-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TCBG",
+      "name": "Top Create Biotech Co., Ltd.",
+      "ipo_date": "2025-07-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RNBW",
+      "name": "Rainbow Capital Holdings Ltd",
+      "ipo_date": "2025-07-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ARBCU",
+      "name": "D. Boral ARC Acquisition II Corp.",
+      "ipo_date": "2025-06-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZDAN",
+      "name": "Zerolimit Technology Holding Co. Ltd.",
+      "ipo_date": "2025-06-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YORKU",
+      "name": "Yorkville Acquisition Corp.",
+      "ipo_date": "2025-06-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CNMT",
+      "name": "Camerry New Material Tech Ltd.",
+      "ipo_date": "2025-06-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BMOKU",
+      "name": "BM Acquisition Corp.",
+      "ipo_date": "2025-06-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KGF",
+      "name": "Kilcoy Global Foods, Ltd.",
+      "ipo_date": "2025-06-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RPMI",
+      "name": "RPM Interactive, Inc.",
+      "ipo_date": "2025-06-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GEBE",
+      "name": "GEBE Environmental Technology Ltd",
+      "ipo_date": "2025-06-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OTSA",
+      "name": "OTSAW Ltd",
+      "ipo_date": "2025-06-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GINT",
+      "name": "Gifts International Holdings Ltd",
+      "ipo_date": "2025-06-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BTFT",
+      "name": "Beta FinTech Holdings Ltd",
+      "ipo_date": "2025-06-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JENAU",
+      "name": "JENA ACQUISITION Corp II",
+      "ipo_date": "2025-05-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LHI",
+      "name": "Living Homeopathy International Ltd.",
+      "ipo_date": "2025-05-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AACIU",
+      "name": "Armada Acquisition Corp. II",
+      "ipo_date": "2025-05-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "UPX",
+      "name": "Uptrend Holdings Ltd",
+      "ipo_date": "2025-05-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "UHP",
+      "name": "Ultra High Point Holdings Ltd",
+      "ipo_date": "2025-05-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CCCMU",
+      "name": "Columbus Circle Capital Corp. I",
+      "ipo_date": "2025-05-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "WODO",
+      "name": "World Road Inc.",
+      "ipo_date": "2025-05-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YLY",
+      "name": "Zi Yun Dong Fang Ltd",
+      "ipo_date": "2025-05-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BONS",
+      "name": "Bonus Biogroup Ltd.",
+      "ipo_date": "2025-05-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CTMB",
+      "name": "Center Holdings Inc.",
+      "ipo_date": "2025-05-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TVCN",
+      "name": "TV Channels Network Inc.",
+      "ipo_date": "2025-05-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "COPLU",
+      "name": "Copley Acquisition Corp",
+      "ipo_date": "2025-05-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MSMUU",
+      "name": "MSM FRONTIER CAPITAL ACQUISITION CORP.",
+      "ipo_date": "2025-04-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MPJS",
+      "name": "MPJS Group Ltd",
+      "ipo_date": "2025-04-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AXY",
+      "name": "Wise Ocean Group Inc",
+      "ipo_date": "2025-04-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GLSA",
+      "name": "Green Solar Energy Ltd",
+      "ipo_date": "2025-04-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TMRDU",
+      "name": "Timber Road Acquisition Corp",
+      "ipo_date": "2025-04-14",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JLCN",
+      "name": "JiaLian Technologies Holdings Inc.",
+      "ipo_date": "2025-04-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VCKBU",
+      "name": "Vickers Vantage Corp. II",
+      "ipo_date": "2025-04-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SOULU",
+      "name": "Soulpower Acquisition Corp.",
+      "ipo_date": "2025-04-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TOPW",
+      "name": "Top Win International Ltd",
+      "ipo_date": "2025-04-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AMJK",
+      "name": "AIMEI HEALTH TECHNOLOGY LTD",
+      "ipo_date": "2025-04-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HRGH",
+      "name": "RUIGUANGHONGFENG INTERNATIONAL LTD",
+      "ipo_date": "2025-04-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HCPC",
+      "name": "HengHong Technology Inc.",
+      "ipo_date": "2025-03-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GVSE",
+      "name": "Gameverse Interactive Corp",
+      "ipo_date": "2025-03-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SMIP",
+      "name": "SPECTRAL IP, INC.",
+      "ipo_date": "2025-03-20",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "XZ",
+      "name": "Xinzi",
+      "ipo_date": "2025-03-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JRWP",
+      "name": "Jingrui Wang Pu Holdings Group Ltd.",
+      "ipo_date": "2025-03-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AVG",
+      "name": "ANEW HEALTH Ltd",
+      "ipo_date": "2025-03-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RAC'U",
+      "name": "Rithm Acquisition Corp.",
+      "ipo_date": "2025-02-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SJHK",
+      "name": "Sichuan Hongyi Enterprise Management Co., Ltd.",
+      "ipo_date": "2025-02-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DLHZ",
+      "name": "Dalu International Group Ltd",
+      "ipo_date": "2025-02-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SKUB",
+      "name": "Skubbs Holdings Ltd",
+      "ipo_date": "2025-02-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AIAS",
+      "name": "AI ASSETS LTD",
+      "ipo_date": "2025-02-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TYZ",
+      "name": "Tong Ying Group",
+      "ipo_date": "2025-02-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DCR",
+      "name": "DCR Tech Group Ltd",
+      "ipo_date": "2025-02-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CCACU",
+      "name": "CCIS Acquisition Corp",
+      "ipo_date": "2025-02-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RAN",
+      "name": "RanMarine Technology B.V.",
+      "ipo_date": "2025-02-14",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MAYAU",
+      "name": "Maywood Acquisition Corp.",
+      "ipo_date": "2025-02-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EVOY",
+      "name": "Envoy Technologies, Inc.",
+      "ipo_date": "2025-02-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QHT",
+      "name": "Qinhui Technology International Co. Ltd.",
+      "ipo_date": "2025-02-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BRKHM",
+      "name": "BRK International Holding Group Ltd",
+      "ipo_date": "2025-02-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BGO",
+      "name": "Bialgo Commercial Operation Management CO., Ltd",
+      "ipo_date": "2025-01-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QMSK",
+      "name": "QMSK Technology Co., Ltd",
+      "ipo_date": "2025-01-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VTEK",
+      "name": "VISTEK LTD",
+      "ipo_date": "2025-01-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SFTO",
+      "name": "Softto Inc",
+      "ipo_date": "2025-01-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CRGT",
+      "name": "Cortigent, Inc.",
+      "ipo_date": "2025-01-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MVRK",
+      "name": "Maverick Lifestyle Inc.",
+      "ipo_date": "2025-01-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AAS",
+      "name": "Antharas Inc",
+      "ipo_date": "2025-01-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AAGO",
+      "name": "Aspargo Labs, Inc.",
+      "ipo_date": "2025-01-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MTNEU",
+      "name": "CH4 Natural Solutions Corp",
+      "ipo_date": "2025-01-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MOLD",
+      "name": "Molida Holding Group Co., Ltd",
+      "ipo_date": "2025-01-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EFB",
+      "name": "Everfront Biotech Holding Co Ltd",
+      "ipo_date": "2025-01-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PHH",
+      "name": "Park Ha Biological Technology Co., Ltd.",
+      "ipo_date": "2024-12-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PICW",
+      "name": "Pictureworks International Holdings Ltd",
+      "ipo_date": "2024-12-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AHJKU",
+      "name": "Aimei Health Technology II Co., Ltd.",
+      "ipo_date": "2024-12-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CLGF",
+      "name": "PEAR WORKSHOP LTD.",
+      "ipo_date": "2024-12-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JAJI",
+      "name": "JAJI Global Inc",
+      "ipo_date": "2024-12-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JHKC",
+      "name": "JuHe KC Holdings Ltd",
+      "ipo_date": "2024-12-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YZRY",
+      "name": "Gansu Yunzhao Ruyi Technology Development Co., Ltd.",
+      "ipo_date": "2024-12-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JACSU",
+      "name": "Jackson Acquisition Co II",
+      "ipo_date": "2024-12-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SPHAU",
+      "name": "Shepherd Ave Capital Acquisition Corp",
+      "ipo_date": "2024-12-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PKCD",
+      "name": "Punk Code International Group Co., Ltd.",
+      "ipo_date": "2024-12-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SYH",
+      "name": "Mountain&Sea Health Inc.",
+      "ipo_date": "2024-12-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GTSG",
+      "name": "GATES GROUP Inc.",
+      "ipo_date": "2024-12-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DYZH",
+      "name": "YIZHIHUI TECHNOLOGY ELDERLY CARE GROUP CO., LTD",
+      "ipo_date": "2024-11-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CASK",
+      "name": "Heritage Distilling Holding Company, Inc.",
+      "ipo_date": "2024-11-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PAPA",
+      "name": "Papa Medical Inc.",
+      "ipo_date": "2024-11-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DMN",
+      "name": "Damon Inc.",
+      "ipo_date": "2024-11-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IZTC",
+      "name": "Invizyne Technologies Inc",
+      "ipo_date": "2024-11-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GMCG",
+      "name": "GLAMOORE Capital Group Co Ltd.",
+      "ipo_date": "2024-11-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FPAQU",
+      "name": "FPA ENERGY ACQUISITION CORP.",
+      "ipo_date": "2024-11-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FFSHU",
+      "name": "Flag Fish Acquisition Corp",
+      "ipo_date": "2024-11-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GSRTU",
+      "name": "GSR III Acquisition Corp.",
+      "ipo_date": "2024-11-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LAMA",
+      "name": "HOT MOM INTERNATIONAL INC.",
+      "ipo_date": "2024-11-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TTG",
+      "name": "Transten Global Group Ltd",
+      "ipo_date": "2024-10-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HHZK",
+      "name": "HONG XIANG HUI ZHI HOLDINGS LTD.",
+      "ipo_date": "2024-10-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SAG",
+      "name": "SAG Holdings Ltd",
+      "ipo_date": "2024-10-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CGGJ",
+      "name": "Guo Jin Sheng Shi Gold Jewelry Group Holding Ltd",
+      "ipo_date": "2024-10-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CCIRU",
+      "name": "Cohen Circle Acquisition Corp. I",
+      "ipo_date": "2024-10-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RYZ",
+      "name": "Ruyizhou INC",
+      "ipo_date": "2024-10-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OCACU",
+      "name": "Ocean Capital Acquisition Corp",
+      "ipo_date": "2024-10-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LZIG",
+      "name": "Leizig Thermal Management Co., Ltd",
+      "ipo_date": "2024-09-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FLAI",
+      "name": "Flewber Global Inc.",
+      "ipo_date": "2024-09-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VTRO",
+      "name": "Vitro Biopharma, Inc.",
+      "ipo_date": "2024-09-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ANE",
+      "name": "AoChuang Holdings, Inc.",
+      "ipo_date": "2024-09-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JCB",
+      "name": "JICAIBA HOLDINGS LTD",
+      "ipo_date": "2024-09-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BSIIU",
+      "name": "Black Spade Acquisition II Co",
+      "ipo_date": "2024-08-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZCXX",
+      "name": "ZC GOLD Jewelry INC",
+      "ipo_date": "2024-08-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YYDT",
+      "name": "Yi Yue Digital Technology Group Corp",
+      "ipo_date": "2024-08-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HONDU",
+      "name": "HCM II Acquisition Corp.",
+      "ipo_date": "2024-08-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SBXDU",
+      "name": "SilverBox Corp IV",
+      "ipo_date": "2024-08-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TMGX",
+      "name": "Thoughtful Media Group Inc.",
+      "ipo_date": "2024-08-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YZSZ",
+      "name": "YZSZ Holding Group Inc",
+      "ipo_date": "2024-08-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HMH",
+      "name": "HMH Holding Inc",
+      "ipo_date": "2024-08-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "EQVU",
+      "name": "EQV Ventures Acquisition Corp.",
+      "ipo_date": "2024-08-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AAM'U",
+      "name": "AA Mission Acquisition Corp.",
+      "ipo_date": "2024-08-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DRIL",
+      "name": "Lannister Mining Corp.",
+      "ipo_date": "2024-07-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AEIBU",
+      "name": "AEI CapForce II Investment Corp",
+      "ipo_date": "2024-07-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PGHL",
+      "name": "Primega Group Holdings Ltd",
+      "ipo_date": "2024-07-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ESPAU",
+      "name": "Expectation Acquisition Corp",
+      "ipo_date": "2024-07-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ADVEN",
+      "name": "ADVEN INC.",
+      "ipo_date": "2024-07-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZSSY",
+      "name": "Diamond Water Origin Supply Chain Technology Group Co., Ltd.",
+      "ipo_date": "2024-07-03",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SLRA",
+      "name": "SOLERA GLOBAL CORP.",
+      "ipo_date": "2024-06-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GRAFU",
+      "name": "Graf Global Corp.",
+      "ipo_date": "2024-06-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZSMA",
+      "name": "Zhong Shi International Ltd",
+      "ipo_date": "2024-06-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LIHV",
+      "name": "Sustainable Projects Group Inc.",
+      "ipo_date": "2024-06-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CHEBU",
+      "name": "Chenghe Acquisition II Co.",
+      "ipo_date": "2024-06-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "UEOP",
+      "name": "UEOPLE Technology Holding Ltd",
+      "ipo_date": "2024-06-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KDLY",
+      "name": "Kindly MD, Inc.",
+      "ipo_date": "2024-05-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CAKR",
+      "name": "Cambodia Airways Co., Ltd.",
+      "ipo_date": "2024-05-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GBS",
+      "name": "GUI BIN SHE INTERNATIONAL HOLDING GROUP",
+      "ipo_date": "2024-05-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SEPS",
+      "name": "Asep Medical Holdings Inc.",
+      "ipo_date": "2024-05-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "KTA",
+      "name": "KINGTITAN TECHNOLOGY Ltd",
+      "ipo_date": "2024-05-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LRTX",
+      "name": "Lirum Therapeutics, Inc.",
+      "ipo_date": "2024-05-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DRJT",
+      "name": "DERUN GROUP INC",
+      "ipo_date": "2024-04-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ONDR",
+      "name": "Sushi Ginza Onodera, Inc.",
+      "ipo_date": "2024-04-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JUNE",
+      "name": "Junee Ltd",
+      "ipo_date": "2024-04-17",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JLJT",
+      "name": "JIALIANG HOLDINGS LTD",
+      "ipo_date": "2024-04-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MISNU",
+      "name": "Mission Space Acquisition Corp.",
+      "ipo_date": "2024-04-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OCP",
+      "name": "Huge Amount Group Ltd",
+      "ipo_date": "2024-03-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IBACU",
+      "name": "IB Acquisition Corp.",
+      "ipo_date": "2024-03-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JCY",
+      "name": "JINGCAOYUAN HOLDINGS INC",
+      "ipo_date": "2024-03-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LXTM",
+      "name": "Lei Xin Holdings Co., Ltd.",
+      "ipo_date": "2024-03-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SUKE",
+      "name": "Suke Ltd",
+      "ipo_date": "2024-03-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SJA",
+      "name": "SolarJuice Co., Ltd.",
+      "ipo_date": "2024-03-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AMDI",
+      "name": "Amphitrite Digital Inc",
+      "ipo_date": "2024-03-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SKUB",
+      "name": "Skubbs Holdings Ltd",
+      "ipo_date": "2024-03-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DYCQU",
+      "name": "DT Cloud Acquisition Corp",
+      "ipo_date": "2024-02-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CHRO",
+      "name": "Chromocell Therapeutics Corp",
+      "ipo_date": "2024-02-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SCRP",
+      "name": "Scripps Safe, Inc.",
+      "ipo_date": "2024-02-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HLXB",
+      "name": "Helix Acquisition Corp. II",
+      "ipo_date": "2024-02-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QQJ",
+      "name": "QQJ Inc.",
+      "ipo_date": "2024-02-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LEGTU",
+      "name": "Legato Merger Corp. III",
+      "ipo_date": "2024-02-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SUBL",
+      "name": "BioLingus (Cayman) Ltd",
+      "ipo_date": "2024-01-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JIE",
+      "name": "Semidux (Cayman) Holding Ltd",
+      "ipo_date": "2024-01-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TPI",
+      "name": "Tesspay Inc.",
+      "ipo_date": "2024-01-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JHY",
+      "name": "JUHEYING INTELLIGENT TECHNOLOGY LTD",
+      "ipo_date": "2024-01-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JVSAU",
+      "name": "JVSPAC Acquisition Corp.",
+      "ipo_date": "2024-01-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LUMA",
+      "name": "DeerHorse One Zero Eight Group Holding Ltd",
+      "ipo_date": "2024-01-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LLLLU",
+      "name": "Love & Health Ltd",
+      "ipo_date": "2024-01-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LEC",
+      "name": "LAFAYETTE ENERGY CORP.",
+      "ipo_date": "2023-12-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IROHU",
+      "name": "Iron Horse Acquisitions Corp.",
+      "ipo_date": "2023-12-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DOCO",
+      "name": "Docola, Inc.",
+      "ipo_date": "2023-12-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZRSP",
+      "name": "ZEROSPO",
+      "ipo_date": "2023-12-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CHLW",
+      "name": "Chun Hui Le Wan International Holding Group Ltd",
+      "ipo_date": "2023-12-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GIT",
+      "name": "Going International Holding Co Ltd",
+      "ipo_date": "2023-12-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RLND",
+      "name": "RoyaLand Co Ltd.",
+      "ipo_date": "2023-12-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "WDQY",
+      "name": "WANGDIQIYUAN INTERNATIONAL HOLDINGS LTD",
+      "ipo_date": "2023-12-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TKBDU",
+      "name": "TechyBird Acquisition Corp.",
+      "ipo_date": "2023-12-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "C3",
+      "name": "C3 Bullion, Inc.",
+      "ipo_date": "2023-12-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HHGJ",
+      "name": "Concord Health Ltd",
+      "ipo_date": "2023-11-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FLXG",
+      "name": "Flexi Group Holdings Ltd",
+      "ipo_date": "2023-11-22",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CLBRU",
+      "name": "COLOMBIER ACQUISITION CORP. II",
+      "ipo_date": "2023-11-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HYHL",
+      "name": "Houyi Digital Internet Industry Technology Co., Ltd.",
+      "ipo_date": "2023-11-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GLACU",
+      "name": "Global Lights Acquisition Corp",
+      "ipo_date": "2023-11-14",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CAST",
+      "name": "Freecast, Inc.",
+      "ipo_date": "2023-11-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CRGX",
+      "name": "CARGO Therapeutics, Inc.",
+      "ipo_date": "2023-11-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AITRU",
+      "name": "AI Transportation Acquisition Corp",
+      "ipo_date": "2023-11-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QMIX",
+      "name": "QMIS TBS Capital Group Corp.",
+      "ipo_date": "2023-11-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "WMBT",
+      "name": "Sichuan Wanma Benteng Technology Co., LTD",
+      "ipo_date": "2023-11-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JFY",
+      "name": "JIUFUYUAN BIOTECHNOLOGY CO., LTD",
+      "ipo_date": "2023-11-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "FONG",
+      "name": "Aibafang Group CO., Ltd.",
+      "ipo_date": "2023-10-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LFKG",
+      "name": "Lianfeng Holding Acquisition",
+      "ipo_date": "2023-10-19",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VAPA",
+      "name": "Valens Pay Global Ltd",
+      "ipo_date": "2023-09-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TKE",
+      "name": "OUI Global",
+      "ipo_date": "2023-09-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HSACU",
+      "name": "Hainan Sirius Acquisition Corp.",
+      "ipo_date": "2023-09-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RYZB",
+      "name": "RayzeBio, Inc.",
+      "ipo_date": "2023-09-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ACSB",
+      "name": "ACESIS HOLDINGS CORP.",
+      "ipo_date": "2023-09-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GDD",
+      "name": "Healthy Green Group Holding Ltd",
+      "ipo_date": "2023-09-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TYGJU",
+      "name": "AMERICAN TUOYUAN INTERNATIONAL SECURITIES GROUP INC",
+      "ipo_date": "2023-08-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MISNU",
+      "name": "Mission Control Acquisition Corp.",
+      "ipo_date": "2023-08-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HXSZ",
+      "name": "HONGXU SHANGZENG GLOBAL HOLDING LTD",
+      "ipo_date": "2023-08-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "NNAGU",
+      "name": "99 Acquisition Group Inc.",
+      "ipo_date": "2023-08-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SRM",
+      "name": "SRM Entertainment, Inc.",
+      "ipo_date": "2023-08-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SPGC",
+      "name": "Sacks Parente Golf, Inc.",
+      "ipo_date": "2023-08-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZXTY",
+      "name": "ZHONGXING HOLDING GROUP LTD",
+      "ipo_date": "2023-08-11",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LQR",
+      "name": "LQR House Inc.",
+      "ipo_date": "2023-08-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZDYM",
+      "name": "ZHIDING YUEMEI TECHNOLOGY CO., LTD",
+      "ipo_date": "2023-08-08",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JZL",
+      "name": "JIZHILONG HOLDING GROUP LTD",
+      "ipo_date": "2023-08-04",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VITT",
+      "name": "Vittoria Ltd",
+      "ipo_date": "2023-08-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PXDT",
+      "name": "PIXIE DUST TECHNOLOGIES, INC.",
+      "ipo_date": "2023-08-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HRYU",
+      "name": "Hanryu Holdings, Inc.",
+      "ipo_date": "2023-08-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PFAB",
+      "name": "PreTam Holdings Inc.",
+      "ipo_date": "2023-07-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "HYACU",
+      "name": "Haymaker Acquisition Corp. 4",
+      "ipo_date": "2023-07-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CGRD",
+      "name": "GRD Biotechnology Acquisition Ltd",
+      "ipo_date": "2023-07-26",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "WRNT",
+      "name": "WARRANTEE INC.",
+      "ipo_date": "2023-07-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JNVR",
+      "name": "Janover Inc.",
+      "ipo_date": "2023-07-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TSBX",
+      "name": "Turnstone Biologics Corp.",
+      "ipo_date": "2023-07-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "NETDU",
+      "name": "Nabors Energy Transition Corp. II",
+      "ipo_date": "2023-07-14",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BOWNU",
+      "name": "Bowen Acquisition Corp",
+      "ipo_date": "2023-07-12",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PWM",
+      "name": "Prestige Wealth Inc.",
+      "ipo_date": "2023-07-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LGM",
+      "name": "SIXGOMEOW LTD",
+      "ipo_date": "2023-07-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BUJAU",
+      "name": "Bukit Jalil Global Acquisition 1 Ltd.",
+      "ipo_date": "2023-06-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ESHAU",
+      "name": "ESH Acquisition Corp.",
+      "ipo_date": "2023-06-14",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MDRN",
+      "name": "Modern Mining Technology Corp.",
+      "ipo_date": "2023-06-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "IPXXU",
+      "name": "Inflection Point Acquisition Corp. II",
+      "ipo_date": "2023-05-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SGE",
+      "name": "Strong Global Entertainment, Inc.",
+      "ipo_date": "2023-05-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SLRN",
+      "name": "ACELYRIN, Inc.",
+      "ipo_date": "2023-05-05",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GODNU",
+      "name": "Golden Star Acquisition Corp",
+      "ipo_date": "2023-05-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "AACTU",
+      "name": "Ares Acquisition Corp II",
+      "ipo_date": "2023-04-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "JPO",
+      "name": "JP Outfitters, Inc.",
+      "ipo_date": "2023-04-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TCJH",
+      "name": "Top KingWin Ltd",
+      "ipo_date": "2023-04-18",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SYT",
+      "name": "SYLA Technologies Co., Ltd.",
+      "ipo_date": "2023-03-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SUNH",
+      "name": "Xuhang Holdings Ltd",
+      "ipo_date": "2023-03-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "GFCX",
+      "name": "GoodFaith Technology Inc.",
+      "ipo_date": "2023-03-30",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TBMCU",
+      "name": "Trailblazer Merger Corp I",
+      "ipo_date": "2023-03-29",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YGF",
+      "name": "YanGuFang International Group Co., Ltd",
+      "ipo_date": "2023-03-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "TMTCU",
+      "name": "TMT Acquisition Corp.",
+      "ipo_date": "2023-03-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "USEE",
+      "name": "USEE ELECTRONIC COMMERCE LTD",
+      "ipo_date": "2023-03-23",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BKSSR",
+      "name": "B.K.S.S. Real Estate Corp",
+      "ipo_date": "2023-03-21",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CKHL",
+      "name": "Chi Ko Holdings Ltd",
+      "ipo_date": "2023-03-16",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OLSI",
+      "name": "Origin Life Sciences, Inc.",
+      "ipo_date": "2023-03-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "OPHV",
+      "name": "Opti-Harvest, Inc.",
+      "ipo_date": "2023-03-02",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DAZS",
+      "name": "DA AI ZHI SHUI INTERNATIONAL HOLDING GROUP LTD",
+      "ipo_date": "2023-03-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ODDB",
+      "name": "Odd Burger Corp",
+      "ipo_date": "2023-03-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SBXCU",
+      "name": "SilverBox Corp III",
+      "ipo_date": "2023-02-28",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QZAM",
+      "name": "QZ Global LTD",
+      "ipo_date": "2023-02-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BSME",
+      "name": "MED EIBY Holding Co., Ltd",
+      "ipo_date": "2023-02-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QZAM",
+      "name": "QZ Global LTD",
+      "ipo_date": "2023-02-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "NTV",
+      "name": "Neotv Group Ltd",
+      "ipo_date": "2023-02-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "NFTG",
+      "name": "NFT Gaming Co Inc.",
+      "ipo_date": "2023-02-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "DISTU",
+      "name": "Distoken Acquisition Corp",
+      "ipo_date": "2023-02-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "SODR",
+      "name": "SONDORS Inc.",
+      "ipo_date": "2023-02-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ALPX",
+      "name": "Alopexx, Inc.",
+      "ipo_date": "2023-02-15",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MARXU",
+      "name": "Mars Acquisition Corp.",
+      "ipo_date": "2023-02-14",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "PTHRU",
+      "name": "Pono Capital Three, Inc.",
+      "ipo_date": "2023-02-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BLACU",
+      "name": "Bellevue Life Sciences Acquisition Corp.",
+      "ipo_date": "2023-02-10",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "LSDI",
+      "name": "Lucy Scientific Discovery, Inc.",
+      "ipo_date": "2023-02-09",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "ZBJ",
+      "name": "ZBJ FINANCE GROUP LTD",
+      "ipo_date": "2023-02-07",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "YZH",
+      "name": "YUEZHONGHUI INTERNATIONAL HOLDINGS GROUP LTD",
+      "ipo_date": "2023-02-06",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "CETUU",
+      "name": "Cetus Capital Acquisition Corp.",
+      "ipo_date": "2023-02-01",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "VOCO",
+      "name": "Vocodia Holdings Corp",
+      "ipo_date": "2023-01-31",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "BREA",
+      "name": "Brera Holdings PLC",
+      "ipo_date": "2023-01-27",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "QSG",
+      "name": "QuantaSing Group Ltd",
+      "ipo_date": "2023-01-25",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "THNK",
+      "name": "T1V, Inc.",
+      "ipo_date": "2023-01-24",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "MGOL",
+      "name": "MGO Global Inc.",
+      "ipo_date": "2023-01-13",
+      "error": "No price data available"
+    },
+    {
+      "ticker": "RVGO",
+      "name": "RVELOCITY, INC.",
+      "ipo_date": "2023-01-13",
+      "error": "No price data available"
+    }
+  ]
+}

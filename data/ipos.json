@@ -1,117 +1,3445 @@
 {
-  "last_updated": "2026-02-04",
-  "source": "Stock Analysis / Yahoo Finance / SEC Filings (Sample dataset - not comprehensive)",
+  "last_updated": "2026-02-06",
+  "source": "Stock Analysis / Yahoo Finance / Finnhub / SEC Filings",
   "note": "This is a curated sample of notable IPOs sourced from free, publicly available APIs. It does not represent all IPOs from this period.",
   "ipos": [
+    {
+      "ticker": "BOBS",
+      "name": "Bob's Discount Furniture, Inc.",
+      "ipo_date": "2026-02-05",
+      "ipo_price": 17.0,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "FPS",
+      "name": "Forgent Power Solutions, Inc.",
+      "ipo_date": "2026-02-05",
+      "ipo_price": 26.0,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "EIKN",
+      "name": "Eikon Therapeutics, Inc.",
+      "ipo_date": "2026-02-05",
+      "ipo_price": 17.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "OBAI",
+      "name": "TG-17, Inc.",
+      "ipo_date": "2026-02-04",
+      "ipo_price": 20.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MANE",
+      "name": "VeraDermics, Inc",
+      "ipo_date": "2026-02-04",
+      "ipo_price": 34.0,
+      "exchange": "Unknown",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "QADRU",
+      "name": "QDRO Acquisition Corp.",
+      "ipo_date": "2026-02-02",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "PLYX",
+      "name": "Polaryx Therapeutics, Inc.",
+      "ipo_date": "2026-02-02",
+      "ipo_price": 45.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "MEVOU",
+      "name": "M Evo Global Acquisition Corp II",
+      "ipo_date": "2026-01-30",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MUZEU",
+      "name": "Muzero Acquisition Corp",
+      "ipo_date": "2026-01-30",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "VHUB",
+      "name": "VenHub Global, Inc.",
+      "ipo_date": "2026-01-30",
+      "ipo_price": 24.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "NBRGU",
+      "name": "Newbridge Acquisition Ltd",
+      "ipo_date": "2026-01-30",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PICS",
+      "name": "Picpay Holdings Netherlands B.V.",
+      "ipo_date": "2026-01-30",
+      "ipo_price": 19.01,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "YSS",
+      "name": "Yellowstone Midco Holdings II, LLC",
+      "ipo_date": "2026-01-30",
+      "ipo_price": 34.5,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "XSLLU",
+      "name": "Xsolla SPAC 1",
+      "ipo_date": "2026-01-30",
+      "ipo_price": 9.94,
+      "exchange": "NASDAQ",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LIFE",
+      "name": "Ethos Technologies Inc.",
+      "ipo_date": "2026-01-30",
+      "ipo_price": 17.5,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "KTWOU",
+      "name": "K2 Capital Acquisition Corp",
+      "ipo_date": "2026-01-29",
+      "ipo_price": 10.03,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "KRAQU",
+      "name": "KRAKacquisition Corp",
+      "ipo_date": "2026-01-28",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "SAAQU",
+      "name": "Space Asset Acquisition Corp.",
+      "ipo_date": "2026-01-28",
+      "ipo_price": 10.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "PPHC",
+      "name": "Public Policy Holding Company, Inc.",
+      "ipo_date": "2026-01-28",
+      "ipo_price": 12.19,
+      "exchange": "NASDAQ Global",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "VTIX",
+      "name": "Virtuix Holdings Inc.",
+      "ipo_date": "2026-01-27",
+      "ipo_price": 20.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "GIXXU",
+      "name": "GigCapital9 Corp.",
+      "ipo_date": "2026-01-27",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "MLAAU",
+      "name": "Mountain Lake Acquisition Corp. II",
+      "ipo_date": "2026-01-27",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "MJID",
+      "name": "Majestic Ideal Holdings Ltd",
+      "ipo_date": "2026-01-27",
+      "ipo_price": 0.19,
+      "exchange": "NASDAQ Capital",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "DYNXU",
+      "name": "Dynamix Corp",
+      "ipo_date": "2026-01-27",
+      "ipo_price": 11.21,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "SWIN",
+      "name": "Solowin Holdings, Ltd.",
+      "ipo_date": "2026-01-27",
+      "ipo_price": 4.13,
+      "exchange": "NASDAQ Capital",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "WLGS",
+      "name": "WANG & LEE GROUP, Inc.",
+      "ipo_date": "2026-01-27",
+      "ipo_price": 0.01,
+      "exchange": "NASDAQ Capital",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "ARCIU",
+      "name": "Archimedes Tech SPAC Partners III Co.",
+      "ipo_date": "2026-01-23",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "EQPT",
+      "name": "EquipmentShare.com Inc",
+      "ipo_date": "2026-01-23",
+      "ipo_price": 28.5,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "HLXC",
+      "name": "Helix Acquisition Corp. III",
+      "ipo_date": "2026-01-23",
+      "ipo_price": 10.24,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "PTORU",
+      "name": "Praetorian Acquisition Corp.",
+      "ipo_date": "2026-01-23",
+      "ipo_price": 9.97,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ALOVU",
+      "name": "Aldabra 4 Liquidity Opportunity Vehicle, Inc.",
+      "ipo_date": "2026-01-22",
+      "ipo_price": 9.97,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "BTGO",
+      "name": "BITGO HOLDINGS, INC.",
+      "ipo_date": "2026-01-22",
+      "ipo_price": 22.43,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "XCBEU",
+      "name": "X3 Acquisition Corp. Ltd.",
+      "ipo_date": "2026-01-21",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "IEAGU",
+      "name": "Infinite Eagle Acquisition Corp.",
+      "ipo_date": "2026-01-16",
+      "ipo_price": 10.29,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FGIIU",
+      "name": "FG Imperii Acquisition Corp.",
+      "ipo_date": "2026-01-16",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "OIMAU",
+      "name": "OneIM Acquisition Corp.",
+      "ipo_date": "2026-01-14",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GCDT",
+      "name": "Green Circle Decarbonize Technology Ltd",
+      "ipo_date": "2026-01-13",
+      "ipo_price": 4.3,
+      "exchange": "NYSE MKT",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "WSTNU",
+      "name": "Westin Acquisition Corp",
+      "ipo_date": "2026-01-13",
+      "ipo_price": 10.07,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AKTS",
+      "name": "Aktis Oncology, Inc.",
+      "ipo_date": "2026-01-09",
+      "ipo_price": 27.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "ZKPU",
+      "name": "Lafayette Digital Acquisition Corp. I",
+      "ipo_date": "2026-01-09",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "BBCQU",
+      "name": "Bleichroeder Acquisition Corp. II",
+      "ipo_date": "2026-01-08",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "BUDA",
+      "name": "BUDA JUICE, INC.",
+      "ipo_date": "2026-01-08",
+      "ipo_price": 12.0,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "SORNU",
+      "name": "Soren Acquisition Corp.",
+      "ipo_date": "2026-01-07",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ARTCU",
+      "name": "Art Technology Acquisition Corp.",
+      "ipo_date": "2026-01-06",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "SCPQU",
+      "name": "Social Commerce Partners Corp",
+      "ipo_date": "2025-12-23",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SVAQU",
+      "name": "Silicon Valley Acquisition Corp.",
+      "ipo_date": "2025-12-23",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FJET",
+      "name": "Starfighters Space, Inc.",
+      "ipo_date": "2025-12-18",
+      "ipo_price": 10.0,
+      "exchange": "NYSE MKT",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "VHCPU",
+      "name": "Vine Hill Capital Investment Corp. II",
+      "ipo_date": "2025-12-18",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LPCVU",
+      "name": "Launchpad Cadenza Acquisition Corp I",
+      "ipo_date": "2025-12-18",
+      "ipo_price": 9.96,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "ADACU",
+      "name": "American Drive Acquisition Co",
+      "ipo_date": "2025-12-18",
+      "ipo_price": 9.96,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
     {
       "ticker": "MDLN",
       "name": "Medline Industries Inc",
       "ipo_date": "2025-12-17",
-      "ipo_price": 29.00,
+      "ipo_price": 29.0,
       "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "CCXIU",
+      "name": "Churchill Capital Corp XI",
+      "ipo_date": "2025-12-17",
+      "ipo_price": 10.2,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ANDG",
+      "name": "Andersen Group Inc.",
+      "ipo_date": "2025-12-17",
+      "ipo_price": 21.0,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "IRHOU",
+      "name": "Iron Horse Acquisition II Corp.",
+      "ipo_date": "2025-12-17",
+      "ipo_price": 9.95,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "CRANU",
+      "name": "Crane Harbor Acquisition Corp. II",
+      "ipo_date": "2025-12-16",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "WLTH",
+      "name": "WEALTHFRONT CORP",
+      "ipo_date": "2025-12-15",
+      "ipo_price": 14.55,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ITHAU",
+      "name": "ITHAX Acquisition Corp III",
+      "ipo_date": "2025-12-12",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "TWLVU",
+      "name": "Twelve Seas Investment Co III/Cayman",
+      "ipo_date": "2025-12-12",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LMRI",
+      "name": "Lumexa Imaging Holdings, Inc.",
+      "ipo_date": "2025-12-11",
+      "ipo_price": 18.65,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BLRKU",
+      "name": "Bluerock Acquisition Corp.",
+      "ipo_date": "2025-12-11",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "KBONU",
+      "name": "Karbon Capital Partners Corp.",
+      "ipo_date": "2025-12-11",
+      "ipo_price": 10.07,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CDNL",
+      "name": "Cardinal Infrastructure Group Inc.",
+      "ipo_date": "2025-12-10",
+      "ipo_price": 23.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MESHU",
+      "name": "Meshflow Acquisition Corp",
+      "ipo_date": "2025-12-10",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "JMG",
+      "name": "JM Group Ltd",
+      "ipo_date": "2025-12-10",
+      "ipo_price": 4.5,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "DSACU",
+      "name": "Daedalus Special Acquisition Corp.",
+      "ipo_date": "2025-12-09",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "REED",
+      "name": "REED'S, INC.",
+      "ipo_date": "2025-12-05",
+      "ipo_price": 3.01,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "LFACU",
+      "name": "Leapfrog Acquisition Corp",
+      "ipo_date": "2025-12-05",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "HYNE",
+      "name": "Hoyne Bancorp, Inc.",
+      "ipo_date": "2025-12-04",
+      "ipo_price": 13.35,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AEAQU",
+      "name": "Activate Energy Acquisition Corp.",
+      "ipo_date": "2025-12-04",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "SMJF",
+      "name": "SMJ International Holdings Inc.",
+      "ipo_date": "2025-12-04",
+      "ipo_price": 4.42,
+      "exchange": "NYSE MKT",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "RGNT",
+      "name": "REGENTIS BIOMATERIALS LTD.",
+      "ipo_date": "2025-12-04",
+      "ipo_price": 7.4,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "GPACU",
+      "name": "General Purpose Acquisition Corp.",
+      "ipo_date": "2025-12-03",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PARK",
+      "name": "Park Dental Partners, Inc.",
+      "ipo_date": "2025-12-03",
+      "ipo_price": 13.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BIXIU",
+      "name": "Bitcoin Infrastructure Acquisition Corp Ltd",
+      "ipo_date": "2025-12-02",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "SCIIU",
+      "name": "SC II Acquisition Corp.",
+      "ipo_date": "2025-11-26",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "IGACU",
+      "name": "Invest Green Acquisition Corp",
+      "ipo_date": "2025-11-25",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "HCACU",
+      "name": "Hall Chadwick Acquisition Corp",
+      "ipo_date": "2025-11-21",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "CBC",
+      "name": "Central Bancompany, Inc.",
+      "ipo_date": "2025-11-21",
+      "ipo_price": 22.8,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GLOO",
+      "name": "Gloo Holdings, Inc.",
+      "ipo_date": "2025-11-19",
+      "ipo_price": 8.05,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CABR",
+      "name": "Caring Brands, Inc.",
+      "ipo_date": "2025-11-17",
+      "ipo_price": 0.98,
+      "exchange": "NASDAQ Capital",
       "sector": "Healthcare"
     },
     {
       "ticker": "SAIL",
       "name": "SailPoint Inc",
       "ipo_date": "2025-11-15",
-      "ipo_price": 23.00,
+      "ipo_price": 23.0,
       "exchange": "NASDAQ",
       "sector": "Technology"
+    },
+    {
+      "ticker": "WSHP",
+      "name": "WeShop Holdings Ltd",
+      "ipo_date": "2025-11-14",
+      "ipo_price": 20.02,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "OTH",
+      "name": "OFF THE HOOK YS INC.",
+      "ipo_date": "2025-11-13",
+      "ipo_price": 3.55,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "POAS",
+      "name": "Phaos Technology (Cayman) Holdings Ltd",
+      "ipo_date": "2025-11-13",
+      "ipo_price": 3.74,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "MTSR",
+      "name": "Metsera, Inc.",
+      "ipo_date": "2025-11-13",
+      "ipo_price": 70.74,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BPACU",
+      "name": "Blueport Acquisition Ltd",
+      "ipo_date": "2025-11-12",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Capital",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "EVOXU",
+      "name": "Evolution Global Acquisition Corp",
+      "ipo_date": "2025-11-11",
+      "ipo_price": 10.14,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "TDWDU",
+      "name": "Tailwind 2.0 Acquisition Corp.",
+      "ipo_date": "2025-11-07",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "CRACU",
+      "name": "Crown Reserve Acquisition Corp. I",
+      "ipo_date": "2025-11-07",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "EVMN",
+      "name": "Evommune, Inc.",
+      "ipo_date": "2025-11-06",
+      "ipo_price": 17.25,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BLLN",
+      "name": "BillionToOne, Inc.",
+      "ipo_date": "2025-11-06",
+      "ipo_price": 100.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "AERO",
+      "name": "Grupo Aeromexico, S.A.B. de C.V.",
+      "ipo_date": "2025-11-06",
+      "ipo_price": 19.16,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "XZO",
+      "name": "Exzeo Group, Inc.",
+      "ipo_date": "2025-11-05",
+      "ipo_price": 21.0,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ELWT",
+      "name": "Elauwit Connection, Inc.",
+      "ipo_date": "2025-11-05",
+      "ipo_price": 8.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "MEHA",
+      "name": "Functional Brands Inc.",
+      "ipo_date": "2025-11-05",
+      "ipo_price": 8.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "BETA",
+      "name": "BETA Technologies, Inc.",
+      "ipo_date": "2025-11-04",
+      "ipo_price": 34.0,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CEPV",
+      "name": "Cantor Equity Partners V, Inc.",
+      "ipo_date": "2025-11-04",
+      "ipo_price": 10.28,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "NOMA",
+      "name": "Nomadar Corp.",
+      "ipo_date": "2025-11-03",
+      "ipo_price": 9.07,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
     },
     {
       "ticker": "NAVN",
       "name": "Navan Inc",
       "ipo_date": "2025-10-30",
-      "ipo_price": 25.00,
+      "ipo_price": 25.0,
       "exchange": "NASDAQ",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "DNMXU",
+      "name": "Dynamix Corp III",
+      "ipo_date": "2025-10-30",
+      "ipo_price": 10.12,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "DYORU",
+      "name": "Insight Digital Partners II",
+      "ipo_date": "2025-10-29",
+      "ipo_price": 10.11,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "APXTU",
+      "name": "Apex Treasury Corp",
+      "ipo_date": "2025-10-28",
+      "ipo_price": 10.06,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MPLT",
+      "name": "MapLight Therapeutics, Inc.",
+      "ipo_date": "2025-10-27",
+      "ipo_price": 19.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "LAFAU",
+      "name": "LaFayette Acquisition Corp.",
+      "ipo_date": "2025-10-24",
+      "ipo_price": 9.99,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MMTXU",
+      "name": "Miluna Acquisition Corp",
+      "ipo_date": "2025-10-23",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "HAVAU",
+      "name": "Harvard Ave Acquisition Corp",
+      "ipo_date": "2025-10-23",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AGCC",
+      "name": "Agencia Comercial Spirits Ltd.",
+      "ipo_date": "2025-10-22",
+      "ipo_price": 3.82,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "NPT",
+      "name": "Texxon Holding Ltd",
+      "ipo_date": "2025-10-22",
+      "ipo_price": 5.15,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ALISU",
+      "name": "Calisa Acquisition Corp",
+      "ipo_date": "2025-10-22",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MCTA",
+      "name": "Charming Medical Ltd",
+      "ipo_date": "2025-10-21",
+      "ipo_price": 4.59,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BGIN",
+      "name": "BGIN BLOCKCHAIN Ltd",
+      "ipo_date": "2025-10-21",
+      "ipo_price": 6.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "AHMA",
+      "name": "AMBITIONS ENTERPRISE MANAGEMENT CO. L.L.C",
+      "ipo_date": "2025-10-21",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ACCL",
+      "name": "Acco Group Holdings Ltd",
+      "ipo_date": "2025-10-17",
+      "ipo_price": 4.05,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "OWLS",
+      "name": "OBOOK HOLDINGS INC.",
+      "ipo_date": "2025-10-16",
+      "ipo_price": 68.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "SEV",
+      "name": "Aptera Motors Corp",
+      "ipo_date": "2025-10-16",
+      "ipo_price": 19.99,
+      "exchange": "NASDAQ Capital",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "TCGL",
+      "name": "TechCreate Group Ltd.",
+      "ipo_date": "2025-10-15",
+      "ipo_price": 4.5,
+      "exchange": "NYSE MKT",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "SLGB",
+      "name": "Smart Logistics Global Ltd",
+      "ipo_date": "2025-10-15",
+      "ipo_price": 5.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "RPGL",
+      "name": "Republic Power Group Ltd",
+      "ipo_date": "2025-10-14",
+      "ipo_price": 4.2,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ALH",
+      "name": "Alliance Laundry Holdings Inc.",
+      "ipo_date": "2025-10-09",
+      "ipo_price": 24.5,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "PXED",
+      "name": "Phoenix Education Partners, Inc.",
+      "ipo_date": "2025-10-09",
+      "ipo_price": 37.74,
+      "exchange": "NYSE",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "YDDL",
+      "name": "One & one Green Technologies. INC",
+      "ipo_date": "2025-10-09",
+      "ipo_price": 5.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "LFS",
+      "name": "LEIFRAS Co., Ltd.",
+      "ipo_date": "2025-10-09",
+      "ipo_price": 3.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "TTRX",
+      "name": "Turn Therapeutics Inc.",
+      "ipo_date": "2025-10-08",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "POM",
+      "name": "POMDOCTOR Ltd",
+      "ipo_date": "2025-10-08",
+      "ipo_price": 4.5,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "LKSPU",
+      "name": "Lake Superior Acquisition Corp",
+      "ipo_date": "2025-10-07",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GIWWU",
+      "name": "GigCapital8 Corp.",
+      "ipo_date": "2025-10-06",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "MGRM",
+      "name": "MONOGRAM ORTHOPAEDICS INC",
+      "ipo_date": "2025-10-06",
+      "ipo_price": 6.1,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "RNGTU",
+      "name": "Range Capital Acquisition Corp II",
+      "ipo_date": "2025-10-03",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "CCHH",
+      "name": "CCH Holdings Ltd",
+      "ipo_date": "2025-10-03",
+      "ipo_price": 5.32,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "CBK",
+      "name": "Commercial Bancgroup, Inc.",
+      "ipo_date": "2025-10-02",
+      "ipo_price": 25.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FRMI",
+      "name": "Fermi Inc.",
+      "ipo_date": "2025-10-01",
+      "ipo_price": 25.13,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "NP",
+      "name": "Neptune Insurance Holdings Inc.",
+      "ipo_date": "2025-10-01",
+      "ipo_price": 22.46,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AGRZ",
+      "name": "Agroz Inc.",
+      "ipo_date": "2025-10-01",
+      "ipo_price": 4.05,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "BDCIU",
+      "name": "BTC Development Corp.",
+      "ipo_date": "2025-09-30",
+      "ipo_price": 10.09,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "APACU",
+      "name": "StoneBridge Acquisition II Corp",
+      "ipo_date": "2025-09-30",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "KNRX",
+      "name": "KNOREX LTD.",
+      "ipo_date": "2025-09-29",
+      "ipo_price": 4.0,
+      "exchange": "NYSE MKT",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "AEXA",
+      "name": "American Exceptionalism Acquisition Corp. A",
+      "ipo_date": "2025-09-26",
+      "ipo_price": 10.6,
+      "exchange": "NYSE",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "MGN",
+      "name": "Megan Holdings Ltd.",
+      "ipo_date": "2025-09-26",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "DMIIU",
+      "name": "Drugs Made In America Acquisition II Corp.",
+      "ipo_date": "2025-09-25",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PTRN",
+      "name": "Pattern Group Inc.",
+      "ipo_date": "2025-09-19",
+      "ipo_price": 13.25,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "LATAU",
+      "name": "Galata Acquisition Corp. II",
+      "ipo_date": "2025-09-19",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PLTS",
+      "name": "Platinum Analytics Cayman Ltd",
+      "ipo_date": "2025-09-19",
+      "ipo_price": 4.6,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "NTSK",
+      "name": "Netskope Inc",
+      "ipo_date": "2025-09-18",
+      "ipo_price": 23.0,
+      "exchange": "NASDAQ Global Select",
       "sector": "Technology"
     },
     {
       "ticker": "STUB",
       "name": "StubHub Holdings Inc",
       "ipo_date": "2025-09-17",
-      "ipo_price": 23.50,
+      "ipo_price": 23.5,
       "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "WBI",
+      "name": "WaterBridge Infrastructure LLC",
+      "ipo_date": "2025-09-17",
+      "ipo_price": 25.0,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "CHECU",
+      "name": "Chenghe Acquisition III Co.",
+      "ipo_date": "2025-09-16",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CHOW",
+      "name": "ChowChow Cloud International Holdings Ltd",
+      "ipo_date": "2025-09-16",
+      "ipo_price": 8.0,
+      "exchange": "NYSE MKT",
       "sector": "Technology"
     },
     {
       "ticker": "FIG",
       "name": "Figma Inc",
       "ipo_date": "2025-09-12",
-      "ipo_price": 67.00,
+      "ipo_price": 67.0,
       "exchange": "NYSE",
       "sector": "Technology"
+    },
+    {
+      "ticker": "OTGAU",
+      "name": "OTG Acquisition Corp. I",
+      "ipo_date": "2025-09-12",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BRCB",
+      "name": "BLACK ROCK COFFEE BAR, INC.",
+      "ipo_date": "2025-09-12",
+      "ipo_price": 26.5,
+      "exchange": "NASDAQ Global",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "VIA",
+      "name": "Via Transportation, Inc.",
+      "ipo_date": "2025-09-12",
+      "ipo_price": 44.22,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "LGN",
+      "name": "Legence Corp.",
+      "ipo_date": "2025-09-12",
+      "ipo_price": 27.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "GEMI",
+      "name": "Gemini Space Station, Inc.",
+      "ipo_date": "2025-09-12",
+      "ipo_price": 37.01,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FOFO",
+      "name": "Hang Feng Technology Innovation Co., Ltd.",
+      "ipo_date": "2025-09-12",
+      "ipo_price": 5.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
     },
     {
       "ticker": "FIGR",
       "name": "Figure Technology Solutions",
       "ipo_date": "2025-09-11",
-      "ipo_price": 25.00,
+      "ipo_price": 25.0,
       "exchange": "NYSE",
       "sector": "Financial Services"
+    },
+    {
+      "ticker": "LBRX",
+      "name": "LB PHARMACEUTICALS INC",
+      "ipo_date": "2025-09-11",
+      "ipo_price": 19.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
     },
     {
       "ticker": "KLAR",
       "name": "Klarna Group plc",
       "ipo_date": "2025-09-10",
-      "ipo_price": 40.00,
+      "ipo_price": 40.0,
       "exchange": "NYSE",
       "sector": "Financial Services"
+    },
+    {
+      "ticker": "BLZRU",
+      "name": "Trailblazer Acquisition Corp.",
+      "ipo_date": "2025-09-10",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "TLNCU",
+      "name": "Talon Capital Corp.",
+      "ipo_date": "2025-09-09",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ZGM",
+      "name": "Zenta Group Co Ltd",
+      "ipo_date": "2025-09-09",
+      "ipo_price": 4.35,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SVACU",
+      "name": "Spring Valley Acquisition Corp. III",
+      "ipo_date": "2025-09-04",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "GSRFU",
+      "name": "GSR IV Acquisition Corp.",
+      "ipo_date": "2025-09-04",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FCHL",
+      "name": "Fitness Champs Holdings Ltd",
+      "ipo_date": "2025-09-04",
+      "ipo_price": 3.9,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "PMI",
+      "name": "Picard Medical, Inc.",
+      "ipo_date": "2025-08-29",
+      "ipo_price": 4.21,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "THH",
+      "name": "TryHard Holdings Ltd",
+      "ipo_date": "2025-08-28",
+      "ipo_price": 7.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "TGHL",
+      "name": "GrowHub Ltd",
+      "ipo_date": "2025-08-28",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ELOG",
+      "name": "Eastern International Ltd.",
+      "ipo_date": "2025-08-28",
+      "ipo_price": 3.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MBVIU",
+      "name": "M3-Brigade Acquisition VI Corp.",
+      "ipo_date": "2025-08-27",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "KOYNU",
+      "name": "CSLM Digital Asset Acquisition Corp III, Ltd",
+      "ipo_date": "2025-08-27",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CURX",
+      "name": "Curanex Pharmaceuticals Inc",
+      "ipo_date": "2025-08-26",
+      "ipo_price": 3.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "CEPF",
+      "name": "Cantor Equity Partners IV, Inc.",
+      "ipo_date": "2025-08-21",
+      "ipo_price": 10.13,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ETS",
+      "name": "Elite Express Holding Inc.",
+      "ipo_date": "2025-08-21",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "YMT",
+      "name": "Yimutian Inc.",
+      "ipo_date": "2025-08-19",
+      "ipo_price": 5.88,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "PPCB",
+      "name": "Propanc Biopharma, Inc.",
+      "ipo_date": "2025-08-15",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "NUTR",
+      "name": "NUSATRIP Inc",
+      "ipo_date": "2025-08-15",
+      "ipo_price": 3.55,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "MIAX",
+      "name": "MIAMI INTERNATIONAL HOLDINGS, INC.",
+      "ipo_date": "2025-08-14",
+      "ipo_price": 31.95,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BUUU",
+      "name": "BUUU Group Ltd",
+      "ipo_date": "2025-08-14",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "RYOJ",
+      "name": "rYojbaba Co., Ltd.",
+      "ipo_date": "2025-08-14",
+      "ipo_price": 3.72,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "BLSH",
+      "name": "Bullish",
+      "ipo_date": "2025-08-13",
+      "ipo_price": 95.69,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "NSRX",
+      "name": "Nasus Pharma Ltd",
+      "ipo_date": "2025-08-13",
+      "ipo_price": 8.0,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "HVMCU",
+      "name": "Highview Merger Corp.",
+      "ipo_date": "2025-08-12",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MKLYU",
+      "name": "McKinley Acquisition Corp",
+      "ipo_date": "2025-08-12",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MAGH",
+      "name": "Magnitude International Ltd",
+      "ipo_date": "2025-08-12",
+      "ipo_price": 3.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "HTFL",
+      "name": "Heartflow, Inc.",
+      "ipo_date": "2025-08-11",
+      "ipo_price": 28.75,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "DKI",
+      "name": "DarkIris Inc.",
+      "ipo_date": "2025-08-08",
+      "ipo_price": 8.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "SSEAU",
+      "name": "STARRY SEA ACQUISITION CORP",
+      "ipo_date": "2025-08-08",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "EFTY",
+      "name": "ETOILES CAPITAL GROUP CO., LTD",
+      "ipo_date": "2025-08-08",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
     },
     {
       "ticker": "FLY",
       "name": "Firefly Aerospace Inc",
       "ipo_date": "2025-08-07",
-      "ipo_price": 45.00,
+      "ipo_price": 45.0,
       "exchange": "NASDAQ",
       "sector": "Industrials"
+    },
+    {
+      "ticker": "WYFI",
+      "name": "WhiteFiber, Inc.",
+      "ipo_date": "2025-08-07",
+      "ipo_price": 25.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "QUMSU",
+      "name": "Quantumsphere Acquisition Corp",
+      "ipo_date": "2025-08-06",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CTW",
+      "name": "CTW Cayman",
+      "ipo_date": "2025-08-06",
+      "ipo_price": 4.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "HCMAU",
+      "name": "HCM III ACQUISITION CORP.",
+      "ipo_date": "2025-08-01",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SI",
+      "name": "SHOULDER INNOVATIONS, INC.",
+      "ipo_date": "2025-07-31",
+      "ipo_price": 15.6,
+      "exchange": "NYSE",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "BCARU",
+      "name": "D. Boral ARC Acquisition I Corp.",
+      "ipo_date": "2025-07-31",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AMBQ",
+      "name": "Ambiq Micro, Inc.",
+      "ipo_date": "2025-07-30",
+      "ipo_price": 38.0,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "APADU",
+      "name": "AParadise Acquisition Corp.",
+      "ipo_date": "2025-07-30",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "YMAT",
+      "name": "J-Star Holding Co., Ltd.",
+      "ipo_date": "2025-07-30",
+      "ipo_price": 4.49,
+      "exchange": "NASDAQ Capital",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "ARX",
+      "name": "Accelerant Holdings",
+      "ipo_date": "2025-07-24",
+      "ipo_price": 28.5,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MH",
+      "name": "McGraw Hill, Inc.",
+      "ipo_date": "2025-07-24",
+      "ipo_price": 17.0,
+      "exchange": "NYSE",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "LHAI",
+      "name": "Linkhome Holdings Inc.",
+      "ipo_date": "2025-07-24",
+      "ipo_price": 6.01,
+      "exchange": "NASDAQ Capital",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "NIQ",
+      "name": "NIQ Global Intelligence plc",
+      "ipo_date": "2025-07-23",
+      "ipo_price": 20.25,
+      "exchange": "NYSE",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "CARL",
+      "name": "CARLSMED, INC.",
+      "ipo_date": "2025-07-23",
+      "ipo_price": 15.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "TDIC",
+      "name": "Dreamland Ltd",
+      "ipo_date": "2025-07-23",
+      "ipo_price": 3.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "CRE",
+      "name": "Cre8 Enterprise Ltd",
+      "ipo_date": "2025-07-23",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "LAWR",
+      "name": "Robot Consulting Co., Ltd.",
+      "ipo_date": "2025-07-17",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "AUGO",
+      "name": "Aura Minerals Inc.",
+      "ipo_date": "2025-07-16",
+      "ipo_price": 24.21,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "SOCAU",
+      "name": "Solarius Capital Acquisition Corp.",
+      "ipo_date": "2025-07-16",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "KMRK",
+      "name": "K-TECH SOLUTIONS CO LTD",
+      "ipo_date": "2025-07-16",
+      "ipo_price": 4.48,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "MGRT",
+      "name": "Mega Fortune Co Ltd",
+      "ipo_date": "2025-07-16",
+      "ipo_price": 3.99,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
     },
     {
       "ticker": "CRCL",
       "name": "Circle Internet Group Inc",
       "ipo_date": "2025-07-15",
-      "ipo_price": 31.00,
+      "ipo_price": 31.0,
       "exchange": "NYSE",
       "sector": "Financial Services"
+    },
+    {
+      "ticker": "SPEGU",
+      "name": "Silver Pegasus Acquisition Corp.",
+      "ipo_date": "2025-07-15",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BMHL",
+      "name": "Bluemount Holdings Ltd",
+      "ipo_date": "2025-07-11",
+      "ipo_price": 4.2,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GTERU",
+      "name": "Globa Terra Acquisition Corp",
+      "ipo_date": "2025-07-09",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "DLXY",
+      "name": "Delixy Holdings Ltd",
+      "ipo_date": "2025-07-09",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "ANPA",
+      "name": "Rich Sparkle Holdings Ltd",
+      "ipo_date": "2025-07-08",
+      "ipo_price": 3.6,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MSGY",
+      "name": "Masonglory Ltd",
+      "ipo_date": "2025-07-08",
+      "ipo_price": 4.28,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "TLIH",
+      "name": "Ten-League International Holdings Ltd",
+      "ipo_date": "2025-07-08",
+      "ipo_price": 3.87,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MAMK",
+      "name": "MaxsMaking Inc.",
+      "ipo_date": "2025-07-07",
+      "ipo_price": 3.99,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ONCHU",
+      "name": "1RT Acquisition Corp.",
+      "ipo_date": "2025-07-02",
+      "ipo_price": 10.2,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "COSO",
+      "name": "CoastalSouth Bancshares, Inc.",
+      "ipo_date": "2025-07-02",
+      "ipo_price": 21.93,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CV",
+      "name": "CapsoVision, Inc",
+      "ipo_date": "2025-07-02",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "VNMEU",
+      "name": "Vendome Acquisition Corp I",
+      "ipo_date": "2025-07-02",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ORIQU",
+      "name": "Origin Investment Corp I",
+      "ipo_date": "2025-07-02",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "EMPG",
+      "name": "Empro Group Inc.",
+      "ipo_date": "2025-07-02",
+      "ipo_price": 4.28,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "INACU",
+      "name": "Indigo Acquisition Corp.",
+      "ipo_date": "2025-07-01",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CCIIU",
+      "name": "Cohen Circle Acquisition Corp. II",
+      "ipo_date": "2025-07-01",
+      "ipo_price": 10.25,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "NMPAU",
+      "name": "NMP Acquisition Corp.",
+      "ipo_date": "2025-07-01",
+      "ipo_price": 9.99,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "GRAN",
+      "name": "Grande Group Ltd/HK",
+      "ipo_date": "2025-07-01",
+      "ipo_price": 5.9,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FIGXU",
+      "name": "FIGX Capital Acquisition Corp.",
+      "ipo_date": "2025-06-27",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CAEP",
+      "name": "Cantor Equity Partners III, Inc.",
+      "ipo_date": "2025-06-26",
+      "ipo_price": 10.65,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "JCAP",
+      "name": "Jefferson Capital, Inc. / DE",
+      "ipo_date": "2025-06-26",
+      "ipo_price": 18.55,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "JLHL",
+      "name": "Julong Holding Ltd",
+      "ipo_date": "2025-06-26",
+      "ipo_price": 6.21,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "OBAWU",
+      "name": "Oxley Bridge Acquisition Ltd",
+      "ipo_date": "2025-06-25",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LWACU",
+      "name": "LightWave Acquisition Corp.",
+      "ipo_date": "2025-06-25",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "FMFC",
+      "name": "Kandal M Venture Ltd",
+      "ipo_date": "2025-06-25",
+      "ipo_price": 4.76,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "HCHL",
+      "name": "Happy City Holdings Ltd",
+      "ipo_date": "2025-06-24",
+      "ipo_price": 6.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
     },
     {
       "ticker": "CHME",
       "name": "Chime Financial Inc",
       "ipo_date": "2025-06-20",
-      "ipo_price": 35.00,
+      "ipo_price": 35.0,
       "exchange": "NYSE",
       "sector": "Financial Services"
+    },
+    {
+      "ticker": "PACHU",
+      "name": "Pioneer Acquisition I Corp",
+      "ipo_date": "2025-06-18",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CAI",
+      "name": "Caris Life Sciences, Inc.",
+      "ipo_date": "2025-06-18",
+      "ipo_price": 27.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "SLDE",
+      "name": "Slide Insurance Holdings, Inc.",
+      "ipo_date": "2025-06-18",
+      "ipo_price": 21.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AXINU",
+      "name": "Axiom Intelligence Acquisition Corp 1",
+      "ipo_date": "2025-06-18",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "EGG",
+      "name": "ENIGMATIG LTD",
+      "ipo_date": "2025-06-18",
+      "ipo_price": 8.5,
+      "exchange": "NYSE MKT",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MENS",
+      "name": "Jyong Biotech Ltd.",
+      "ipo_date": "2025-06-17",
+      "ipo_price": 15.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BACCU",
+      "name": "Blue Acquisition Corp/Cayman",
+      "ipo_date": "2025-06-13",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BSAAU",
+      "name": "BEST SPAC I Acquisition Corp.",
+      "ipo_date": "2025-06-13",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AIRO",
+      "name": "AIRO Group Holdings, Inc.",
+      "ipo_date": "2025-06-13",
+      "ipo_price": 12.9,
+      "exchange": "NASDAQ Global",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CHYM",
+      "name": "Chime Financial, Inc.",
+      "ipo_date": "2025-06-12",
+      "ipo_price": 43.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "VNTG",
+      "name": "Vantage Corp (Singapore)",
+      "ipo_date": "2025-06-12",
+      "ipo_price": 4.39,
+      "exchange": "NYSE MKT",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "VOYG",
+      "name": "Voyager Technologies, Inc./DE",
+      "ipo_date": "2025-06-11",
+      "ipo_price": 69.75,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ASIC",
+      "name": "Ategrity Specialty Insurance Co Holdings",
+      "ipo_date": "2025-06-11",
+      "ipo_price": 23.65,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BLUWU",
+      "name": "Blue Water Acquisition Corp. III",
+      "ipo_date": "2025-06-10",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "JEM",
+      "name": "707 Cayman Holdings Ltd.",
+      "ipo_date": "2025-06-09",
+      "ipo_price": 3.98,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "OMDA",
+      "name": "Omada Health, Inc.",
+      "ipo_date": "2025-06-06",
+      "ipo_price": 23.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PTNM",
+      "name": "Pitanium Ltd",
+      "ipo_date": "2025-05-30",
+      "ipo_price": 4.51,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "WTGUU",
+      "name": "Wintergreen Acquisition Corp.",
+      "ipo_date": "2025-05-29",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "KCHVU",
+      "name": "Kochav Defense Acquisition Corp.",
+      "ipo_date": "2025-05-28",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "CHPGU",
+      "name": "ChampionsGate Acquisition Corp",
+      "ipo_date": "2025-05-28",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FTRK",
+      "name": "Fast Track Group",
+      "ipo_date": "2025-05-23",
+      "ipo_price": 3.89,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "PELIU",
+      "name": "Pelican Acquisition Corp",
+      "ipo_date": "2025-05-23",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CRAQU",
+      "name": "Cal Redwood Acquisition Corp.",
+      "ipo_date": "2025-05-23",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "OYSEU",
+      "name": "Oyster Enterprises II Acquisition Corp",
+      "ipo_date": "2025-05-22",
+      "ipo_price": 10.06,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "HNGE",
+      "name": "Hinge Health, Inc.",
+      "ipo_date": "2025-05-22",
+      "ipo_price": 39.5,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "MNTN",
+      "name": "MNTN, Inc.",
+      "ipo_date": "2025-05-22",
+      "ipo_price": 21.0,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "PCAPU",
+      "name": "ProCap Acquisition Corp",
+      "ipo_date": "2025-05-21",
+      "ipo_price": 10.9,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "OFAL",
+      "name": "OFA Group",
+      "ipo_date": "2025-05-21",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "WENNU",
+      "name": "WEN Acquisition Corp",
+      "ipo_date": "2025-05-16",
+      "ipo_price": 10.7,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "RTACU",
+      "name": "Renatus Tactical Acquisition Corp I",
+      "ipo_date": "2025-05-16",
+      "ipo_price": 11.5,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "TVAIU",
+      "name": "Thayer Ventures Acquisition Corp II",
+      "ipo_date": "2025-05-15",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ARAI",
+      "name": "Arrive AI Inc.",
+      "ipo_date": "2025-05-15",
+      "ipo_price": 40.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CCCXU",
+      "name": "Churchill Capital Corp X/Cayman",
+      "ipo_date": "2025-05-14",
+      "ipo_price": 10.27,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ANTA",
+      "name": "Antalpha Platform Holding Co",
+      "ipo_date": "2025-05-14",
+      "ipo_price": 15.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ETOR",
+      "name": "eToro Group Ltd.",
+      "ipo_date": "2025-05-14",
+      "ipo_price": 69.69,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PMTRU",
+      "name": "Perimeter Acquisition Corp. I",
+      "ipo_date": "2025-05-13",
+      "ipo_price": 10.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "OMSE",
+      "name": "OMS Energy Technologies Inc.",
+      "ipo_date": "2025-05-13",
+      "ipo_price": 8.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "EGHAU",
+      "name": "EGH Acquisition Corp.",
+      "ipo_date": "2025-05-09",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "APUS",
+      "name": "Apimeds Pharmaceuticals US, Inc.",
+      "ipo_date": "2025-05-09",
+      "ipo_price": 4.0,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "AII",
+      "name": "American Integrity Insurance Group, Inc.",
+      "ipo_date": "2025-05-08",
+      "ipo_price": 18.5,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AHL",
+      "name": "ASPEN INSURANCE HOLDINGS LTD",
+      "ipo_date": "2025-05-08",
+      "ipo_price": 33.25,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "IPODU",
+      "name": "Dune Acquisition Corp II",
+      "ipo_date": "2025-05-07",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "WSBK",
+      "name": "Winchester Bancorp, Inc./MD/",
+      "ipo_date": "2025-05-02",
+      "ipo_price": 10.1,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GTENU",
+      "name": "Gores Holdings X, Inc. / CI",
+      "ipo_date": "2025-05-02",
+      "ipo_price": 10.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "CEPT",
+      "name": "Cantor Equity Partners II, Inc.",
+      "ipo_date": "2025-05-02",
+      "ipo_price": 11.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CGCTU",
+      "name": "Cartesian Growth Corp III",
+      "ipo_date": "2025-05-02",
+      "ipo_price": 10.07,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SDM",
+      "name": "Smart Digital Group Ltd",
+      "ipo_date": "2025-05-02",
+      "ipo_price": 5.45,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "RDAGU",
+      "name": "Republic Digital Acquisition Co",
+      "ipo_date": "2025-05-01",
+      "ipo_price": 10.15,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LCCCU",
+      "name": "Lakeshore Acquisition III Corp.",
+      "ipo_date": "2025-04-30",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "TACOU",
+      "name": "Berto Acquisition Corp.",
+      "ipo_date": "2025-04-30",
+      "ipo_price": 10.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "YB",
+      "name": "Yuanbao Inc.",
+      "ipo_date": "2025-04-30",
+      "ipo_price": 21.66,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "DAAQU",
+      "name": "Digital Asset Acquisition Corp.",
+      "ipo_date": "2025-04-30",
+      "ipo_price": 10.18,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "RAAQU",
+      "name": "Real Asset Acquisition Corp.",
+      "ipo_date": "2025-04-30",
+      "ipo_price": 10.08,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CHACU",
+      "name": "Crane Harbor Acquisition Corp.",
+      "ipo_date": "2025-04-25",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PHOE",
+      "name": "Phoenix Asia Holdings Ltd",
+      "ipo_date": "2025-04-25",
+      "ipo_price": 7.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "IPCXU",
+      "name": "Inflection Point Acquisition Corp. III",
+      "ipo_date": "2025-04-25",
+      "ipo_price": 10.08,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "NPACU",
+      "name": "New Providence Acquisition Corp. III/Cayman",
+      "ipo_date": "2025-04-24",
+      "ipo_price": 9.99,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "TVACU",
+      "name": "Texas Ventures Acquisition III Corp",
+      "ipo_date": "2025-04-23",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PFAI",
+      "name": "Pinnacle Food Group Ltd",
+      "ipo_date": "2025-04-22",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "CIGL",
+      "name": "Concorde International Group Ltd.",
+      "ipo_date": "2025-04-22",
+      "ipo_price": 4.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "TMDE",
+      "name": "TMD Energy Ltd",
+      "ipo_date": "2025-04-21",
+      "ipo_price": 3.26,
+      "exchange": "NYSE MKT",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "CHA",
+      "name": "Chagee Holdings Ltd.",
+      "ipo_date": "2025-04-17",
+      "ipo_price": 31.62,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "EDHL",
+      "name": "Everbright Digital Holding Ltd.",
+      "ipo_date": "2025-04-17",
+      "ipo_price": 4.6,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "HXHX",
+      "name": "Haoxin Holdings Ltd",
+      "ipo_date": "2025-04-15",
+      "ipo_price": 4.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CIIT",
+      "name": "Tianci International, Inc.",
+      "ipo_date": "2025-04-10",
+      "ipo_price": 3.3,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ATHR",
+      "name": "Aether Holdings, Inc.",
+      "ipo_date": "2025-04-10",
+      "ipo_price": 5.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CUPR",
+      "name": "Cuprina Holdings (Cayman) LTD",
+      "ipo_date": "2025-04-10",
+      "ipo_price": 4.38,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "MB",
+      "name": "MASTERBEEF GROUP",
+      "ipo_date": "2025-04-10",
+      "ipo_price": 3.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "IOTR",
+      "name": "iOThree Ltd",
+      "ipo_date": "2025-04-10",
+      "ipo_price": 36.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "TACHU",
+      "name": "Titan Acquisition Corp.",
+      "ipo_date": "2025-04-09",
+      "ipo_price": 9.99,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "RYET",
+      "name": "Ruanyun Edai Technology Inc.",
+      "ipo_date": "2025-04-08",
+      "ipo_price": 7.3,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "FATN",
+      "name": "Fatpipe Inc/UT",
+      "ipo_date": "2025-04-08",
+      "ipo_price": 6.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "BLIV",
+      "name": "BeLive Holdings",
+      "ipo_date": "2025-04-04",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "LHSW",
+      "name": "Lianhe Sowell International Group Ltd",
+      "ipo_date": "2025-04-03",
+      "ipo_price": 5.3,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "SZZLU",
+      "name": "Sizzle Acquisition Corp. II",
+      "ipo_date": "2025-04-02",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SMA",
+      "name": "SmartStop Self Storage REIT, Inc.",
+      "ipo_date": "2025-04-02",
+      "ipo_price": 31.24,
+      "exchange": "NYSE",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "SDHIU",
+      "name": "Siddhi Acquisition Corp (Cayman Islands)",
+      "ipo_date": "2025-04-01",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "WTF",
+      "name": "Waton Financial Ltd",
+      "ipo_date": "2025-04-01",
+      "ipo_price": 4.3,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ENGS",
+      "name": "Energys Group Ltd",
+      "ipo_date": "2025-04-01",
+      "ipo_price": 4.96,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "WXM",
+      "name": "WF International Ltd.",
+      "ipo_date": "2025-04-01",
+      "ipo_price": 4.15,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "UYSCU",
+      "name": "UY Scuti Acquisition Corp.",
+      "ipo_date": "2025-03-31",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "NMAX",
+      "name": "Newsmax Inc.",
+      "ipo_date": "2025-03-31",
+      "ipo_price": 14.46,
+      "exchange": "NYSE",
+      "sector": "Communication Services"
     },
     {
       "ticker": "CRWV",
       "name": "CoreWeave Inc",
       "ipo_date": "2025-03-28",
-      "ipo_price": 40.00,
+      "ipo_price": 40.0,
       "exchange": "NASDAQ",
       "sector": "Technology"
+    },
+    {
+      "ticker": "NCT",
+      "name": "Intercont (Cayman) Ltd",
+      "ipo_date": "2025-03-28",
+      "ipo_price": 6.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "WFF",
+      "name": "WF Holding Ltd",
+      "ipo_date": "2025-03-27",
+      "ipo_price": 3.97,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "NTHI",
+      "name": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+      "ipo_date": "2025-03-26",
+      "ipo_price": 25.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "EPSM",
+      "name": "Epsium Enterprise Ltd",
+      "ipo_date": "2025-03-26",
+      "ipo_price": 4.48,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "LGPS",
+      "name": "LOGPROSTYLE INC.",
+      "ipo_date": "2025-03-25",
+      "ipo_price": 4.8,
+      "exchange": "NYSE MKT",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "GSHRU",
+      "name": "Gesher Acquisition Corp. II",
+      "ipo_date": "2025-03-21",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "RCT",
+      "name": "RedCloud Holdings plc",
+      "ipo_date": "2025-03-21",
+      "ipo_price": 4.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "BIYA",
+      "name": "Baiya International Group Inc.",
+      "ipo_date": "2025-03-21",
+      "ipo_price": 95.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "QSEAU",
+      "name": "Quartzsea Acquisition Corp",
+      "ipo_date": "2025-03-19",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MWYN",
+      "name": "Marwynn Holdings, Inc.",
+      "ipo_date": "2025-03-13",
+      "ipo_price": 4.6,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "SAGT",
+      "name": "SAGTEC GLOBAL Ltd",
+      "ipo_date": "2025-03-07",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MCRP",
+      "name": "Micropolis Holding Co",
+      "ipo_date": "2025-03-07",
+      "ipo_price": 3.9,
+      "exchange": "NYSE MKT",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CAPS",
+      "name": "Capstone Holding Corp.",
+      "ipo_date": "2025-03-06",
+      "ipo_price": 3.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "KMTS",
+      "name": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
+      "ipo_date": "2025-03-06",
+      "ipo_price": 22.95,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "JFB",
+      "name": "JFB Construction Holdings",
+      "ipo_date": "2025-03-06",
+      "ipo_price": 3.61,
+      "exchange": "NASDAQ Capital",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "TBH",
+      "name": "Brag House Holdings, Inc.",
+      "ipo_date": "2025-03-06",
+      "ipo_price": 3.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "ADVB",
+      "name": "Advanced Biomed Inc.",
+      "ipo_date": "2025-03-06",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PN",
+      "name": "Skycorp Solar Group Ltd",
+      "ipo_date": "2025-03-04",
+      "ipo_price": 3.69,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "FERAU",
+      "name": "Fifth Era Acquisition Corp I",
+      "ipo_date": "2025-02-28",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LOKVU",
+      "name": "Live Oak Acquisition Corp. V",
+      "ipo_date": "2025-02-28",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "NHICU",
+      "name": "NewHold Investment Corp. III",
+      "ipo_date": "2025-02-28",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "LUD",
+      "name": "Luda Technology Group Ltd",
+      "ipo_date": "2025-02-27",
+      "ipo_price": 4.19,
+      "exchange": "NYSE MKT",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "LZMH",
+      "name": "LZ Technology Holdings Ltd",
+      "ipo_date": "2025-02-27",
+      "ipo_price": 5.11,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "WETO",
+      "name": "Webus International Ltd.",
+      "ipo_date": "2025-02-27",
+      "ipo_price": 4.1,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "STAK",
+      "name": "STAK Inc.",
+      "ipo_date": "2025-02-26",
+      "ipo_price": 3.62,
+      "exchange": "NASDAQ Capital",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "BMGL",
+      "name": "Basel Medical Group Ltd",
+      "ipo_date": "2025-02-25",
+      "ipo_price": 4.19,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "WGRX",
+      "name": "Wellgistics Health, Inc.",
+      "ipo_date": "2025-02-21",
+      "ipo_price": 4.35,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "SKBL",
+      "name": "Skyline Builders Group Holding Ltd",
+      "ipo_date": "2025-02-20",
+      "ipo_price": 8.3,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "NNNN",
+      "name": "Anbio Biotechnology",
+      "ipo_date": "2025-02-19",
+      "ipo_price": 5.26,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "NPB",
+      "name": "NORTHPOINTE BANCSHARES INC",
+      "ipo_date": "2025-02-18",
+      "ipo_price": 14.41,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AARD",
+      "name": "Aardvark Therapeutics, Inc.",
+      "ipo_date": "2025-02-13",
+      "ipo_price": 15.18,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "KRMN",
+      "name": "Karman Holdings Inc.",
+      "ipo_date": "2025-02-13",
+      "ipo_price": 30.0,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "AACBU",
+      "name": "Artius II Acquisition Inc.",
+      "ipo_date": "2025-02-13",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "XHLD",
+      "name": "TEN Holdings, Inc.",
+      "ipo_date": "2025-02-13",
+      "ipo_price": 90.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "AGH",
+      "name": "Aureus Greenway Holdings Inc",
+      "ipo_date": "2025-02-12",
+      "ipo_price": 4.37,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ODYS",
+      "name": "Odysight.ai Inc.",
+      "ipo_date": "2025-02-11",
+      "ipo_price": 6.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ATIIU",
+      "name": "Archimedes Tech SPAC Partners II Co.",
+      "ipo_date": "2025-02-11",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SION",
+      "name": "Sionna Therapeutics, Inc.",
+      "ipo_date": "2025-02-07",
+      "ipo_price": 25.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "TTAM",
+      "name": "Titan America SA",
+      "ipo_date": "2025-02-07",
+      "ipo_price": 16.07,
+      "exchange": "NYSE",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "FBGL",
+      "name": "FBS Global Ltd",
+      "ipo_date": "2025-02-06",
+      "ipo_price": 4.26,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "EPWK",
+      "name": "EPWK Holdings Ltd.",
+      "ipo_date": "2025-02-06",
+      "ipo_price": 164.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "KFIIU",
+      "name": "K&F GROWTH ACQUISITION CORP. II",
+      "ipo_date": "2025-02-05",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CJMB",
+      "name": "CALLAN JMB INC.",
+      "ipo_date": "2025-02-05",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "HCAI",
+      "name": "Huachen AI Parking Management Technology Holding Co., Ltd",
+      "ipo_date": "2025-02-05",
+      "ipo_price": 4.39,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "PLUT",
+      "name": "Plutus Financial Group Ltd",
+      "ipo_date": "2025-02-05",
+      "ipo_price": 4.17,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MAZE",
+      "name": "Maze Therapeutics, Inc.",
+      "ipo_date": "2025-01-31",
+      "ipo_price": 16.12,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "INR",
+      "name": "INFINITY NATURAL RESOURCES, INC.",
+      "ipo_date": "2025-01-31",
+      "ipo_price": 22.16,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "BBNX",
+      "name": "Beta Bionics, Inc.",
+      "ipo_date": "2025-01-30",
+      "ipo_price": 22.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "SVCCU",
+      "name": "Stellar V Capital Corp. (Cayman Islands)",
+      "ipo_date": "2025-01-30",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CSAI",
+      "name": "CLOUDASTRUCTURE, INC.",
+      "ipo_date": "2025-01-30",
+      "ipo_price": 50.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "FGMCU",
+      "name": "FG Merger II Corp.",
+      "ipo_date": "2025-01-29",
+      "ipo_price": 9.89,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SFD",
+      "name": "SMITHFIELD FOODS INC",
+      "ipo_date": "2025-01-28",
+      "ipo_price": 20.12,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "DMAAU",
+      "name": "Drugs Made In America Acquisition Corp.",
+      "ipo_date": "2025-01-28",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
     },
     {
       "ticker": "VG",
       "name": "Venture Global Inc",
       "ipo_date": "2025-01-24",
-      "ipo_price": 25.00,
+      "ipo_price": 25.0,
       "exchange": "NYSE",
       "sector": "Energy"
+    },
+    {
+      "ticker": "AAPG",
+      "name": "ASCENTAGE PHARMA GROUP INTERNATIONAL",
+      "ipo_date": "2025-01-24",
+      "ipo_price": 17.25,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "COLAU",
+      "name": "Columbus Acquisition Corp/Cayman Islands",
+      "ipo_date": "2025-01-23",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "DXST",
+      "name": "Decent Holding Inc.",
+      "ipo_date": "2025-01-22",
+      "ipo_price": 3.9,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "DGNX",
+      "name": "Diginex Ltd",
+      "ipo_date": "2025-01-22",
+      "ipo_price": 0.53,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "TOPP",
+      "name": "Toppoint Holdings Inc.",
+      "ipo_date": "2025-01-22",
+      "ipo_price": 3.88,
+      "exchange": "NYSE MKT",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MCTR",
+      "name": "CTRL GROUP Ltd",
+      "ipo_date": "2025-01-22",
+      "ipo_price": 4.01,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "HVIIU",
+      "name": "Hennessy Capital Investment Corp. VII",
+      "ipo_date": "2025-01-17",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FLOC",
+      "name": "Flowco Holdings Inc.",
+      "ipo_date": "2025-01-16",
+      "ipo_price": 28.6,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "PCLA",
+      "name": "PicoCELA Inc.",
+      "ipo_date": "2025-01-16",
+      "ipo_price": 120.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "HKPD",
+      "name": "Hong Kong Pharma Digital Technology Holdings Ltd",
+      "ipo_date": "2025-01-15",
+      "ipo_price": 3.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
+      "ipo_date": "2025-01-15",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PLMKU",
+      "name": "Plum Acquisition Corp, IV",
+      "ipo_date": "2025-01-15",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "UFG",
+      "name": "Uni-Fuels Holdings Ltd",
+      "ipo_date": "2025-01-14",
+      "ipo_price": 4.59,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MIMI",
+      "name": "Mint Inc Ltd",
+      "ipo_date": "2025-01-10",
+      "ipo_price": 4.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MASK",
+      "name": "3 E Network Technology Group Ltd",
+      "ipo_date": "2025-01-08",
+      "ipo_price": 3.85,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CEPO",
+      "name": "Cantor Equity Partners I, Inc.",
+      "ipo_date": "2025-01-07",
+      "ipo_price": 10.04,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ZYBT",
+      "name": "Zhengye Biotechnology Holding Ltd",
+      "ipo_date": "2025-01-07",
+      "ipo_price": 3.77,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "INLF",
+      "name": "INLIF Ltd",
+      "ipo_date": "2025-01-02",
+      "ipo_price": 3.7,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ONEG",
+      "name": "OneConstruction Group Ltd",
+      "ipo_date": "2024-12-31",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "TDACU",
+      "name": "Translational Development Acquisition Corp.",
+      "ipo_date": "2024-12-23",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "HIT",
+      "name": "Health In Tech, Inc.",
+      "ipo_date": "2024-12-23",
+      "ipo_price": 5.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "RANGU",
+      "name": "Range Capital Acquisition Corp.",
+      "ipo_date": "2024-12-20",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "YAAS",
+      "name": "Youxin Technology Ltd",
+      "ipo_date": "2024-12-20",
+      "ipo_price": 326.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "LSE",
+      "name": "Leishen Energy Holding Co., Ltd.",
+      "ipo_date": "2024-12-19",
+      "ipo_price": 4.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "YSXT",
+      "name": "YSX Tech Co., Ltd",
+      "ipo_date": "2024-12-18",
+      "ipo_price": 4.05,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "NCEW",
+      "name": "New Century Logistics (BVI) Ltd",
+      "ipo_date": "2024-12-18",
+      "ipo_price": 32.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "AVR",
+      "name": "Anteris Technologies Global Corp.",
+      "ipo_date": "2024-12-13",
+      "ipo_price": 6.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "DRDBU",
+      "name": "Roman DBDR Acquisition Corp. II",
+      "ipo_date": "2024-12-13",
+      "ipo_price": 9.95,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MLACU",
+      "name": "Mountain Lake Acquisition Corp.",
+      "ipo_date": "2024-12-13",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "NTCL",
+      "name": "NetClass Technology Inc",
+      "ipo_date": "2024-12-13",
+      "ipo_price": 5.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
     },
     {
       "ticker": "TTAN",
       "name": "ServiceTitan Inc",
       "ipo_date": "2024-12-12",
-      "ipo_price": 71.00,
+      "ipo_price": 71.0,
       "exchange": "NASDAQ",
       "sector": "Technology"
+    },
+    {
+      "ticker": "NAMI",
+      "name": "Jinxin Technology Holding Co",
+      "ipo_date": "2024-12-06",
+      "ipo_price": 4.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "ZSPC",
+      "name": "zSpace, Inc.",
+      "ipo_date": "2024-12-05",
+      "ipo_price": 5.8,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "LNKS",
+      "name": "Linkers Industries Ltd",
+      "ipo_date": "2024-12-05",
+      "ipo_price": 4.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "TAVIU",
+      "name": "Tavia Acquisition Corp.",
+      "ipo_date": "2024-12-04",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "JUNS",
+      "name": "JUPITER NEUROSCIENCES, INC.",
+      "ipo_date": "2024-12-03",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PONY",
+      "name": "Pony AI Inc.",
+      "ipo_date": "2024-11-27",
+      "ipo_price": 15.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "BRIA",
+      "name": "BrilliA Inc",
+      "ipo_date": "2024-11-27",
+      "ipo_price": 4.0,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "GRO",
+      "name": "Brazil Potash Corp.",
+      "ipo_date": "2024-11-27",
+      "ipo_price": 12.4,
+      "exchange": "NYSE MKT",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "VENU",
+      "name": "Venu Holding Corp",
+      "ipo_date": "2024-11-27",
+      "ipo_price": 10.0,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "FACTU",
+      "name": "FACT II Acquisition Corp.",
+      "ipo_date": "2024-11-26",
+      "ipo_price": 9.97,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "WYHG",
+      "name": "Wing Yip Food Holdings Group Ltd",
+      "ipo_date": "2024-11-26",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "CGTL",
+      "name": "Creative Global Technology Holdings Ltd",
+      "ipo_date": "2024-11-26",
+      "ipo_price": 4.29,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "MSW",
+      "name": "Ming Shing Group Holdings Ltd",
+      "ipo_date": "2024-11-22",
+      "ipo_price": 5.65,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "NOEMU",
+      "name": "CO2 Energy Transition Corp.",
+      "ipo_date": "2024-11-21",
+      "ipo_price": 9.97,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "HSPTU",
+      "name": "Horizon Space Acquisition II Corp.",
+      "ipo_date": "2024-11-15",
+      "ipo_price": 9.99,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MDCX",
+      "name": "Medicus Pharma Ltd.",
+      "ipo_date": "2024-11-14",
+      "ipo_price": 3.1,
+      "exchange": "Unknown",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "ACOG",
+      "name": "Alpha Cognition Inc.",
+      "ipo_date": "2024-11-12",
+      "ipo_price": 7.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "WLACU",
+      "name": "Willow Lane Acquisition Corp.",
+      "ipo_date": "2024-11-08",
+      "ipo_price": 9.99,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ASPCU",
+      "name": "ASPAC III Acquisition Corp.",
+      "ipo_date": "2024-11-08",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ADUR",
+      "name": "ADURO CLEAN TECHNOLOGIES INC.",
+      "ipo_date": "2024-11-07",
+      "ipo_price": 4.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "NTWOU",
+      "name": "Newbury Street II Acquisition Corp",
+      "ipo_date": "2024-11-01",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BACQU",
+      "name": "Bleichroeder Acquisition Corp. I",
+      "ipo_date": "2024-11-01",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GELS",
+      "name": "Gelteq Ltd",
+      "ipo_date": "2024-10-29",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PLRZ",
+      "name": "Polyrizon Ltd.",
+      "ipo_date": "2024-10-29",
+      "ipo_price": 2460.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
     },
     {
       "ticker": "SEPN",
       "name": "Septerna Inc",
       "ipo_date": "2024-10-25",
-      "ipo_price": 18.00,
+      "ipo_price": 18.0,
       "exchange": "NASDAQ",
       "sector": "Healthcare"
     },
@@ -119,7 +3447,7 @@
       "ticker": "WRD",
       "name": "WeRide Inc",
       "ipo_date": "2024-10-25",
-      "ipo_price": 15.50,
+      "ipo_price": 15.5,
       "exchange": "NASDAQ",
       "sector": "Technology"
     },
@@ -127,39 +3455,943 @@
       "ticker": "INGM",
       "name": "Ingram Micro Holding Corp",
       "ipo_date": "2024-10-24",
-      "ipo_price": 22.00,
+      "ipo_price": 22.0,
       "exchange": "NYSE",
       "sector": "Technology"
+    },
+    {
+      "ticker": "OACCU",
+      "name": "Oaktree Acquisition Corp. III Life Sciences",
+      "ipo_date": "2024-10-24",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CHARU",
+      "name": "Charlton Aria Acquisition Corp",
+      "ipo_date": "2024-10-24",
+      "ipo_price": 9.95,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BEAGU",
+      "name": "Bold Eagle Acquisition Corp.",
+      "ipo_date": "2024-10-24",
+      "ipo_price": 9.96,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SNYR",
+      "name": "Synergy CHC Corp.",
+      "ipo_date": "2024-10-23",
+      "ipo_price": 9.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "FBLA",
+      "name": "FB Bancorp, Inc. /MD/",
+      "ipo_date": "2024-10-23",
+      "ipo_price": 12.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FGL",
+      "name": "Founder Group Ltd",
+      "ipo_date": "2024-10-23",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ROLR",
+      "name": "High Roller Technologies, Inc.",
+      "ipo_date": "2024-10-23",
+      "ipo_price": 7.0,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "LBGJ",
+      "name": "Li Bang International Corp Inc.",
+      "ipo_date": "2024-10-23",
+      "ipo_price": 4.7,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ALDFU",
+      "name": "Aldel Financial II Inc.",
+      "ipo_date": "2024-10-22",
+      "ipo_price": 9.99,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "HUHU",
+      "name": "HUHUTECH International Group Inc.",
+      "ipo_date": "2024-10-22",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SPHL",
+      "name": "SPRINGVIEW HOLDINGS LTD",
+      "ipo_date": "2024-10-18",
+      "ipo_price": 32.96,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ORIS",
+      "name": "ORIENTAL RISE HOLDINGS Ltd",
+      "ipo_date": "2024-10-18",
+      "ipo_price": 142.2,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "PTLE",
+      "name": "PTL Ltd",
+      "ipo_date": "2024-10-16",
+      "ipo_price": 4.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "SFHG",
+      "name": "SAMFINE CREATION HOLDINGS GROUP Ltd",
+      "ipo_date": "2024-10-15",
+      "ipo_price": 4.99,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CAMP",
+      "name": "Camp4 Therapeutics Corp",
+      "ipo_date": "2024-10-11",
+      "ipo_price": 11.16,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "UPB",
+      "name": "Upstream Bio, Inc.",
+      "ipo_date": "2024-10-11",
+      "ipo_price": 21.5,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "CBLL",
+      "name": "Ceribell, Inc.",
+      "ipo_date": "2024-10-11",
+      "ipo_price": 23.26,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "STFS",
+      "name": "Star Fashion Culture Holdings Ltd",
+      "ipo_date": "2024-10-11",
+      "ipo_price": 3.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "RDACU",
+      "name": "Rising Dragon Acquisition Corp.",
+      "ipo_date": "2024-10-11",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SKYQ",
+      "name": "Sky Quarry Inc.",
+      "ipo_date": "2024-10-10",
+      "ipo_price": 5.49,
+      "exchange": "NASDAQ Capital",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "KLC",
+      "name": "KinderCare Learning Companies, Inc.",
+      "ipo_date": "2024-10-09",
+      "ipo_price": 27.0,
+      "exchange": "NYSE",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "CLIK",
+      "name": "Click Holdings Ltd.",
+      "ipo_date": "2024-10-09",
+      "ipo_price": 120.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "LPBBU",
+      "name": "Launch Two Acquisition Corp.",
+      "ipo_date": "2024-10-08",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SKK",
+      "name": "SKK Holdings Ltd",
+      "ipo_date": "2024-10-08",
+      "ipo_price": 4.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "FLX",
+      "name": "BingEx Ltd",
+      "ipo_date": "2024-10-04",
+      "ipo_price": 16.5,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CBNA",
+      "name": "CHAIN BRIDGE BANCORP INC",
+      "ipo_date": "2024-10-04",
+      "ipo_price": 22.0,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FVR",
+      "name": "FrontView REIT, Inc.",
+      "ipo_date": "2024-10-02",
+      "ipo_price": 16.9,
+      "exchange": "NYSE",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "SARO",
+      "name": "StandardAero, Inc.",
+      "ipo_date": "2024-10-02",
+      "ipo_price": 31.0,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "WCT",
+      "name": "Wellchange Holdings Co Ltd",
+      "ipo_date": "2024-10-02",
+      "ipo_price": 3.9,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "HTLM",
+      "name": "HomesToLife Ltd",
+      "ipo_date": "2024-10-01",
+      "ipo_price": 4.51,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ZENA",
+      "name": "ZenaTech, Inc.",
+      "ipo_date": "2024-10-01",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ZJK",
+      "name": "ZJK Industrial Co., Ltd.",
+      "ipo_date": "2024-09-30",
+      "ipo_price": 5.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "BIOA",
+      "name": "BioAge Labs, Inc.",
+      "ipo_date": "2024-09-26",
+      "ipo_price": 22.5,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "LGCY",
+      "name": "Legacy Education Inc.",
+      "ipo_date": "2024-09-26",
+      "ipo_price": 4.0,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "GRDN",
+      "name": "Guardian Pharmacy Services, Inc.",
+      "ipo_date": "2024-09-26",
+      "ipo_price": 14.46,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BKV",
+      "name": "BKV Corp",
+      "ipo_date": "2024-09-26",
+      "ipo_price": 18.55,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "IBG",
+      "name": "Innovation Beverage Group Ltd",
+      "ipo_date": "2024-09-26",
+      "ipo_price": 75.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "PC",
+      "name": "Premium Catering (Holdings) Ltd",
+      "ipo_date": "2024-09-25",
+      "ipo_price": 47.7,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CAPNU",
+      "name": "Cayson Acquisition Corp",
+      "ipo_date": "2024-09-20",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GLE",
+      "name": "Global Engine Group Holding Ltd",
+      "ipo_date": "2024-09-20",
+      "ipo_price": 5.15,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "YHNAU",
+      "name": "YHN Acquisition I Ltd",
+      "ipo_date": "2024-09-18",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "KAPA",
+      "name": "Kairos Pharma, LTD.",
+      "ipo_date": "2024-09-16",
+      "ipo_price": 4.0,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "IBO",
+      "name": "IMPACT BIOMEDICAL INC.",
+      "ipo_date": "2024-09-16",
+      "ipo_price": 3.0,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "HCWC",
+      "name": "HEALTHY CHOICE WELLNESS CORP.",
+      "ipo_date": "2024-09-16",
+      "ipo_price": 8.5,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "MBX",
+      "name": "MBX Biosciences, Inc.",
+      "ipo_date": "2024-09-13",
+      "ipo_price": 23.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "ZBIO",
+      "name": "Zenas BioPharma, Inc.",
+      "ipo_date": "2024-09-13",
+      "ipo_price": 18.35,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BCAX",
+      "name": "Bicara Therapeutics Inc.",
+      "ipo_date": "2024-09-13",
+      "ipo_price": 26.25,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "FVNNU",
+      "name": "Future Vision II Acquisition Corp.",
+      "ipo_date": "2024-09-12",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GLXG",
+      "name": "Galaxy Payroll Group Ltd",
+      "ipo_date": "2024-09-12",
+      "ipo_price": 44.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "XCH",
+      "name": "XCHG Ltd",
+      "ipo_date": "2024-09-10",
+      "ipo_price": 7.25,
+      "exchange": "NASDAQ Global",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "TDTH",
+      "name": "Trident Digital Tech Holdings Ltd",
+      "ipo_date": "2024-09-10",
+      "ipo_price": 4.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "VCICU",
+      "name": "Vine Hill Capital Investment Corp.",
+      "ipo_date": "2024-09-09",
+      "ipo_price": 9.97,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "POLEU",
+      "name": "Andretti Acquisition Corp. II",
+      "ipo_date": "2024-09-06",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "PMAX",
+      "name": "Powell Max Ltd",
+      "ipo_date": "2024-09-05",
+      "ipo_price": 34.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "PTHL",
+      "name": "Pheton Holdings Ltd",
+      "ipo_date": "2024-09-05",
+      "ipo_price": 3.76,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "GIGGU",
+      "name": "GigCapital7 Corp.",
+      "ipo_date": "2024-08-29",
+      "ipo_price": 9.94,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "AZI",
+      "name": "Autozi Internet Technology (Global) Ltd.",
+      "ipo_date": "2024-08-28",
+      "ipo_price": 195.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "SPAI",
+      "name": "Safe Pro Group Inc.",
+      "ipo_date": "2024-08-28",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "JBDI",
+      "name": "JBDI Holdings Ltd",
+      "ipo_date": "2024-08-27",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "RITR",
+      "name": "Reitar Logtech Holdings Ltd",
+      "ipo_date": "2024-08-23",
+      "ipo_price": 4.71,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "WOK",
+      "name": "WORK Medical Technology Group LTD",
+      "ipo_date": "2024-08-23",
+      "ipo_price": 36000.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "YXT",
+      "name": "YXT.COM GROUP HOLDING Ltd",
+      "ipo_date": "2024-08-16",
+      "ipo_price": 11.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CEP",
+      "name": "Cantor Equity Partners, Inc.",
+      "ipo_date": "2024-08-13",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ACTU",
+      "name": "ACTUATE THERAPEUTICS, INC.",
+      "ipo_date": "2024-08-13",
+      "ipo_price": 9.88,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "VACHU",
+      "name": "Voyager Acquisition Corp./Cayman Islands",
+      "ipo_date": "2024-08-09",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FDSB",
+      "name": "Fifth District Bancorp, Inc.",
+      "ipo_date": "2024-08-01",
+      "ipo_price": 10.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MBAVU",
+      "name": "M3-Brigade Acquisition V Corp.",
+      "ipo_date": "2024-08-01",
+      "ipo_price": 10.03,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "OSTX",
+      "name": "OS THERAPIES Inc",
+      "ipo_date": "2024-08-01",
+      "ipo_price": 4.0,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "NIPG",
+      "name": "NIP Group Inc.",
+      "ipo_date": "2024-07-26",
+      "ipo_price": 13.11,
+      "exchange": "NASDAQ Global",
+      "sector": "Communication Services"
     },
     {
       "ticker": "LINE",
       "name": "Lineage Inc",
       "ipo_date": "2024-07-25",
-      "ipo_price": 78.00,
+      "ipo_price": 78.0,
       "exchange": "NASDAQ",
       "sector": "Real Estate"
+    },
+    {
+      "ticker": "CON",
+      "name": "Concentra Group Holdings Parent, Inc.",
+      "ipo_date": "2024-07-25",
+      "ipo_price": 21.68,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "DTSQU",
+      "name": "DT Cloud Star Acquisition Corp",
+      "ipo_date": "2024-07-25",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ORKT",
+      "name": "ORANGEKLOUD TECHNOLOGY INC.",
+      "ipo_date": "2024-07-25",
+      "ipo_price": 20.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "OS",
+      "name": "OneStream, Inc.",
+      "ipo_date": "2024-07-24",
+      "ipo_price": 26.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "NVA",
+      "name": "Nova Minerals Ltd",
+      "ipo_date": "2024-07-24",
+      "ipo_price": 1.2,
+      "exchange": "NASDAQ Capital",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "BLMZ",
+      "name": "Bloomz Inc.",
+      "ipo_date": "2024-07-24",
+      "ipo_price": 38.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "ARTV",
+      "name": "Artiva Biotherapeutics, Inc.",
+      "ipo_date": "2024-07-19",
+      "ipo_price": 16.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "QMMM",
+      "name": "QMMM Holdings Ltd",
+      "ipo_date": "2024-07-19",
+      "ipo_price": 3.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "ARDT",
+      "name": "Ardent Health Partners, Inc.",
+      "ipo_date": "2024-07-18",
+      "ipo_price": 15.0,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "TWFG",
+      "name": "TWFG, Inc.",
+      "ipo_date": "2024-07-18",
+      "ipo_price": 22.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LPAAU",
+      "name": "Launch One Acquisition Corp.",
+      "ipo_date": "2024-07-12",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ICON",
+      "name": "Icon Energy Corp",
+      "ipo_date": "2024-07-12",
+      "ipo_price": 681.28,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SIMAU",
+      "name": "SIM Acquisition Corp. I",
+      "ipo_date": "2024-07-10",
+      "ipo_price": 9.98,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "EURKU",
+      "name": "Eureka Acquisition Corp",
+      "ipo_date": "2024-07-02",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "EHGO",
+      "name": "EShallGo Inc.",
+      "ipo_date": "2024-07-02",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ALMS",
+      "name": "ALUMIS INC.",
+      "ipo_date": "2024-06-28",
+      "ipo_price": 13.5,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "LB",
+      "name": "LandBridge Co LLC",
+      "ipo_date": "2024-06-28",
+      "ipo_price": 18.85,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "LSH",
+      "name": "Lakeside Holding Ltd",
+      "ipo_date": "2024-06-28",
+      "ipo_price": 5.15,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "WBTN",
+      "name": "WEBTOON Entertainment Inc.",
+      "ipo_date": "2024-06-27",
+      "ipo_price": 21.3,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "TBN",
+      "name": "Tamboran Resources Corp",
+      "ipo_date": "2024-06-27",
+      "ipo_price": 22.5,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "RECT",
+      "name": "Rectitude Holdings Ltd.",
+      "ipo_date": "2024-06-21",
+      "ipo_price": 4.05,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "MACIU",
+      "name": "Melar Acquisition Corp. I/Cayman",
+      "ipo_date": "2024-06-18",
+      "ipo_price": 10.02,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CUBWU",
+      "name": "Lionheart Holdings",
+      "ipo_date": "2024-06-18",
+      "ipo_price": 10.01,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FSHPU",
+      "name": "Flag Ship Acquisition Corp",
+      "ipo_date": "2024-06-18",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI, Inc.",
+      "ipo_date": "2024-06-14",
+      "ipo_price": 40.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PCSC",
+      "name": "Perceptive Capital Solutions Corp",
+      "ipo_date": "2024-06-12",
+      "ipo_price": 10.06,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ALFUU",
+      "name": "Centurion Acquisition Corp.",
+      "ipo_date": "2024-06-11",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
     },
     {
       "ticker": "WAY",
       "name": "Waystar Holding Corp",
       "ipo_date": "2024-06-07",
-      "ipo_price": 21.50,
+      "ipo_price": 21.5,
       "exchange": "NASDAQ",
       "sector": "Healthcare"
+    },
+    {
+      "ticker": "RAPP",
+      "name": "Rapport Therapeutics, Inc.",
+      "ipo_date": "2024-06-07",
+      "ipo_price": 18.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "LIF",
+      "name": "Life360, Inc.",
+      "ipo_date": "2024-06-06",
+      "ipo_price": 26.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "GAUZ",
+      "name": "Gauzy Ltd.",
+      "ipo_date": "2024-06-06",
+      "ipo_price": 16.7,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "FLYE",
+      "name": "Fly-E Group, Inc.",
+      "ipo_date": "2024-06-06",
+      "ipo_price": 550.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "BOW",
+      "name": "Bowhead Specialty Holdings Inc.",
+      "ipo_date": "2024-05-23",
+      "ipo_price": 23.0,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "HDL",
+      "name": "SUPER HI INTERNATIONAL HOLDING LTD.",
+      "ipo_date": "2024-05-17",
+      "ipo_price": 27.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "RFAIU",
+      "name": "RF Acquisition Corp II",
+      "ipo_date": "2024-05-17",
+      "ipo_price": 10.07,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "JDZG",
+      "name": "JIADE Ltd",
+      "ipo_date": "2024-05-15",
+      "ipo_price": 38.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "RAY",
+      "name": "Raytech Holding Ltd",
+      "ipo_date": "2024-05-15",
+      "ipo_price": 80.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "BTOC",
+      "name": "Armlogi Holding Corp.",
+      "ipo_date": "2024-05-14",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ZK",
+      "name": "ZEEKR Intelligent Technology Holding Ltd",
+      "ipo_date": "2024-05-10",
+      "ipo_price": 26.0,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "GPATU",
+      "name": "GP-Act III Acquisition Corp.",
+      "ipo_date": "2024-05-09",
+      "ipo_price": 10.06,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SVCO",
+      "name": "Silvaco Group, Inc.",
+      "ipo_date": "2024-05-09",
+      "ipo_price": 21.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "PAL",
+      "name": "Proficient Auto Logistics, Inc",
+      "ipo_date": "2024-05-09",
+      "ipo_price": 15.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "NNE",
+      "name": "Nano Nuclear Energy Inc.",
+      "ipo_date": "2024-05-08",
+      "ipo_price": 3.6,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CCIXU",
+      "name": "Churchill Capital Corp IX/Cayman",
+      "ipo_date": "2024-05-02",
+      "ipo_price": 10.07,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
     },
     {
       "ticker": "VIK",
       "name": "Viking Holdings Ltd",
       "ipo_date": "2024-05-01",
-      "ipo_price": 24.00,
+      "ipo_price": 24.0,
       "exchange": "NYSE",
       "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ZONE",
+      "name": "CleanCore Solutions, Inc.",
+      "ipo_date": "2024-04-26",
+      "ipo_price": 4.01,
+      "exchange": "NYSE MKT",
+      "sector": "Industrials"
     },
     {
       "ticker": "LOAR",
       "name": "Loar Holdings Inc",
       "ipo_date": "2024-04-25",
-      "ipo_price": 28.00,
+      "ipo_price": 28.0,
       "exchange": "NYSE",
       "sector": "Industrials"
     },
@@ -167,7 +4399,7 @@
       "ticker": "MRX",
       "name": "Marex Group plc",
       "ipo_date": "2024-04-25",
-      "ipo_price": 19.00,
+      "ipo_price": 19.0,
       "exchange": "NASDAQ",
       "sector": "Financial Services"
     },
@@ -175,87 +4407,831 @@
       "ticker": "RBRK",
       "name": "Rubrik Inc",
       "ipo_date": "2024-04-25",
-      "ipo_price": 32.00,
+      "ipo_price": 32.0,
       "exchange": "NYSE",
       "sector": "Technology"
+    },
+    {
+      "ticker": "NCI",
+      "name": "Neo-Concept International Group Holdings Ltd",
+      "ipo_date": "2024-04-23",
+      "ipo_price": 21.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "YYGH",
+      "name": "YY Group Holding Ltd.",
+      "ipo_date": "2024-04-22",
+      "ipo_price": 3.88,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "MFI",
+      "name": "mF International Ltd",
+      "ipo_date": "2024-04-22",
+      "ipo_price": 60.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "TRSG",
+      "name": "Tungray Technologies Inc",
+      "ipo_date": "2024-04-19",
+      "ipo_price": 6.58,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "IBTA",
+      "name": "Ibotta, Inc.",
+      "ipo_date": "2024-04-19",
+      "ipo_price": 103.25,
+      "exchange": "NYSE",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CTRI",
+      "name": "Centuri Holdings, Inc.",
+      "ipo_date": "2024-04-19",
+      "ipo_price": 23.59,
+      "exchange": "NYSE",
+      "sector": "Utilities"
+    },
+    {
+      "ticker": "MTEN",
+      "name": "Mingteng International Corp Inc.",
+      "ipo_date": "2024-04-19",
+      "ipo_price": 656.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "CDTG",
+      "name": "CDT Environmental Technology Investment Holdings Ltd",
+      "ipo_date": "2024-04-19",
+      "ipo_price": 3.24,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SERV",
+      "name": "Serve Robotics Inc. /DE/",
+      "ipo_date": "2024-04-18",
+      "ipo_price": 4.75,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "TWG",
+      "name": "Top Wealth Group Holding Ltd",
+      "ipo_date": "2024-04-17",
+      "ipo_price": 166.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
     },
     {
       "ticker": "ULS",
       "name": "UL Solutions Inc",
       "ipo_date": "2024-04-12",
-      "ipo_price": 28.00,
+      "ipo_price": 28.0,
       "exchange": "NYSE",
       "sector": "Industrials"
+    },
+    {
+      "ticker": "PACS",
+      "name": "PACS Group, Inc.",
+      "ipo_date": "2024-04-11",
+      "ipo_price": 23.0,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "MNDR",
+      "name": "Mobile-health Network Solutions",
+      "ipo_date": "2024-04-10",
+      "ipo_price": 191.6,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "CTNM",
+      "name": "Contineum Therapeutics, Inc.",
+      "ipo_date": "2024-04-05",
+      "ipo_price": 14.5,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
     },
     {
       "ticker": "SOUN",
       "name": "SoundHound AI Inc",
       "ipo_date": "2024-04-02",
-      "ipo_price": 4.50,
+      "ipo_price": 4.5,
       "exchange": "NASDAQ",
       "sector": "Technology"
+    },
+    {
+      "ticker": "MAMO",
+      "name": "Massimo Group",
+      "ipo_date": "2024-04-02",
+      "ipo_price": 3.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ZBAO",
+      "name": "Zhibao Technology Inc.",
+      "ipo_date": "2024-04-02",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BOLD",
+      "name": "Boundless Bio, Inc.",
+      "ipo_date": "2024-03-28",
+      "ipo_price": 14.25,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "MMA",
+      "name": "ALTA GLOBAL GROUP LTD",
+      "ipo_date": "2024-03-28",
+      "ipo_price": 4.75,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "UBXG",
+      "name": "U-BX Technology Ltd.",
+      "ipo_date": "2024-03-28",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "AUNA",
+      "name": "AUNA S.A.",
+      "ipo_date": "2024-03-22",
+      "ipo_price": 9.51,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
     },
     {
       "ticker": "RDDT",
       "name": "Reddit Inc",
       "ipo_date": "2024-03-21",
-      "ipo_price": 34.00,
+      "ipo_price": 34.0,
       "exchange": "NYSE",
       "sector": "Technology"
+    },
+    {
+      "ticker": "BKHAU",
+      "name": "Black Hawk Acquisition Corp",
+      "ipo_date": "2024-03-21",
+      "ipo_price": 10.15,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LOBO",
+      "name": "LOBO EV TECHNOLOGIES LTD",
+      "ipo_date": "2024-03-21",
+      "ipo_price": 5.26,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
     },
     {
       "ticker": "ALAB",
       "name": "Astera Labs Inc",
       "ipo_date": "2024-03-20",
-      "ipo_price": 36.00,
+      "ipo_price": 36.0,
       "exchange": "NASDAQ",
       "sector": "Technology"
+    },
+    {
+      "ticker": "INTJ",
+      "name": "Intelligent Group Ltd",
+      "ipo_date": "2024-03-20",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "RYDE",
+      "name": "Ryde Group Ltd",
+      "ipo_date": "2024-03-06",
+      "ipo_price": 3.7,
+      "exchange": "NYSE MKT",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "LGCL",
+      "name": "Lucas GC Ltd",
+      "ipo_date": "2024-03-05",
+      "ipo_price": 200.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "SMXT",
+      "name": "SolarMax Technology, Inc.",
+      "ipo_date": "2024-02-27",
+      "ipo_price": 3.5,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "WETH",
+      "name": "Wetouch Technology Inc.",
+      "ipo_date": "2024-02-21",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "UMAC",
+      "name": "Unusual Machines, Inc.",
+      "ipo_date": "2024-02-14",
+      "ipo_price": 4.0,
+      "exchange": "NYSE MKT",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "TBBB",
+      "name": "BBB FOODS INC",
+      "ipo_date": "2024-02-09",
+      "ipo_price": 19.5,
+      "exchange": "NYSE",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "MGX",
+      "name": "Metagenomi, Inc.",
+      "ipo_date": "2024-02-09",
+      "ipo_price": 10.25,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "TELO",
+      "name": "Telomir Pharmaceuticals, Inc.",
+      "ipo_date": "2024-02-09",
+      "ipo_price": 7.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "KYTX",
+      "name": "Kyverna Therapeutics, Inc.",
+      "ipo_date": "2024-02-09",
+      "ipo_price": 30.15,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PMNT",
+      "name": "Perfect Moment Ltd.",
+      "ipo_date": "2024-02-08",
+      "ipo_price": 4.43,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT, Inc.",
+      "ipo_date": "2024-02-07",
+      "ipo_price": 11.87,
+      "exchange": "NYSE",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "ANRO",
+      "name": "Alto Neuroscience, Inc.",
+      "ipo_date": "2024-02-02",
+      "ipo_price": 22.0,
+      "exchange": "NYSE",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "GUTS",
+      "name": "Fractyl Health, Inc.",
+      "ipo_date": "2024-02-02",
+      "ipo_price": 13.75,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
     },
     {
       "ticker": "AS",
       "name": "Amer Sports Inc",
       "ipo_date": "2024-02-01",
-      "ipo_price": 13.00,
+      "ipo_price": 13.0,
       "exchange": "NYSE",
       "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "FBLG",
+      "name": "FibroBiologics, Inc.",
+      "ipo_date": "2024-01-31",
+      "ipo_price": 30.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "AMIX",
+      "name": "Autonomix Medical, Inc.",
+      "ipo_date": "2024-01-29",
+      "ipo_price": 152.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
     },
     {
       "ticker": "BSPR",
       "name": "Brightspring Health Services Inc",
       "ipo_date": "2024-01-26",
-      "ipo_price": 13.00,
+      "ipo_price": 13.0,
       "exchange": "NASDAQ",
       "sector": "Healthcare"
+    },
+    {
+      "ticker": "AVBP",
+      "name": "ArriVent Biopharma, Inc.",
+      "ipo_date": "2024-01-26",
+      "ipo_price": 24.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BTSG",
+      "name": "BrightSpring Health Services, Inc.",
+      "ipo_date": "2024-01-26",
+      "ipo_price": 12.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "HAO",
+      "name": "Haoxi Health Technology Ltd",
+      "ipo_date": "2024-01-26",
+      "ipo_price": 4.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "CGON",
+      "name": "CG Oncology, Inc.",
+      "ipo_date": "2024-01-25",
+      "ipo_price": 29.0,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "YIBO",
+      "name": "Planet Image International Ltd",
+      "ipo_date": "2024-01-25",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "SUGP",
+      "name": "SU Group Holdings Ltd",
+      "ipo_date": "2024-01-24",
+      "ipo_price": 43.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "JL",
+      "name": "J-Long Group Ltd",
+      "ipo_date": "2024-01-24",
+      "ipo_price": 6.85,
+      "exchange": "NASDAQ Global",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "KSPI",
+      "name": "Joint Stock Co Kaspi.kz",
+      "ipo_date": "2024-01-19",
+      "ipo_price": 86.88,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CCTG",
+      "name": "CCSC Technology International Holdings Ltd",
+      "ipo_date": "2024-01-18",
+      "ipo_price": 57.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SYNX",
+      "name": "Silynxcom Ltd.",
+      "ipo_date": "2024-01-12",
+      "ipo_price": 3.99,
+      "exchange": "NYSE MKT",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "SDHC",
+      "name": "Smith Douglas Homes Corp.",
+      "ipo_date": "2024-01-11",
+      "ipo_price": 23.5,
+      "exchange": "NYSE",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "BITB",
+      "name": "Bitwise Bitcoin ETF",
+      "ipo_date": "2024-01-11",
+      "ipo_price": 26.8,
+      "exchange": "NYSE Arca",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "BRRR",
+      "name": "Valkyrie Bitcoin Fund",
+      "ipo_date": "2024-01-11",
+      "ipo_price": 14.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "ROMA",
+      "name": "Roma Green Finance Ltd",
+      "ipo_date": "2024-01-09",
+      "ipo_price": 10.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "NBBK",
+      "name": "NB Bancorp, Inc.",
+      "ipo_date": "2023-12-28",
+      "ipo_price": 13.89,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "LGCB",
+      "name": "Linkage Global Inc",
+      "ipo_date": "2023-12-19",
+      "ipo_price": 39.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "BAYAU",
+      "name": "Bayview Acquisition Corp",
+      "ipo_date": "2023-12-15",
+      "ipo_price": 10.06,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ZKH",
+      "name": "ZKH Group Ltd",
+      "ipo_date": "2023-12-15",
+      "ipo_price": 15.5,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "INHD",
+      "name": "INNO HOLDINGS INC.",
+      "ipo_date": "2023-12-14",
+      "ipo_price": 2520.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "AFJKU",
+      "name": "Aimei Health Technology Co., Ltd.",
+      "ipo_date": "2023-12-04",
+      "ipo_price": 10.21,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GSIW",
+      "name": "Garden Stage Ltd",
+      "ipo_date": "2023-12-01",
+      "ipo_price": 4.45,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "FEBO",
+      "name": "Fenbo Holdings Ltd",
+      "ipo_date": "2023-11-30",
+      "ipo_price": 4.99,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ELAB",
+      "name": "Elevai Labs Inc.",
+      "ipo_date": "2023-11-21",
+      "ipo_price": 78596.49,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "RR",
+      "name": "RICHTECH ROBOTICS INC.",
+      "ipo_date": "2023-11-17",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "DDC",
+      "name": "DDC Enterprise Ltd",
+      "ipo_date": "2023-11-17",
+      "ipo_price": 212.5,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "SHIM",
+      "name": "Shimmick Corp",
+      "ipo_date": "2023-11-14",
+      "ipo_price": 7.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SGN",
+      "name": "Signing Day Sports, Inc.",
+      "ipo_date": "2023-11-14",
+      "ipo_price": 240.0,
+      "exchange": "NYSE MKT",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "HG",
+      "name": "Hamilton Insurance Group, Ltd.",
+      "ipo_date": "2023-11-10",
+      "ipo_price": 15.25,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ANSCU",
+      "name": "Agriculture & Natural Solutions Acquisition Corp",
+      "ipo_date": "2023-11-09",
+      "ipo_price": 10.05,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "GVH",
+      "name": "Globavend Holdings Ltd",
+      "ipo_date": "2023-11-08",
+      "ipo_price": 858.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "LXEO",
+      "name": "Lexeo Therapeutics, Inc.",
+      "ipo_date": "2023-11-03",
+      "ipo_price": 9.5,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PAPL",
+      "name": "Pineapple Financial Inc.",
+      "ipo_date": "2023-11-01",
+      "ipo_price": 70.0,
+      "exchange": "NYSE MKT",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ATGL",
+      "name": "Alpha Technology Group Ltd",
+      "ipo_date": "2023-10-31",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MNR",
+      "name": "MACH NATURAL RESOURCES LP",
+      "ipo_date": "2023-10-25",
+      "ipo_price": 13.97,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "AIRE",
+      "name": "reAlpha Tech Corp.",
+      "ipo_date": "2023-10-23",
+      "ipo_price": 23.01,
+      "exchange": "NASDAQ Capital",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "CPBI",
+      "name": "Central Plains Bancshares, Inc.",
+      "ipo_date": "2023-10-20",
+      "ipo_price": 8.25,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ABVX",
+      "name": "Abivax S.A.",
+      "ipo_date": "2023-10-20",
+      "ipo_price": 11.6,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "NCL",
+      "name": "Northann Corp.",
+      "ipo_date": "2023-10-19",
+      "ipo_price": 320.0,
+      "exchange": "NYSE MKT",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "WBUY",
+      "name": "WEBUY GLOBAL LTD",
+      "ipo_date": "2023-10-19",
+      "ipo_price": 930.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
     },
     {
       "ticker": "BIRK",
       "name": "Birkenstock Holding plc",
       "ipo_date": "2023-10-11",
-      "ipo_price": 46.00,
+      "ipo_price": 46.0,
       "exchange": "NYSE",
       "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ATPC",
+      "name": "Agape ATP Corp",
+      "ipo_date": "2023-10-11",
+      "ipo_price": 68.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "GMM",
+      "name": "Global Mofy Metaverse Ltd",
+      "ipo_date": "2023-10-10",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "LRHC",
+      "name": "La Rosa Holdings Corp.",
+      "ipo_date": "2023-10-10",
+      "ipo_price": 4200.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "PMEC",
+      "name": "Primech Holdings Ltd",
+      "ipo_date": "2023-10-10",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "GPAK",
+      "name": "Gamer Pakistan Inc",
+      "ipo_date": "2023-10-09",
+      "ipo_price": 4.2,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "QETAU",
+      "name": "Quetta Acquisition Corp",
+      "ipo_date": "2023-10-06",
+      "ipo_price": 10.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SPKLU",
+      "name": "Spark I Acquisition Corp",
+      "ipo_date": "2023-10-06",
+      "ipo_price": 10.11,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "MSS",
+      "name": "Maison Solutions Inc.",
+      "ipo_date": "2023-10-05",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "ANL",
+      "name": "Adlai Nortye Ltd.",
+      "ipo_date": "2023-09-29",
+      "ipo_price": 18.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "SYRA",
+      "name": "Syra Health Corp",
+      "ipo_date": "2023-09-29",
+      "ipo_price": 3.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "VSME",
+      "name": "VS MEDIA Holdings Ltd",
+      "ipo_date": "2023-09-28",
+      "ipo_price": 42.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "LRE",
+      "name": "LEAD REAL ESTATE CO., LTD",
+      "ipo_date": "2023-09-27",
+      "ipo_price": 7.0,
+      "exchange": "NASDAQ Global",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "TURB",
+      "name": "Turbo Energy, S.A.",
+      "ipo_date": "2023-09-22",
+      "ipo_price": 6.89,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MDBH",
+      "name": "MDB Capital Holdings, LLC",
+      "ipo_date": "2023-09-21",
+      "ipo_price": 16.0,
+      "exchange": "NASDAQ",
+      "sector": "Financial Services"
     },
     {
       "ticker": "KVYO",
       "name": "Klaviyo Inc",
       "ipo_date": "2023-09-20",
-      "ipo_price": 30.00,
+      "ipo_price": 30.0,
       "exchange": "NYSE",
       "sector": "Technology"
+    },
+    {
+      "ticker": "SRBK",
+      "name": "SR Bancorp, Inc.",
+      "ipo_date": "2023-09-20",
+      "ipo_price": 9.86,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
     },
     {
       "ticker": "CART",
       "name": "Maplebear Inc (Instacart)",
       "ipo_date": "2023-09-19",
-      "ipo_price": 30.00,
+      "ipo_price": 30.0,
       "exchange": "NASDAQ",
       "sector": "Technology"
+    },
+    {
+      "ticker": "DTCK",
+      "name": "DAVIS COMMODITIES Ltd",
+      "ipo_date": "2023-09-19",
+      "ipo_price": 5.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "NMRA",
+      "name": "Neumora Therapeutics, Inc.",
+      "ipo_date": "2023-09-15",
+      "ipo_price": 16.5,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
     },
     {
       "ticker": "ARM",
       "name": "ARM Holdings plc",
       "ipo_date": "2023-09-14",
-      "ipo_price": 51.00,
+      "ipo_price": 51.0,
       "exchange": "NASDAQ",
       "sector": "Technology"
     },
@@ -263,31 +5239,223 @@
       "ticker": "RZBY",
       "name": "RayzeBio Inc",
       "ipo_date": "2023-09-13",
-      "ipo_price": 18.00,
+      "ipo_price": 18.0,
       "exchange": "NASDAQ",
       "sector": "Healthcare"
+    },
+    {
+      "ticker": "SPPL",
+      "name": "SIMPPLE LTD.",
+      "ipo_date": "2023-09-13",
+      "ipo_price": 39.2,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SEZL",
+      "name": "Sezzle Inc.",
+      "ipo_date": "2023-09-13",
+      "ipo_price": 13.51,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "NWGL",
+      "name": "Nature Wood Group Ltd",
+      "ipo_date": "2023-09-12",
+      "ipo_price": 13.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "IVP",
+      "name": "INSPIRE VETERINARY PARTNERS, INC.",
+      "ipo_date": "2023-08-30",
+      "ipo_price": 9375.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
     },
     {
       "ticker": "TRNR",
       "name": "Interactive Strength Inc",
       "ipo_date": "2023-08-15",
-      "ipo_price": 12.00,
+      "ipo_price": 12.0,
       "exchange": "NASDAQ",
       "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "NRXS",
+      "name": "Neuraxis, INC",
+      "ipo_date": "2023-08-09",
+      "ipo_price": 6.3,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "FTEL",
+      "name": "Fitell Corp",
+      "ipo_date": "2023-08-08",
+      "ipo_price": 560.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "MIRA",
+      "name": "MIRA PHARMACEUTICALS, INC.",
+      "ipo_date": "2023-08-03",
+      "ipo_price": 7.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "BVFL",
+      "name": "BV Financial, Inc.",
+      "ipo_date": "2023-08-01",
+      "ipo_price": 10.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CTNT",
+      "name": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
+      "ipo_date": "2023-08-01",
+      "ipo_price": 60.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SRFM",
+      "name": "SURF AIR MOBILITY INC.",
+      "ipo_date": "2023-07-27",
+      "ipo_price": 35.0,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "PRZO",
+      "name": "ParaZero Technologies Ltd.",
+      "ipo_date": "2023-07-27",
+      "ipo_price": 4.09,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "KVACU",
+      "name": "Keen Vision Acquisition Corp.",
+      "ipo_date": "2023-07-25",
+      "ipo_price": 10.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ELWS",
+      "name": "Earlyworks Co., Ltd.",
+      "ipo_date": "2023-07-25",
+      "ipo_price": 17.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ODD",
+      "name": "Oddity Tech Ltd",
+      "ipo_date": "2023-07-19",
+      "ipo_price": 49.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "SGMT",
+      "name": "Sagimet Biosciences Inc.",
+      "ipo_date": "2023-07-14",
+      "ipo_price": 15.5,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "APGE",
+      "name": "Apogee Therapeutics, Inc.",
+      "ipo_date": "2023-07-14",
+      "ipo_price": 21.5,
+      "exchange": "NASDAQ Global",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "SXTP",
+      "name": "60 DEGREES PHARMACEUTICALS, INC.",
+      "ipo_date": "2023-07-12",
+      "ipo_price": 900.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "VTMX",
+      "name": "Vesta Real Estate Corporation, S.A.B. de C.V.",
+      "ipo_date": "2023-06-30",
+      "ipo_price": 30.22,
+      "exchange": "NYSE",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "INTS",
+      "name": "INTENSITY THERAPEUTICS, INC.",
+      "ipo_date": "2023-06-30",
+      "ipo_price": 5.95,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
     },
     {
       "ticker": "KGS",
       "name": "Kodiak Gas Services Inc",
       "ipo_date": "2023-06-29",
-      "ipo_price": 16.00,
+      "ipo_price": 16.0,
       "exchange": "NYSE",
       "sector": "Energy"
+    },
+    {
+      "ticker": "FIHL",
+      "name": "Fidelis Insurance Holdings Ltd",
+      "ipo_date": "2023-06-29",
+      "ipo_price": 12.64,
+      "exchange": "NYSE",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "SVV",
+      "name": "Savers Value Village, Inc.",
+      "ipo_date": "2023-06-29",
+      "ipo_price": 24.77,
+      "exchange": "NYSE",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "GENK",
+      "name": "GEN Restaurant Group, Inc.",
+      "ipo_date": "2023-06-28",
+      "ipo_price": 18.17,
+      "exchange": "NASDAQ Global",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "BOF",
+      "name": "BranchOut Food Inc.",
+      "ipo_date": "2023-06-16",
+      "ipo_price": 5.69,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "AZTR",
+      "name": "Azitra Inc",
+      "ipo_date": "2023-06-16",
+      "ipo_price": 852.0,
+      "exchange": "NYSE MKT",
+      "sector": "Healthcare"
     },
     {
       "ticker": "CAVA",
       "name": "CAVA Group Inc",
       "ipo_date": "2023-06-15",
-      "ipo_price": 22.00,
+      "ipo_price": 22.0,
       "exchange": "NYSE",
       "sector": "Consumer Cyclical"
     },
@@ -295,63 +5463,383 @@
       "ticker": "ATMU",
       "name": "Atmus Filtration Technologies Inc",
       "ipo_date": "2023-05-26",
-      "ipo_price": 19.50,
+      "ipo_price": 19.5,
       "exchange": "NYSE",
       "sector": "Industrials"
+    },
+    {
+      "ticker": "CWD",
+      "name": "CaliberCos Inc.",
+      "ipo_date": "2023-05-18",
+      "ipo_price": 206.8,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ALCYU",
+      "name": "Alchemy Investments Acquisition Corp 1",
+      "ipo_date": "2023-05-05",
+      "ipo_price": 10.1,
+      "exchange": "NASDAQ Global",
+      "sector": "Financial Services"
     },
     {
       "ticker": "KVUE",
       "name": "Kenvue Inc",
       "ipo_date": "2023-05-04",
-      "ipo_price": 22.00,
+      "ipo_price": 22.0,
       "exchange": "NYSE",
       "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "JYD",
+      "name": "Jayud Global Logistics Ltd",
+      "ipo_date": "2023-04-21",
+      "ipo_price": 263.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "USGO",
+      "name": "U.S. GoldMining Inc.",
+      "ipo_date": "2023-04-20",
+      "ipo_price": 9.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "UCAR",
+      "name": "U Power Ltd",
+      "ipo_date": "2023-04-20",
+      "ipo_price": 810.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "TPET",
+      "name": "Trio Petroleum Corp.",
+      "ipo_date": "2023-04-18",
+      "ipo_price": 53.0,
+      "exchange": "NYSE MKT",
+      "sector": "Energy"
     },
     {
       "ticker": "IONQ",
       "name": "IonQ Inc",
       "ipo_date": "2023-04-15",
-      "ipo_price": 10.00,
+      "ipo_price": 10.0,
       "exchange": "NYSE",
       "sector": "Technology"
+    },
+    {
+      "ticker": "GDTC",
+      "name": "CytoMed Therapeutics Ltd",
+      "ipo_date": "2023-04-14",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "VCIG",
+      "name": "VCI Global Ltd",
+      "ipo_date": "2023-04-13",
+      "ipo_price": 151435.5,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "GDHG",
+      "name": "GOLDEN HEAVEN GROUP HOLDINGS LTD.",
+      "ipo_date": "2023-04-12",
+      "ipo_price": 75000.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "ARBB",
+      "name": "ARB IOT Group Ltd",
+      "ipo_date": "2023-04-05",
+      "ipo_price": 54.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "ISPR",
+      "name": "Ispire Technology Inc.",
+      "ipo_date": "2023-04-04",
+      "ipo_price": 8.53,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "MGIH",
+      "name": "Millennium Group International Holdings Ltd",
+      "ipo_date": "2023-04-04",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "MWG",
+      "name": "Multi Ways Holdings Ltd",
+      "ipo_date": "2023-04-03",
+      "ipo_price": 3.05,
+      "exchange": "NYSE MKT",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "HSHP",
+      "name": "Himalaya Shipping Ltd.",
+      "ipo_date": "2023-03-31",
+      "ipo_price": 5.53,
+      "exchange": "NYSE",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "SFWL",
+      "name": "SHENGFENG DEVELOPMENT Ltd",
+      "ipo_date": "2023-03-31",
+      "ipo_price": 4.1,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "HKIT",
+      "name": "HiTek Global Inc.",
+      "ipo_date": "2023-03-31",
+      "ipo_price": 5.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "CHSN",
+      "name": "Chanson International Holding",
+      "ipo_date": "2023-03-30",
+      "ipo_price": 320.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "HLP",
+      "name": "Hongli Group Inc.",
+      "ipo_date": "2023-03-29",
+      "ipo_price": 4.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Basic Materials"
+    },
+    {
+      "ticker": "ZJYL",
+      "name": "Jin Medical International Ltd.",
+      "ipo_date": "2023-03-28",
+      "ipo_price": 0.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "OAKUU",
+      "name": "Oak Woods Acquisition Corp",
+      "ipo_date": "2023-03-24",
+      "ipo_price": 10.19,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "BANL",
+      "name": "CBL International Ltd",
+      "ipo_date": "2023-03-23",
+      "ipo_price": 4.21,
+      "exchange": "NASDAQ Capital",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "OMH",
+      "name": "Ohmyhome Ltd",
+      "ipo_date": "2023-03-22",
+      "ipo_price": 4.15,
+      "exchange": "NASDAQ Capital",
+      "sector": "Real Estate"
+    },
+    {
+      "ticker": "MGRX",
+      "name": "MANGOCEUTICALS, INC.",
+      "ipo_date": "2023-03-21",
+      "ipo_price": 63.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "FORLU",
+      "name": "Four Leaf Acquisition Corp",
+      "ipo_date": "2023-03-17",
+      "ipo_price": 10.16,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
     },
     {
       "ticker": "SMMT",
       "name": "Summit Therapeutics Inc",
       "ipo_date": "2023-03-16",
-      "ipo_price": 3.00,
+      "ipo_price": 3.0,
       "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "ICG",
+      "name": "Intchains Group Ltd",
+      "ipo_date": "2023-03-16",
+      "ipo_price": 8.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "IZM",
+      "name": "ICZOOM Group Inc.",
+      "ipo_date": "2023-03-15",
+      "ipo_price": 4.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "AESI",
+      "name": "Atlas Energy Solutions Inc.",
+      "ipo_date": "2023-03-09",
+      "ipo_price": 15.31,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "AIXI",
+      "name": "Xiao-I Corp",
+      "ipo_date": "2023-03-09",
+      "ipo_price": 61.2,
+      "exchange": "NASDAQ Global",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "BMR",
+      "name": "Beamr Imaging Ltd.",
+      "ipo_date": "2023-02-28",
+      "ipo_price": 3.94,
+      "exchange": "NASDAQ Capital",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "BFRG",
+      "name": "BullFrog AI Holdings, Inc.",
+      "ipo_date": "2023-02-14",
+      "ipo_price": 5.3,
+      "exchange": "NASDAQ Capital",
       "sector": "Healthcare"
     },
     {
       "ticker": "VERA",
       "name": "Vera Therapeutics Inc",
       "ipo_date": "2023-02-10",
-      "ipo_price": 12.00,
+      "ipo_price": 12.0,
       "exchange": "NASDAQ",
       "sector": "Healthcare"
+    },
+    {
+      "ticker": "ENLT",
+      "name": "Enlight Renewable Energy Ltd.",
+      "ipo_date": "2023-02-10",
+      "ipo_price": 17.9,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Utilities"
+    },
+    {
+      "ticker": "MLYS",
+      "name": "Mineralys Therapeutics, Inc.",
+      "ipo_date": "2023-02-10",
+      "ipo_price": 21.1,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "NXT",
+      "name": "NEXTracker Inc.",
+      "ipo_date": "2023-02-09",
+      "ipo_price": 30.31,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "HSAI",
+      "name": "Hesai Group",
+      "ipo_date": "2023-02-09",
+      "ipo_price": 23.75,
+      "exchange": "NASDAQ Global Select",
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "LICN",
+      "name": "Lichen China Ltd",
+      "ipo_date": "2023-02-06",
+      "ipo_price": 3.9,
+      "exchange": "NASDAQ Capital",
+      "sector": "Industrials"
     },
     {
       "ticker": "GPCR",
       "name": "Structure Therapeutics Inc",
       "ipo_date": "2023-02-03",
-      "ipo_price": 15.00,
+      "ipo_price": 15.0,
       "exchange": "NASDAQ",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "ASST",
+      "name": "Asset Entities Inc.",
+      "ipo_date": "2023-02-03",
+      "ipo_price": 29.4,
+      "exchange": "NASDAQ Capital",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "TXO",
+      "name": "TXO Energy Partners, L.P.",
+      "ipo_date": "2023-01-27",
+      "ipo_price": 15.94,
+      "exchange": "NYSE",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "GNLX",
+      "name": "GENELUX CORP",
+      "ipo_date": "2023-01-26",
+      "ipo_price": 6.0,
+      "exchange": "NASDAQ Capital",
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "CVKD",
+      "name": "Cadrenal Therapeutics, Inc.",
+      "ipo_date": "2023-01-20",
+      "ipo_price": 85.65,
+      "exchange": "NASDAQ Capital",
       "sector": "Healthcare"
     },
     {
       "ticker": "SKWD",
       "name": "Skyward Specialty Insurance Group Inc",
       "ipo_date": "2023-01-13",
-      "ipo_price": 15.00,
+      "ipo_price": 15.0,
       "exchange": "NASDAQ",
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "ISRLU",
+      "name": "Israel Acquisitions Corp",
+      "ipo_date": "2023-01-13",
+      "ipo_price": 10.08,
+      "exchange": "NASDAQ Global",
       "sector": "Financial Services"
     },
     {
       "ticker": "NUVL",
       "name": "Nuvalent Inc",
       "ipo_date": "2023-01-10",
-      "ipo_price": 14.00,
+      "ipo_price": 14.0,
       "exchange": "NASDAQ",
       "sector": "Healthcare"
     },
@@ -359,9 +5847,65 @@
       "ticker": "JANX",
       "name": "Janux Therapeutics Inc",
       "ipo_date": "2023-01-05",
-      "ipo_price": 12.00,
+      "ipo_price": 12.0,
       "exchange": "NASDAQ",
       "sector": "Healthcare"
+    },
+    {
+      "ticker": "SUNY",
+      "name": "SUN",
+      "ipo_date": "2021-09-08",
+      "ipo_price": 9.91,
+      "exchange": "Unknown",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "RISE",
+      "name": "Rise Oil & Gas, Inc.",
+      "ipo_date": "2020-10-30",
+      "ipo_price": 19.85,
+      "exchange": "Unknown",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "AED",
+      "name": "Brand Meditech Ltd",
+      "ipo_date": "2019-06-28",
+      "ipo_price": 25.48,
+      "exchange": "Unknown",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "GALE",
+      "name": "Galleinphi Inc.",
+      "ipo_date": "2017-06-22",
+      "ipo_price": 600.0,
+      "exchange": "Unknown",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "GIVE",
+      "name": "Wealth Management System Inc.",
+      "ipo_date": "2017-05-12",
+      "ipo_price": 64.38,
+      "exchange": "Unknown",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "SXV",
+      "name": "SIX15 TECHNOLOGIES HOLDING CORP.",
+      "ipo_date": "2014-07-14",
+      "ipo_price": 0.52,
+      "exchange": "Unknown",
+      "sector": "Unknown"
+    },
+    {
+      "ticker": "HAND",
+      "name": "Hand in Hand Metaverse Marriage Technology Co., Ltd",
+      "ipo_date": "2010-11-24",
+      "ipo_price": 6.5,
+      "exchange": "Unknown",
+      "sector": "Unknown"
     }
   ]
 }
