@@ -84,7 +84,13 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 - New metric card shows count of inactive stocks
 - Delisted stocks are excluded from price comparison charts
 
-### New Data Pipeline Scripts
+### Automated Weekly Updates
+- GitHub Actions workflow runs **every Friday at 10 PM EST**
+- Automatically fetches new IPOs from Finnhub and validates via yfinance
+- Only commits and deploys if new data is found
+- Can also be triggered manually from the Actions tab
+
+### Data Pipeline Scripts
 - `find_missing_ipos.py` - Fetches IPO data from Finnhub API
 - `process_pending_ipos.py` - Validates prices via yfinance and updates database
 
@@ -105,7 +111,7 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 ipo-tracker/
 ├── .github/
 │   └── workflows/
-│       └── update_ipos.yml      # GitHub Actions (future: auto-updates)
+│       └── update_ipos.yml      # GitHub Actions weekly auto-update
 ├── .streamlit/
 │   └── config.toml              # Streamlit configuration & theming
 ├── data/
@@ -227,7 +233,7 @@ Contributions are welcome! Here's how you can help:
 
 ### Ideas for Contribution
 
-- [ ] Add GitHub Actions for automated weekly updates
+- [x] Add GitHub Actions for automated weekly updates
 - [ ] Implement additional chart types
 - [ ] Add export functionality (CSV/Excel)
 - [ ] Create comparison tool for multiple IPOs

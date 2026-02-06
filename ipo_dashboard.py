@@ -399,6 +399,7 @@ st.sidebar.divider()
 # Data info
 st.sidebar.caption(f"📅 Data last updated: {last_updated}")
 st.sidebar.caption(f"📊 Total IPOs in database: {len(all_ipos)}")
+st.sidebar.caption("🔄 Database updates weekly every Friday at 10 PM EST")
 
 # Refresh button
 if st.sidebar.button("🔄 Refresh Prices", type="secondary"):
