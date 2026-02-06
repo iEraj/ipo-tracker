@@ -5,6 +5,7 @@ import plotly.express as px
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
+from typing import Optional, Union
 
 # ==============================================
 # DATA LOADING
@@ -102,7 +103,7 @@ def check_stock_status(ticker: str) -> dict:
 
 
 @st.cache_data(ttl=300)  # Cache for 5 minutes
-def get_current_price(ticker: str) -> float | str | None:
+def get_current_price(ticker: str) -> Union[float, str, None]:
     """
     Fetch current price for a ticker with caching.
 
@@ -364,6 +365,15 @@ last_updated = ipo_data.get("last_updated", "N/A")
 
 st.sidebar.header("🔍 Filter IPOs")
 
+# Search by company name or ticker
+search_query = st.sidebar.text_input(
+    "Search by Company Name or Ticker",
+    placeholder="e.g. Reddit or RDDT",
+    help="Search across all years and sectors. Case insensitive."
+)
+
+st.sidebar.divider()
+
 YEARS = [2023, 2024, 2025, 2026]
 MONTHS = {
     0: "All Months",
@@ -404,11 +414,23 @@ st.markdown("Track and compare the performance of recent IPOs from their debut t
 
 st.divider()
 
-# Filter IPOs
-filtered_ipos = filter_ipos(all_ipos, selected_year, selected_month, selected_sector)
+# Filter IPOs - search overrides year/month/sector filters
+if search_query.strip():
+    query = search_query.strip().lower()
+    filtered_ipos = [
+        ipo for ipo in all_ipos
+        if query in ipo["ticker"].lower() or query in ipo["name"].lower()
+    ]
+    search_active = True
+else:
+    filtered_ipos = filter_ipos(all_ipos, selected_year, selected_month, selected_sector)
+    search_active = False
 
 if not filtered_ipos:
-    st.info("🔍 No major IPOs tracked for this period. Try adjusting your filters.")
+    if search_active:
+        st.warning(f'🔍 No results found for "{search_query.strip()}". This record is not in our database. Try a different name or ticker.')
+    else:
+        st.info("🔍 No major IPOs tracked for this period. Try adjusting your filters.")
 
     # Show some stats anyway
     col1, col2 = st.columns(2)
@@ -502,7 +524,12 @@ else:
     # DATA TABLE
     # ==============================================
 
-    st.subheader(f"IPOs in {MONTHS[selected_month]} {selected_year}" if selected_month != 0 else f"All IPOs in {selected_year}")
+    if search_active:
+        st.subheader(f'Search Results for "{search_query.strip()}"')
+    elif selected_month != 0:
+        st.subheader(f"IPOs in {MONTHS[selected_month]} {selected_year}")
+    else:
+        st.subheader(f"All IPOs in {selected_year}")
 
     # Prepare display dataframe
     display_df = df.copy()

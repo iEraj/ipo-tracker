@@ -53,6 +53,7 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 - **Real-Time Price Tracking**: Fetches current stock prices via Yahoo Finance API
 - **Comprehensive IPO Database**: 738 IPOs from 2023-2026
 - **Delisted Stock Detection**: Automatically identifies and marks delisted/merged companies
+- **Search**: Search by company name or ticker across the entire database (case insensitive)
 - **Interactive Filtering**: Filter by year, month, and sector
 - **Performance Metrics**:
   - Total IPOs tracked
@@ -66,6 +67,12 @@ A real-time IPO performance tracking dashboard built with Streamlit that monitor
 - **Auto-Refresh**: Prices cached for 5 minutes with manual refresh option
 
 ## Recent Updates (February 2026)
+
+### Search Functionality
+- Search by **company name** or **ticker symbol** from the sidebar
+- Case insensitive, supports partial matching (e.g. "red" matches "Reddit")
+- Searches across all years and sectors, overriding other filters
+- Displays a clear message when a record is not found in the database
 
 ### Database Expansion
 - Expanded from 45 to **738 IPOs** using Finnhub IPO Calendar API
