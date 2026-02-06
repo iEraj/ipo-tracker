@@ -192,7 +192,7 @@ def get_ipo_performance(ticker: str, ipo_date: str, ipo_price: float) -> dict:
 
         # Calculate performance for active stocks
         price_change = current_price - ipo_open_price
-        percent_change = (price_change / ipo_open_price) * 100
+        percent_change = (price_change / ipo_open_price) * 100 if ipo_open_price > 0 else None
 
         return {
             "ticker": ticker,
