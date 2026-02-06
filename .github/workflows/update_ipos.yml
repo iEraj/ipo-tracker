@@ -2,8 +2,8 @@ name: Update IPO Data
 
 on:
   schedule:
-    # Run every Monday at 6 AM UTC
-    - cron: '0 6 * * 1'
+    # Run every Friday at 10 PM EST (3 AM Saturday UTC)
+    - cron: '0 3 * * 6'
   workflow_dispatch:  # Allow manual trigger
 
 permissions:
