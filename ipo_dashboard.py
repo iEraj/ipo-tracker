@@ -612,6 +612,14 @@ else:
         ].copy()
 
         if not chart_df.empty:
+            # Sort by return (current price vs IPO price) so best performers are at top
+            chart_df["Return"] = chart_df.apply(
+                lambda row: (row["Current Price"] - row["IPO Price"]) / row["IPO Price"] if row["IPO Price"] > 0 else 0,
+                axis=1
+            )
+            # Ascending so Plotly renders best at top of horizontal bar chart
+            chart_df = chart_df.sort_values("Return", ascending=True)
+
             chart_data = []
             for _, row in chart_df.iterrows():
                 chart_data.append({
